@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<b:Sources xmlns:b="http://schemas.openxmlformats.org/officeDocument/2006/bibliography" xmlns="http://schemas.openxmlformats.org/officeDocument/2006/bibliography" SelectedStyle="">
+    <b:Source>
+        <b:Year>2022</b:Year>
+        <b:Volume>112</b:Volume>
+        <b:BIBTEX_Entry>article</b:BIBTEX_Entry>
+        <b:SourceType>JournalArticle</b:SourceType>
+        <b:Title>Threat Intelligence Integration in Security Information and Event Management Systems</b:Title>
+        <b:Tag>Han2022</b:Tag>
+        <b:Author>
+            <b:Author>
+                <b:NameList>
+                    <b:Person>
+                        <b:Last>Han</b:Last>
+                        <b:First>J.</b:First>
+                    </b:Person>
+                    <b:Person>
+                        <b:Last>Lee</b:Last>
+                        <b:First>Y.</b:First>
+                    </b:Person>
+                </b:NameList>
+            </b:Author>
+        </b:Author>
+        <b:Pages>102535</b:Pages>
+        <b:JournalName>Computers &amp; Security</b:JournalName>
+    </b:Source>
+    <b:Source>
+        <b:Year>2010</b:Year>
+        <b:BIBTEX_Entry>article</b:BIBTEX_Entry>
+        <b:SourceType>JournalArticle</b:SourceType>
+        <b:Title>Outside the Closed World: On Using Machine Learning for Network Intrusion Detection</b:Title>
+        <b:Tag>Sommer2010</b:Tag>
+        <b:Author>
+            <b:Author>
+                <b:NameList>
+                    <b:Person>
+                        <b:Last>Sommer</b:Last>
+                        <b:First>R.</b:First>
+                    </b:Person>
+                    <b:Person>
+                        <b:Last>Paxson</b:Last>
+                        <b:First>V.</b:First>
+                    </b:Person>
+                </b:NameList>
+            </b:Author>
+        </b:Author>
+        <b:Pages>305-316</b:Pages>
+        <b:JournalName>IEEE Symposium on Security and Privacy</b:JournalName>
+    </b:Source>
+    <b:Source>
+        <b:Year>2018</b:Year>
+        <b:BIBTEX_Entry>article</b:BIBTEX_Entry>
+        <b:SourceType>JournalArticle</b:SourceType>
+        <b:Title>Toward Generating a New Intrusion Detection Dataset and Intrusion Traffic Characterization</b:Title>
+        <b:Tag>Sharafaldin2018</b:Tag>
+        <b:Author>
+            <b:Author>
+                <b:NameList>
+                    <b:Person>
+                        <b:Last>Sharafaldin</b:Last>
+                        <b:First>I.</b:First>
+                    </b:Person>
+                    <b:Person>
+                        <b:Last>Lashkari</b:Last>
+                        <b:Middle>H.</b:Middle>
+                        <b:First>A.</b:First>
+                    </b:Person>
+                    <b:Person>
+                        <b:Last>Ghorbani</b:Last>
+                        <b:Middle>A.</b:Middle>
+                        <b:First>A.</b:First>
+                    </b:Person>
+                </b:NameList>
+            </b:Author>
+        </b:Author>
+        <b:Pages>108-116</b:Pages>
+        <b:JournalName>Proceedings of the ICISSP 2018</b:JournalName>
+    </b:Source>
+    <b:Source>
+        <b:Issue>2</b:Issue>
+        <b:Year>2021</b:Year>
+        <b:Volume>1</b:Volume>
+        <b:BIBTEX_Entry>article</b:BIBTEX_Entry>
+        <b:SourceType>JournalArticle</b:SourceType>
+        <b:Title>Machine Learning for Threat Hunting: Techniques and Tools</b:Title>
+        <b:Tag>Anderson2021</b:Tag>
+        <b:Author>
+            <b:Author>
+                <b:NameList>
+                    <b:Person>
+                        <b:Last>Anderson</b:Last>
+                        <b:First>B.</b:First>
+                    </b:Person>
+                    <b:Person>
+                        <b:Last>McGrew</b:Last>
+                        <b:First>D.</b:First>
+                    </b:Person>
+                </b:NameList>
+            </b:Author>
+        </b:Author>
+        <b:Pages>134-156</b:Pages>
+        <b:JournalName>Journal of Cybersecurity and Privacy</b:JournalName>
+    </b:Source>
+    <b:Source>
+        <b:Year>2018</b:Year>
+        <b:BIBTEX_Entry>inproceedings</b:BIBTEX_Entry>
+        <b:SourceType>ConferenceProceedings</b:SourceType>
+        <b:Title>DeepLog: Anomaly Detection and Diagnosis from System Logs through Deep Learning</b:Title>
+        <b:Tag>Xu2018</b:Tag>
+        <b:BookTitle>Proceedings of the 2018 ACM Conference on Computer and Communications Security</b:BookTitle>
+        <b:Author>
+            <b:Author>
+                <b:NameList>
+                    <b:Person>
+                        <b:Last>Xu</b:Last>
+                        <b:First>W.</b:First>
+                    </b:Person>
+                    <b:Person>
+                        <b:Last>Du</b:Last>
+                        <b:First>X.</b:First>
+                    </b:Person>
+                    <b:Person>
+                        <b:Last>Li</b:Last>
+                        <b:First>Z.</b:First>
+                    </b:Person>
+                </b:NameList>
+            </b:Author>
+        </b:Author>
+        <b:Pages>1285-1298</b:Pages>
+        <b:ConferenceName>Proceedings of the 2018 ACM Conference on Computer and Communications Security</b:ConferenceName>
+    </b:Source>
+    <b:Source>
+        <b:Year>2020</b:Year>
+        <b:BIBTEX_Entry>inproceedings</b:BIBTEX_Entry>
+        <b:SourceType>ConferenceProceedings</b:SourceType>
+        <b:Title>AI-Driven Digital Forensics: Challenges and Approaches</b:Title>
+        <b:Tag>Lee2020</b:Tag>
+        <b:BookTitle>Proceedings of the International Conference on Digital Forensics</b:BookTitle>
+        <b:Author>
+            <b:Author>
+                <b:NameList>
+                    <b:Person>
+                        <b:Last>Lee</b:Last>
+                        <b:First>C.</b:First>
+                    </b:Person>
+                    <b:Person>
+                        <b:Last>Kim</b:Last>
+                        <b:First>J.</b:First>
+                    </b:Person>
+                </b:NameList>
+            </b:Author>
+        </b:Author>
+        <b:Pages>98-112</b:Pages>
+        <b:ConferenceName>Proceedings of the International Conference on Digital Forensics</b:ConferenceName>
+    </b:Source>
+    <b:Source>
+        <b:Year>2019</b:Year>
+        <b:Volume>482</b:Volume>
+        <b:BIBTEX_Entry>article</b:BIBTEX_Entry>
+        <b:SourceType>JournalArticle</b:SourceType>
+        <b:Title>Deep Learning Based Log Analysis for Anomaly Detection</b:Title>
+        <b:Tag>Zhou2019</b:Tag>
+        <b:Author>
+            <b:Author>
+                <b:NameList>
+                    <b:Person>
+                        <b:Last>Zhou</b:Last>
+                        <b:First>Y.</b:First>
+                    </b:Person>
+                    <b:Person>
+                        <b:Last>Leung</b:Last>
+                        <b:First>H.</b:First>
+                    </b:Person>
+                </b:NameList>
+            </b:Author>
+        </b:Author>
+        <b:Pages>193-210</b:Pages>
+        <b:JournalName>Information Sciences</b:JournalName>
+    </b:Source>
+    <b:Source>
+        <b:Year>2017</b:Year>
+        <b:BIBTEX_Entry>book</b:BIBTEX_Entry>
+        <b:SourceType>Book</b:SourceType>
+        <b:Title>Cryptography and Network Security: Principles and Practice</b:Title>
+        <b:Tag>Stallings2017</b:Tag>
+        <b:Publisher>Pearson Education</b:Publisher>
+        <b:Edition>7</b:Edition>
+        <b:Author>
+            <b:Author>
+                <b:NameList>
+                    <b:Person>
+                        <b:Last>Stallings</b:Last>
+                        <b:First>W.</b:First>
+                    </b:Person>
+                </b:NameList>
+            </b:Author>
+        </b:Author>
+    </b:Source>
+</b:Sources>

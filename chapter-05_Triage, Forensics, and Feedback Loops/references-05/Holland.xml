@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<b:Sources xmlns:b="http://schemas.openxmlformats.org/officeDocument/2006/bibliography" xmlns="http://schemas.openxmlformats.org/officeDocument/2006/bibliography">
+  <b:Source>
+    <b:SourceType>Book</b:SourceType>
+    <b:Title>Adaptation in Natural and Artificial Systems</b:Title>
+    <b:Year>1992</b:Year>
+    <b:Month>4</b:Month>
+    <b:StandardNumber>9780262275552</b:StandardNumber>
+    <b:Publisher>The MIT Press</b:Publisher>
+    <b:Author>
+      <b:Author>
+        <b:NameList>
+          <b:Person>
+            <b:First>John H.</b:First>
+            <b:Last>Holland</b:Last>
+          </b:Person>
+        </b:NameList>
+      </b:Author>
+      <b:Editor>
+        <b:NameList>
+        </b:NameList>
+      </b:Editor>
+    </b:Author>
+    <b:URL>https:&#x2F;&#x2F;direct.mit.edu&#x2F;books&#x2F;book&#x2F;2574&#x2F;Adaptation-in-Natural-and-Artificial-SystemsAn</b:URL>
+    <b:URL>https:&#x2F;&#x2F;direct.mit.edu&#x2F;books&#x2F;monograph&#x2F;2574&#x2F;Adaptation-in-Natural-and-Artificial-SystemsAn</b:URL>
+    <b:URL>https:&#x2F;&#x2F;mitpress.mit.edu&#x2F;9780262581110&#x2F;adaptation-in-natural-and-artificial-systems&#x2F;</b:URL>
+    <b:URL>https:&#x2F;&#x2F;www.amazon.com&#x2F;Adaptation-Natural-Artificial-Systems-Introductory&#x2F;dp&#x2F;0262581116</b:URL>
+    <b:Tag>adaptation-in-natural-and-artificial-systems</b:Tag>
+  </b:Source>
+</b:Sources>
