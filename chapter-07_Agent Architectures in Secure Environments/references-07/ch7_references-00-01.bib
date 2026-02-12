@@ -1,0 +1,336 @@
+@Article{Cheng_2026,
+  author    = {Cheng, Guanjie and Zhang, Yifan and Lin, Zewen and Zhao, Xinkui and Liu, Sai and Yin, Jianwei and Deng, Shuiguang},
+  title     = {Is Collaboration Worth It? A Decision-Oriented Survey in Multi-Agent Systems},
+  year      = {2026},
+  month     = jan,
+  volume    = {56},
+  doi       = {10.36227/techrxiv.176978654.41579706/v1},
+  publisher = {Institute of Electrical and Electronics Engineers (IEEE)},
+}
+
+@InProceedings{park2023_generative_agents,
+  author        = {Park, Joon Sung and O’Brien, Joseph and Cai, Carrie Jun and Morris, Meredith Ringel and Liang, Percy and Bernstein, Michael S.},
+  booktitle     = {Proceedings of the 36th Annual ACM Symposium on User Interface Software and Technology},
+  title         = {Generative Agents: Interactive Simulacra of Human Behavior},
+  year          = {2023},
+  month         = oct,
+  pages         = {1-22},
+  publisher     = {ACM},
+  series        = {UIST ’23},
+  archiveprefix = {2304.03442},
+  collection    = {UIST ’23},
+  doi           = {10.1145/3586183.3606763},
+  eprint        = {2304.03442},
+}
+
+@InProceedings{10.5555/3666122.3666499,
+  author        = {Shinn, Noah and Cassano, Federico and Gopinath, Ashwin and Narasimhan, Karthik and Yao, Shunyu},
+  booktitle     = {Proceedings of the 37th International Conference on Neural Information Processing Systems},
+  title         = {Reflexion: language agents with verbal reinforcement learning},
+  year          = {2023},
+  address       = {Red Hook, NY, USA},
+  publisher     = {Curran Associates Inc.},
+  series        = {NIPS '23},
+  abstract      = {Large language models (LLMs) have been increasingly used to interact with external environments (e.g., games, compilers, APIs) as goal-driven agents. However, it remains challenging for these language agents to quickly and efficiently learn from trial-and-error as traditional reinforcement learning methods require extensive training samples and expensive model fine-tuning. We propose Reflexion, a novel framework to reinforce language agents not by updating weights, but instead through linguistic feedback. Concretely, Reflexion agents verbally reflect on task feedback signals, then maintain their own reflective text in an episodic memory buffer to induce better decision-making in subsequent trials. Reflexion is flexible enough to incorporate various types (scalar values or free-form language) and sources (external or internally simulated) of feedback signals, and obtains significant improvements over a baseline agent across diverse tasks (sequential decision-making, coding, language reasoning). For example, Reflexion achieves a 91\% pass@1 accuracy on the HumanEval coding benchmark, surpassing the previous state-of-the-art GPT-4 that achieves 80\%. We also conduct ablation and analysis studies using different feedback signals, feedback incorporation methods, and agent types, and provide insights into how they affect performance. We release all code, demos, and datasets at https://github.com/noahshinn024/reflexion.},
+  archiveprefix = {2303.11366},
+  articleno     = {377},
+  doi           = {10.5555/3666122.3666499},
+  eprint        = {2303.11366},
+  location      = {New Orleans, LA, USA},
+  numpages      = {19},
+  primaryclass  = {cs.AI},
+  url           = {https://dl.acm.org/doi/10.5555/3666122.3666499},
+}
+
+@Article{Yao2023a,
+  author        = {Yao, Shunyu and Yu, Dian and Zhao, Jeffrey and Shafran, Izhak and Griffiths, Thomas L. and Cao, Yuan and Narasimhan, Karthik},
+  journal       = {arXiv preprint arXiv:2305.10601},
+  title         = {Tree of Thoughts: Deliberate Problem Solving with Large Language Models},
+  year          = {2023},
+  abstract      = {Language models are increasingly being deployed for general problem solving across a wide range of tasks, but are still confined to token-level, left-to-right decision-making processes during inference. This means they can fall short in tasks that require exploration, strategic lookahead, or where initial decisions play a pivotal role. To surmount these challenges, we introduce a new framework for language model inference, Tree of Thoughts (ToT), which generalizes over the popular Chain of Thought approach to prompting language models, and enables exploration over coherent units of text (thoughts) that serve as intermediate steps toward problem solving. ToT allows LMs to perform deliberate decision making by considering multiple different reasoning paths and self-evaluating choices to decide the next course of action, as well as looking ahead or backtracking when necessary to make global choices. Our experiments show that ToT significantly enhances language models' problem-solving abilities on three novel tasks requiring non-trivial planning or search: Game of 24, Creative Writing, and Mini Crosswords. For instance, in Game of 24, while GPT-4 with chain-of-thought prompting only solved 4% of tasks, our method achieved a success rate of 74%. Code repo with all prompts: https://github.com/princeton-nlp/tree-of-thought-llm.},
+  archiveprefix = {2305.10601},
+  copyright     = {Creative Commons Attribution 4.0 International},
+  doi           = {10.48550/arXiv.2305.10601},
+  eprint        = {2305.10601},
+  keywords      = {Computation and Language (cs.CL), Artificial Intelligence (cs.AI), Machine Learning (cs.LG), FOS: Computer and information sciences, FOS: Computer and information sciences},
+  publisher     = {arXiv},
+  url           = {https://www.semanticscholar.org/paper/2f3822eb380b5e753a6d579f31dfc3ec4c4a0820},
+  venue         = {Neural Information Processing Systems},
+}
+
+@Article{Liu_2024,
+  author    = {Liu, Dingbang and Ren, Fenghui and Yan, Jun and Su, Guoxin and Gu, Wen and Kato, Shohei},
+  journal   = {IEEE Access},
+  title     = {Scaling Up Multi-Agent Reinforcement Learning: An Extensive Survey on Scalability Issues},
+  year      = {2024},
+  issn      = {2169-3536},
+  pages     = {94610-94631},
+  volume    = {12},
+  abstract  = {Multi-agent learning has made significant strides in recent years. Benefiting from deep learning, multi-agent deep reinforcement learning (MADRL) has transcended traditional limitations seen in tabular tasks, arousing tremendous research interest. However, compared to other challenges in MADRL, scalability remains underemphasized, impeding the application of MADRL in complex scenarios. Scalability stands as a foundational attribute of the multi-agent system (MAS), offering a potent approach to understand and improve collective learning among agents. It encompasses the capacity to handle the increasing state-action space which arises not only from a large number of agents but also from other factors related to agents and environment. In contrast to prior surveys, this work provides a comprehensive exposition of scalability concerns in MADRL. We first introduce foundational knowledge about deep reinforcement learning and MADRL to underscore the distinctiveness of scalability issues in this domain. Subsequently, we delve into the problems posed by scalability, examining agent complexity, environment complexity, and robustness against perturbation. We elaborate on the methods that demonstrate the evolution of scalable algorithms. To conclude this survey, we discuss challenges, identify trends, and outline possible directions for future work on scalability issues. It is our aspiration that this survey enhances the understanding of researchers in this field, providing a valuable resource for in-depth exploration.},
+  doi       = {10.1109/access.2024.3410318},
+  keywords  = {Scalability;Complexity theory;Robustness;Surveys;Deep reinforcement learning;Task analysis;Games;Multi-agent systems;Collective intelligence;Multi-agent learning;reinforcement learning;scalability;collective learning},
+  publisher = {Institute of Electrical and Electronics Engineers (IEEE)},
+}
+
+@Article{Guo_2025,
+  author    = {Guo, Shaolong and Wang, Yuntao and Zhang, Ning and Su, Zhou and Luan, Tom H. and Tian, Zhiyi and Shen, Xuemin},
+  journal   = {IEEE Communications Surveys & Tutorials},
+  title     = {A Survey on Semantic Communication Networks: Architecture, Security, and Privacy},
+  year      = {2025},
+  issn      = {2373-745X},
+  month     = oct,
+  number    = {5},
+  pages     = {2860-2894},
+  volume    = {27},
+  abstract  = {The emergence of Semantic Communication (SemCom) is revolutionizing wireless networks, particularly in the context of next-generation communication systems (6 G). Unlike the conventional Shannon-based paradigm, which focuses on the accurate transmission of raw data, SemCom leverages machine learning (ML) to extract and transmit only the semantic meaning of information, thereby significantly reducing communication overhead and enhancing spectral efficiency. SemCom has broad applications across diverse fields, including the metaverse, digital twins, tactile Internet, autonomous vehicles, and satellite-unmanned aerial vehicle (UAV) networks. Among these, Autonomous Driving Networks (ADNs) present a unique challenges where SemCom can play a crucial role. In ADNs, SemCom can optimize the design of semantic encoders and decoders for Vehicle Edge Clouds (VECs) and autonomous vehicles, facilitating more efficient data transmission and decisionmaking. However, integrating SemCom into ADNs introduces several challenges, including adversarial attacks, privacy risks, and diversity among vehicles. This paper provides a comprehensive survey on the challenges of SemCom in ADNs. We explore state-of-the-art research trends aimed at addressing these challenges. Finally, we discuss potential future directions for SemCom in autonomous vehicle networks.},
+  doi       = {10.1109/comst.2024.3516819},
+  keywords  = {Security;Surveys;Privacy;Artificial intelligence;Knowledge based systems;Collaboration;Training;Sensors;Wireless communication;Computer hacking;Semantic communication;networks;artificial intelligence;security;privacy;trust},
+  publisher = {Institute of Electrical and Electronics Engineers (IEEE)},
+}
+
+@Article{Sch_lkopf_2022,
+  author        = {Schölkopf, Bernhard},
+  journal       = {Probabilistic and Causal Inference},
+  title         = {Causality for Machine Learning},
+  year          = {2022},
+  month         = feb,
+  note          = {Includes bibliographical references and index},
+  number        = {#36},
+  pages         = {765-804},
+  abstract      = {Graphical causal inference as pioneered by Judea Pearl arose from research on artificial intelligence (AI), and for a long time had little connection to the field of machine learning. 
+This article discusses where links have been and should be established, introducing key concepts along the way. It argues that the hard open problems of machine learning and AI are intrinsically related to causality, and explains how the field is beginning to understand them.},
+  address       = {[New York, NY, USA]},
+  archiveprefix = {1911.10500},
+  booktitle     = {Probabilistic and Causal Inference},
+  doi           = {10.1145/3501714.3501755},
+  edition       = {First edition},
+  editor        = {Hector Geffner and Rina Dechter and Joseph Y. Halpern},
+  eprint        = {1911.10500},
+  isbn          = {9781450395861},
+  pagetotal     = {1916},
+  ppn_gvk       = {1936809125},
+  primaryclass  = {cs.AI},
+  publisher     = {Association for Computing Machinery},
+  series        = {ACM books},
+  subtitle      = {The works of Judea Pearl},
+  url           = {https://www.semanticscholar.org/paper/b5461f9c5d65e87561e00848921ee797902dae14},
+}
+
+@Article{liang2023_crosscloud,
+  author        = {Liang, Jiawei and others},
+  journal       = {arXiv preprint arXiv:2304.01922},
+  title         = {CrossCloud: Standardizing ML Deployment across Cloud Providers},
+  year          = {2023},
+  archiveprefix = {2304.01922},
+  doi           = {https://doi.org/10.48550/arXiv.2304.01922},
+  eprint        = {2304.01922},
+  primaryclass  = {cs.CL},
+  url           = {https://arxiv.org/abs/2304.01922},
+}
+
+@Misc{aws2024_graviton,
+  author        = {{Amazon Web Services}},
+  howpublished  = {\url{https://aws.amazon.com/ec2/graviton}},
+  title         = {Graviton3 Benchmarks for AI Workloads},
+  year          = {2024},
+  archiveprefix = {arXiv},
+  primaryclass  = {cs.AI},
+}
+
+@Misc{łazuka2022searchbasedmethodsmulticloudconfiguration,
+  author        = {Łazuka, Małgorzata and Parnell, Thomas and Anghel, Andreea and Pozidis, Haralampos},
+  title         = {Search-based Methods for Multi-Cloud Configuration},
+  year          = {2022},
+  archiveprefix = {arXiv},
+  copyright     = {arXiv.org perpetual, non-exclusive license},
+  doi           = {10.48550/ARXIV.2204.09437},
+  eprint        = {2204.09437},
+  keywords      = {Distributed, Parallel, and Cluster Computing (cs.DC), Machine Learning (cs.LG), FOS: Computer and information sciences, FOS: Computer and information sciences},
+  primaryclass  = {cs.DC},
+  publisher     = {arXiv},
+  url           = {https://arxiv.org/abs/2204.09437},
+}
+
+@Misc{huggingface2023_diffusers_deploy,
+  author        = {{Hugging Face}},
+  howpublished  = {\url{https://huggingface.co/docs/diffusers}},
+  title         = {Deploying Diffusers with Docker and Cloud CLIs},
+  year          = {2023},
+  archiveprefix = {arXiv},
+  eprint        = {2401.00000},
+}
+
+@Article{bouthillier2021accountingvariancemachinelearning,
+  author        = {Xavier Bouthillier and Pierre Delaunay and Mirko Bronzi and Assya Trofimov and Brennan Nichyporuk and Justin Szeto and Naz Sepah and Edward Raff and Kanika Madan and Vikram Voleti and Samira Ebrahimi Kahou and Vincent Michalski and Dmitriy Serdyuk and Tal Arbel and Chris Pal and Gaël Varoquaux and Pascal Vincent},
+  title         = {Accounting for Variance in Machine Learning Benchmarks},
+  year          = {2021},
+  archiveprefix = {arXiv},
+  copyright     = {Creative Commons Attribution 4.0 International},
+  doi           = {10.48550/ARXIV.2103.03098},
+  eprint        = {2103.03098},
+  keywords      = {Machine Learning (cs.LG), Machine Learning (stat.ML), FOS: Computer and information sciences, FOS: Computer and information sciences},
+  primaryclass  = {cs.LG},
+  publisher     = {arXiv},
+  url           = {https://arxiv.org/abs/2103.03098},
+}
+
+@Article{Wei2025a,
+  author    = {Wei, Hao and Pañeda, Xabiel García and Rodriguez, Joaquín Salvachúa},
+  journal   = {Cluster Computing},
+  title     = {Optimizing machine learning operations in multi-cloud infrastructure: a framework for unified deployment management and topology discovery},
+  year      = {2025},
+  issn      = {1573-7543},
+  month     = sep,
+  number    = {14},
+  pages     = {933},
+  volume    = {28},
+  abstract  = {Machine learning (ML) transitioned from a purely academic discipline to an applied field, gaining strategic importance in various industries. Meanwhile, Machine Learning Operations (MLOps) has been widely adopted by enterprises as a comprehensive approach for developing and managing machine learning applications. Despite its advantages, challenges remain. The rising demand for flexibility and scalability has led organizations to embrace multi-cloud and hybrid cloud architectures as preferred solutions. However, the autonomous and distributed nature of modern application development, combined with the complexity of training and deploying machine learning models, makes unified operational management impractical, and this will further affect application quality and efficiency. To address these challenges, this paper proposes a framework to manage model training and deployment in a multi-cloud environment. This framework uses a policy-based resource provisioning approach, agent-based application topology reconstruction, and a visualization dashboard. It aims to provide a cloud provider-neutral solution that enhances the quality of application operations. The framework design is introduced, followed by the implementation of a proof-of-concept prototype. Experiments conducted in various empirical scenarios demonstrate that the proposed framework effectively manages deployment resources while providing clear visibility and control across multiple clouds. The results confirm that this framework enhances control over deployment resources and optimizes model deployment efficiency in multi-cloud infrastructure.},
+  doi       = {10.1007/s10586-025-05584-7},
+  publisher = {Springer Science and Business Media LLC},
+  refid     = {Wei2025},
+  url       = {https://doi.org/10.1007/s10586-025-05584-7},
+}
+
+@Article{https://doi.org/10.48550/arxiv.2506.02153,
+  author        = {Belcak, Peter and Heinrich, Greg and Diao, Shizhe and Fu, Yonggan and Dong, Xin and Muralidharan, Saurav and Lin, Yingyan Celine and Molchanov, Pavlo},
+  title         = {Small Language Models are the Future of Agentic AI},
+  year          = {2025},
+  month         = {9},
+  abstract      = {Large language models (LLMs) are often praised for exhibiting near-human performance on a wide range of tasks and valued for their ability to hold a general conversation. The rise of agentic AI systems is, however, ushering in a mass of applications in which language models perform a small number of specialized tasks repetitively and with little variation. Here we lay out the position that small language models (SLMs) are sufficiently powerful, inherently more suitable, and necessarily more economical for many invocations in agentic systems, and are therefore the future of agentic AI. Our argumentation is grounded in the current level of capabilities exhibited by SLMs, the common architectures of agentic systems, and the economy of LM deployment. We further argue that in situations where general-purpose conversational abilities are essential, heterogeneous agentic systems (i.e., agents invoking multiple different models) are the natural choice. We discuss the potential barriers for the adoption of SLMs in agentic systems and outline a general LLM-to-SLM agent conversion algorithm. Our position, formulated as a value statement, highlights the significance of the operational and economic impact even a partial shift from LLMs to SLMs is to have on the AI agent industry. We aim to stimulate the discussion on the effective use of AI resources and hope to advance the efforts to lower the costs of AI of the present day. Calling for both contributions to and critique of our position, we commit to publishing all such correspondence at https://research.nvidia.com/labs/lpr/slm-agents.},
+  archiveprefix = {arXiv},
+  copyright     = {Creative Commons Attribution 4.0 International},
+  doi           = {10.48550/ARXIV.2506.02153},
+  eprint        = {2506.02153},
+  keywords      = {Artificial Intelligence (cs.AI), FOS: Computer and information sciences, FOS: Computer and information sciences},
+  publisher     = {arXiv},
+  url           = {https://www.semanticscholar.org/paper/f1d477ccd20b3e90611fc46b1951b3708651a425},
+}
+
+@TechReport{Skyflow2023a,
+  author   = {Skyflow},
+  title    = {Data Privacy and Compliance for LLMs},
+  year     = {2023},
+  abstract = {The rapid rise of ChatGPT and Large Language Models (LLMs) is raising data privacy
+concerns with businesses and regulators. Meanwhile, businesses of all sizes are
+weighing a variety of tradeoffs as they ask questions like:
+• How quickly can we use LLMs in our core workflows, including those that
+involve sensitive data?
+• Where does it make sense to use LLMs, and where should we be more
+cautious?
+• How can we balance the need to adopt LLMs to stay competitive against the
+need to protect our business and our customers?
+Fortunately, while the booming adoption of LLMs is new, businesses can use another
+technology that’s already mature to help them navigate these concerns and unblock
+the adoption of LLMs: the data privacy vault.
+In this white paper, we’ll look at what we can learn from early LLM adoption headaches,
+the compliance challenges facing LLM adopters, and why every company needs an
+AI privacy strategy. We’ll also look at the need to prevent sensitive data from entering
+LLMs with a data privacy vault, how using a vault addresses compliance concerns like
+data residency and HIPAA compliance while unblocking LLM adoption, and where a
+vault fits into your architecture.},
+  school   = {Skyflow, Inc.},
+}
+
+@Book{Kaelble2023a,
+  author    = {Steve Kaelble},
+  editor    = {Mohammed Zafar Ali},
+  publisher = {John Wiley \& Sons, Inc.},
+  title     = {Zero Trust Segmentation For Dummies®},
+  year      = {2023},
+  isbn      = {978-1394181698},
+  abstract  = {Here’s a reality check that you may not want to hear: You
+can’t hide from cybercrime. Sooner or later, your organi-
+zation will be hit with a ransomware attack or some other
+act of cyber malfeasance (and odds are, you’ve already had that
+disruptive and frightening experience).
+But that’s not the bad news that it sounds like. In fact, when
+you’ve accepted the fact that breaches are inevitable, you can
+focus more attention on surviving those attacks and keeping the
+business moving forward. That doesn’t mean you stop trying to
+keep the bad actors out of your network — it means you also pre-
+pare to deal with them when they do get inside.
+That’s the aim of Zero Trust Segmentation (ZTS) — building
+defenses at the workload level, cutting off unnecessary commu-
+nication, and verifying everything that you purposely let through.
+You don’t know what’s benign and what’s not, so you throw
+implicit trust out the window.
+ZTS is a remarkably effective way to build resilience in the face of
+increasingly scary threats. The objective is to prevent any attacks
+that you can, while limiting the damage from the ones that inevi-
+tably will get through even the best defenses. You can’t afford to
+let malicious actors shut down your operations, and ZTS ensures
+that business can go on as usual, even in the face of a successful
+attack.},
+  city      = {Hoboken, NJ},
+  url       = {https://cdn.prod.website-files.com/63e25fb5e66132e6387676dc/68ed77df4fda1597004c441f_641b76470c4b1b9caa3c986c.pdf},
+}
+
+@TechReport{Sempf2025a,
+  author   = {Aaron Sempf and Andrew Hooker},
+  title    = {AWS Prescriptive Guidance: Agentic AI patterns and workflows on AWS},
+  year     = {2025},
+  month    = jul,
+  abstract = {Organizations are adopting large language models (LLMs) and software agents to solve dynamic,
+multidomain problems using a new architectural discipline called agentic patterns. Agentic
+patterns are foundational blueprints and modular constructs that are used to design and
+orchestrate goal-oriented AI agents across many contexts.},
+  school   = {Amazon Web Services, Inc.},
+}
+
+@TechReport{Evansa,
+  author   = {Katherine Evans and Ethan Stewart and Grace Foster},
+  title    = {Comprehensive Review of Cloud-Driven Machine Learning: A Comparative Analysis of AWS, Azure, and Google Cloud},
+  abstract = {Machine learning (ML) is transforming industries by automating tasks and generating insights from large datasets. Cloud computing platforms like Amazon Web Services (AWS), Microsoft Azure, and Google Cloud Platform (GCP) provide essential resources that enhance the development and deployment of ML models. This paper provides a comprehensive comparative analysis of these cloud platforms, highlighting their ML services, scalability, cost structures, and integration capabilities. Through case studies and performance benchmarks, we explore how these platforms facilitate different stages of the ML pipeline, addressing the strengths and limitations of each. The study serves as a guide for practitioners and researchers looking to leverage cloud platforms for ML applications [6], [7].},
+  keywords = {AI Services,AWS,Azure,Distributed Computing,Google Cloud,Index Terms-Cloud Computing,Machine Learning},
+  url      = {https://www.techrxiv.org/users/875493/articles/1255263/master/file/data/p1/p1.pdf},
+}
+
+@TechReport{Sem2025a,
+  author = {Vitaly Sem},
+  title  = {Cloud AI Platforms: AWS vs. GCP vs. Azure for Machine-Learning Workloads},
+  year   = {2025},
+  month  = {11},
+  school = {Medium},
+  url    = {https://medium.com/@virtualik/cloud-ai-platforms-aws-vs-gcp-vs-azure-for-machine-learning-workloads},
+}
+
+@Misc{MongoDB2025a,
+  author  = {MongoDB},
+  month   = {7},
+  title   = {Benchmark for MongoDB Vector Search - Atlas - MongoDB Docs},
+  year    = {2025},
+  journal = {MongoDB},
+  url     = {https://www.mongodb.com/docs/atlas/atlas-vector-search/benchmark/},
+}
+
+@Article{Mialon2023a,
+  author        = {Mialon, Grégoire and Dessì, Roberto and Lomeli, Maria and Nalmpantis, Christoforos and Pasunuru, Ram and Raileanu, Roberta and Rozière, Baptiste and Schick, Timo and Dwivedi-Yu, Jane and Celikyilmaz, Asli and Grave, Edouard and LeCun, Yann and Scialom, Thomas},
+  journal       = {Transactions on Machine Learning Research},
+  title         = {Augmented Language Models: a Survey},
+  year          = {2023},
+  month         = {2},
+  volume        = {2023},
+  abstract      = {This survey reviews works in which language models (LMs) are augmented with reasoning skills and the ability to use tools. The former is defined as decomposing a potentially complex task into simpler subtasks while the latter consists in calling external modules such as a code interpreter. LMs can leverage these augmentations separately or in combination via heuristics, or learn to do so from demonstrations. While adhering to a standard missing tokens prediction objective, such augmented LMs can use various, possibly non-parametric external modules to expand their context processing ability, thus departing from the pure language modeling paradigm. We therefore refer to them as Augmented Language Models (ALMs). The missing token objective allows ALMs to learn to reason, use tools, and even act, while still performing standard natural language tasks and even outperforming most regular LMs on several benchmarks. In this work, after reviewing current advance in ALMs, we conclude that this new research direction has the potential to address common limitations of traditional LMs such as interpretability, consistency, and scalability issues.},
+  archiveprefix = {2302.07842},
+  copyright     = {arXiv.org perpetual, non-exclusive license},
+  doi           = {10.48550/ARXIV.2302.07842},
+  eprint        = {2302.07842},
+  keywords      = {Computation and Language (cs.CL), FOS: Computer and information sciences, FOS: Computer and information sciences},
+  primaryclass  = {cs.AI},
+  publisher     = {arXiv},
+  url           = {http://arxiv.org/abs/2302.07842},
+}
+
+@TechReport{google2023_tpuv5,
+  author        = {Google Cloud.},
+  title         = {Cloud TPU v5p Performance and Comparison},
+  year          = {2023},
+  month         = {2},
+  archiveprefix = {arXiv},
+  howpublished  = {\url{https://cloud.google.com/tpu/docs}},
+  journal       = {Google Cloud},
+  primaryclass  = {cs.AI},
+  url           = {https://docs.cloud.google.com/tpu/docs/performance-guide},
+}
+
+@Comment{jabref-meta: databaseType:bibtex;}
