@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<b:Sources xmlns:b="http://schemas.openxmlformats.org/officeDocument/2006/bibliography" xmlns="http://schemas.openxmlformats.org/officeDocument/2006/bibliography">
+  <b:Source>
+    <b:SourceType>Book</b:SourceType>
+    <b:Title>Reinforcement Learning: An Introduction</b:Title>
+    <b:Year>1992</b:Year>
+    <b:Month>5</b:Month>
+    <b:StandardNumber>9780262193986</b:StandardNumber>
+    <b:Publisher>MIT Press</b:Publisher>
+    <b:Author>
+      <b:Author>
+        <b:NameList>
+          <b:Person>
+            <b:First>Richard S</b:First>
+            <b:Last>Sutton</b:Last>
+          </b:Person>
+          <b:Person>
+            <b:First>Andrew G</b:First>
+            <b:Last>Barto</b:Last>
+          </b:Person>
+        </b:NameList>
+      </b:Author>
+      <b:Editor>
+        <b:NameList>
+        </b:NameList>
+      </b:Editor>
+    </b:Author>
+    <b:URL>https:&#x2F;&#x2F;web.stanford.edu&#x2F;class&#x2F;psych209&#x2F;Readings&#x2F;SuttonBartoIPRLBook2ndEd.pdf</b:URL>
+    <b:URL>https:&#x2F;&#x2F;mitpress.ublish.com&#x2F;ebook&#x2F;reinforcement-learning-an-introduction-2-preview&#x2F;2351&#x2F;viii</b:URL>
+    <b:City>Cambridge, MA</b:City>
+    <b:Edition>2nd</b:Edition>
+    <b:Tag>reinforcement-learning:-an-introduction</b:Tag>
+  </b:Source>
+</b:Sources>

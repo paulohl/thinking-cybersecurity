@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<b:Sources xmlns:b="http://schemas.openxmlformats.org/officeDocument/2006/bibliography" xmlns="http://schemas.openxmlformats.org/officeDocument/2006/bibliography">
+  <b:Source>
+    <b:SourceType>Book</b:SourceType>
+    <b:Title>Artificial Intelligence: A modern approach</b:Title>
+    <b:Year>2022</b:Year>
+    <b:Publisher>© Pearson Education Limited</b:Publisher>
+    <b:Author>
+      <b:Author>
+        <b:NameList>
+          <b:Person>
+            <b:First>S</b:First>
+            <b:Last>Russell</b:Last>
+          </b:Person>
+          <b:Person>
+            <b:First>P</b:First>
+            <b:Last>Norvig</b:Last>
+          </b:Person>
+        </b:NameList>
+      </b:Author>
+      <b:Editor>
+        <b:NameList>
+        </b:NameList>
+      </b:Editor>
+    </b:Author>
+    <b:City>Hoboken, NJ</b:City>
+    <b:Edition>4th</b:Edition>
+    <b:Tag>artificial-intelligence:-a-modern-approach</b:Tag>
+  </b:Source>
+</b:Sources>
