@@ -1,0 +1,21 @@
+TY  - JOUR
+AU  - Alonso, Juncal
+AU  - Orue-Echevarria, Leire
+AU  - Casola, Valentina
+AU  - Torre, Ana Isabel
+AU  - Huarte, Maider
+AU  - Osaba, Eneko
+AU  - Lobo, Jesus L.
+PY  - 2023
+DA  - 2023/01/12
+TI  - Understanding the challenges and novel architectural models of multi-cloud native applications – a systematic literature review
+JO  - Journal of Cloud Computing
+SP  - 6
+VL  - 12
+IS  - 1
+AB  - The evolution of Cloud Computing into a service utility, along with the pervasive adoption of the IoT paradigm, has promoted a significant growth in the need of computational and storage services. The traditional use of cloud services, focused on the consumption of one provider, is not valid anymore due to different shortcomings being the risk of vendor lock-in a critical. We are assisting to a change of paradigm, from the usage of a single cloud provider to the combination of multiple cloud service types, affecting the way in which applications are designed, developed, deployed and operated over such heterogeneous ecosystems. The result is an effective heterogeneity of architectures, methods, tools, and frameworks, copying with the multi-cloud application concept. The goal of this study is manifold. Firstly, it aims to characterize the multi-cloud concept from the application development perspective by reviewing existing definitions of multi-cloud native applications in the literature. Secondly, we set up the basis for the architectural characterization of these kind of applications. Finally, we highlight several open research issues drawn up from the analysis carried out. To achieve that, we have conducted a systematic literature review (SLR), where, a large set of primary studies published between 2011 and 2021 have been studied and classified. The in-depth analysis has revealed five main research trends for the improvement of the development and operation DevOps lifecycle of “multi-cloud native applications”. The paper finishes with directions for future work and research challenges to be addressed by the software community.
+SN  - 2192-113X
+UR  - https://doi.org/10.1186/s13677-022-00367-6
+DO  - 10.1186/s13677-022-00367-6
+ID  - Alonso2023
+ER  - 
