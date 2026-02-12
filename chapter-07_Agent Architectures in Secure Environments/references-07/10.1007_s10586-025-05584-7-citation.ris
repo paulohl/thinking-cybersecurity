@@ -1,0 +1,17 @@
+TY  - JOUR
+AU  - Wei, Hao
+AU  - Pañeda, Xabiel García
+AU  - Rodriguez, Joaquín Salvachúa
+PY  - 2025
+DA  - 2025/09/29
+TI  - Optimizing machine learning operations in multi-cloud infrastructure: a framework for unified deployment management and topology discovery
+JO  - Cluster Computing
+SP  - 933
+VL  - 28
+IS  - 14
+AB  - Machine learning (ML) transitioned from a purely academic discipline to an applied field, gaining strategic importance in various industries. Meanwhile, Machine Learning Operations (MLOps) has been widely adopted by enterprises as a comprehensive approach for developing and managing machine learning applications. Despite its advantages, challenges remain. The rising demand for flexibility and scalability has led organizations to embrace multi-cloud and hybrid cloud architectures as preferred solutions. However, the autonomous and distributed nature of modern application development, combined with the complexity of training and deploying machine learning models, makes unified operational management impractical, and this will further affect application quality and efficiency. To address these challenges, this paper proposes a framework to manage model training and deployment in a multi-cloud environment. This framework uses a policy-based resource provisioning approach, agent-based application topology reconstruction, and a visualization dashboard. It aims to provide a cloud provider-neutral solution that enhances the quality of application operations. The framework design is introduced, followed by the implementation of a proof-of-concept prototype. Experiments conducted in various empirical scenarios demonstrate that the proposed framework effectively manages deployment resources while providing clear visibility and control across multiple clouds. The results confirm that this framework enhances control over deployment resources and optimizes model deployment efficiency in multi-cloud infrastructure.
+SN  - 1573-7543
+UR  - https://doi.org/10.1007/s10586-025-05584-7
+DO  - 10.1007/s10586-025-05584-7
+ID  - Wei2025
+ER  - 
