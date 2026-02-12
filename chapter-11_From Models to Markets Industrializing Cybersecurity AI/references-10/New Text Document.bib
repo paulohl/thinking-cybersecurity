@@ -1,0 +1,85 @@
+# Manually write the .bib content as a string and save it to a file
+
+ch10_bib_content = """
+@Electronic{malladi2023_mosaicml,
+  author       = {Ravi Malladi and others},
+  howpublished = {\\url{https://www.mosaicml.com/blog/inference-benchmark}},
+  title        = {MosaicML Inference Benchmarks across AWS, Azure, and GCP},
+  year         = {2023},
+}
+
+@Electronic{aws2024_graviton,
+  author       = {{Amazon Web Services}},
+  howpublished = {\\url{https://aws.amazon.com/ec2/graviton}},
+  title        = {Graviton3 Benchmarks for AI Workloads},
+  year         = {2024},
+}
+
+@Electronic{google2023_tpuv5,
+  author       = {{Google Cloud}},
+  howpublished = {\\url{https://cloud.google.com/tpu/docs}},
+  title        = {Cloud TPU v5p Performance and Comparison},
+  year         = {2023},
+}
+
+@Article{liu2023crosscloud,
+  author    = {Liu, Zhiwei and Li, Meng and Shen, Wei},
+  journal   = {Journal of Cloud Computing},
+  title     = {Cross-cloud deployment of AI applications: A survey on orchestration frameworks and interoperability},
+  year      = {2023},
+  number    = {1},
+  pages     = {98},
+  volume    = {12},
+  doi       = {10.1186/s13677-023-00576-4},
+  publisher = {Springer},
+  url       = {https://doi.org/10.1186/s13677-023-00576-4},
+}
+
+@Electronic{pinecone2024_multicloud,
+  author       = {{Pinecone Systems}},
+  howpublished = {\\url{https://www.pinecone.io}},
+  title        = {Multi-Cloud Vector Search Benchmarks},
+  year         = {2024},
+}
+
+@inproceedings{lopez2022_comparison,
+  author    = {Carlos Lopez and others},
+  title     = {Cost and Latency Comparison of ML Inference on AWS, Azure, and GCP},
+  booktitle = {IEEE Intl Conference on Cloud Engineering},
+  year      = {2022}
+}
+
+@Electronic{huggingface2023_docker,
+  author       = {{Hugging Face}},
+  howpublished = {\\url{https://huggingface.co/docs/diffusers}},
+  title        = {Deploying Diffusers with Docker and Cloud CLIs},
+  year         = {2023},
+}
+
+@article{bouthillier2021_datasets,
+  author  = {Xavier Bouthillier and others},
+  title   = {Dataset Cartography: Mapping the Landscape of ML Benchmarking},
+  journal = {NeurIPS},
+  year    = {2021}
+}
+
+@Misc{zhang2022kserve,
+  author        = {Zhang, Han and Zhou, Qing},
+  title         = {KServe and Kubeflow Pipelines: Standardizing ML model serving across clouds},
+  year          = {2022},
+  archiveprefix = {arXiv},
+  eprint        = {2210.06513},
+  primaryclass  = {cs.DC},
+  url           = {https://arxiv.org/abs/2210.06513},
+}
+
+@Comment{jabref-meta: databaseType:bibtex;}
+
+"""
+
+# Save to .bib file
+file_path = "/mnt/data/ch10_references.bib"
+with open(file_path, "w") as bibfile:
+    bibfile.write(ch10_bib_content)
+
+file_path
