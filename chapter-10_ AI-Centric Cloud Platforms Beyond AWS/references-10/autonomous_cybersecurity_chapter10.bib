@@ -1,0 +1,612 @@
+@Article{Frantar2023,
+  author        = {Frantar, Elias and Ashkboos, Saleh and Hoefler, Torsten and Alistarh, Dan},
+  title         = {Gptq: accurate post-training quantization for generative pre-trained transformers},
+  year          = {2023},
+  month         = mar,
+  note          = {Preprint arXiv:2306.03078},
+  abstract      = {Generative Pre-trained Transformer models, known as GPT or OPT, set themselves apart through breakthrough performance across complex language modelling tasks, but also by their extremely high computational and storage costs. Specifically, due to their massive size, even inference for large, highly-accurate GPT models may require multiple performant GPUs, which limits the usability of such models. While there is emerging work on relieving this pressure via model compression, the applicability and performance of existing compression techniques is limited by the scale and complexity of GPT models. In this paper, we address this challenge, and propose GPTQ, a new one-shot weight quantization method based on approximate second-order information, that is both highly-accurate and highly-efficient. Specifically, GPTQ can quantize GPT models with 175 billion parameters in approximately four GPU hours, reducing the bitwidth down to 3 or 4 bits per weight, with negligible accuracy degradation relative to the uncompressed baseline. Our method more than doubles the compression gains relative to previously-proposed one-shot quantization methods, preserving accuracy, allowing us for the first time to execute an 175 billion-parameter model inside a single GPU for generative inference. Moreover, we also show that our method can still provide reasonable accuracy in the extreme quantization regime, in which weights are quantized to 2-bit or even ternary quantization levels. We show experimentally that these improvements can be leveraged for end-to-end inference speedups over FP16, of around 3.25x when using high-end GPUs (NVIDIA A100) and 4.5x when using more cost-effective ones (NVIDIA A6000). The implementation is available at https://github.com/IST-DASLab/gptq.},
+  archiveprefix = {arxiv},
+  doi           = {10.48550/ARXIV.2306.03078},
+  eprint        = {2210.17323},
+  keywords      = {Computation and Language (cs.CL),FOS: Computer and information sciences,Machine Learning (cs.LG)},
+}
+
+@Article{Dettmers2022,
+  author        = {Dettmers, Tim and Lewis, Mike and Belkada, Younes and Zettlemoyer, Luke},
+  title         = {Llm.int8(): 8-bit matrix multiplication for transformers at scale},
+  year          = {2022},
+  month         = nov,
+  note          = {Preprint arXiv:2110.02861},
+  abstract      = {Large language models have been widely adopted but require significant GPU memory for inference. We develop a procedure for Int8 matrix multiplication for feed-forward and attention projection layers in transformers, which cut the memory needed for inference by half while retaining full precision performance. With our method, a 175B parameter 16/32-bit checkpoint can be loaded, converted to Int8, and used immediately without performance degradation. This is made possible by understanding and working around properties of highly systematic emergent features in transformer language models that dominate attention and transformer predictive performance. To cope with these features, we develop a two-part quantization procedure, LLM.int8(). We first use vector-wise quantization with separate normalization constants for each inner product in the matrix multiplication, to quantize most of the features. However, for the emergent outliers, we also include a new mixed-precision decomposition scheme, which isolates the outlier feature dimensions into a 16-bit matrix multiplication while still more than 99.9% of values are multiplied in 8-bit. Using LLM.int8(), we show empirically it is possible to perform inference in LLMs with up to 175B parameters without any performance degradation. This result makes such models much more accessible, for example making it possible to use OPT-175B/BLOOM on a single server with consumer GPUs. We open-source our software.},
+  archiveprefix = {arxiv},
+  doi           = {10.48550/ARXIV.2110.02861},
+  eprint        = {2208.07339},
+  keywords      = {FOS: Computer and information sciences,Machine Learning (cs.LG)},
+}
+
+@Book{Brynjolfsson2014,
+  author    = {Brynjolfsson, E. and McAfee, A.},
+  publisher = {W. W. and Company Norton,},
+  title     = {The second machine age: work, progress, and prosperity in a time of brilliant technologies},
+  year      = {2014},
+}
+
+@TechReport{Brundage2018,
+  author        = {Brundage, Miles and Avin, Shahar and Clark, Jack and Toner, Helen and Eckersley, Peter and Garfinkel, Ben and Dafoe, Allen and Scharre, Paul and Zeitzoff, Thomas and Filar, Bobby and Anderson, Hyrum and Roff, Heather and Allen, Gregory and Steinhardt, Jacob and Flynn, Carrick and O'Heigeartaigh, Sean and Beard, Simon and Belfield, Haydn and Farquhar, Sebastian and Lyle, Clare and Crootof, Rebecca and Evans, Owain and Page, Michael and Bryson, Joanna and Yampolskiy, Roman and Amodei, Dario},
+  title         = {The malicious use of artificial intelligence: forecasting, prevention, and mitigation},
+  year          = {2018},
+  abstract      = {The following organisations are named on the report: Future of Humanity Institute, University of Oxford, Centre for the Study of Existential Risk, University of Cambridge, Center for a New American Security, Electronic Frontier Foundation, OpenAI. The Future of Life Institute is acknowledged as a funder.},
+  archiveprefix = {arXiv},
+  copyright     = {All rights reserved},
+  doi           = {10.17863/CAM.22520},
+  eprint        = {1802.07228},
+  keywords      = {Artificial Intelligence, Security, Malicious use, Bad actors, Cybersecurity, Political security, National security},
+  language      = {en},
+  publisher     = {Apollo - University of Cambridge Repository},
+  url           = {https://www.semanticscholar.org/paper/a4d513cfc9d4902ef1a80198582f29b8ba46ac28},
+  venue         = {arXiv.org},
+}
+
+@Article{Bommasani2022,
+  author        = {Bommasani, Rishi and Hudson, Drew A. and Adeli, Ehsan and Altman, Russ and Arora, Simran and von Arx, Sydney and Bernstein, Michael S. and Bohg, Jeannette and Bosselut, Antoine and Brunskill, Emma and Brynjolfsson, Erik and Buch, Shyamal and Card, Dallas and Castellon, Rodrigo and Chatterji, Niladri and Chen, Annie and Creel, Kathleen and Davis, Jared Quincy and Demszky, Dora and Donahue, Chris and Doumbouya, Moussa and Durmus, Esin and Ermon, Stefano and Etchemendy, John and Ethayarajh, Kawin and Fei-Fei, Li and Finn, Chelsea and Gale, Trevor and Gillespie, Lauren and Goel, Karan and Goodman, Noah and Grossman, Shelby and Guha, Neel and Hashimoto, Tatsunori and Henderson, Peter and Hewitt, John and Ho, Daniel E. and Hong, Jenny and Hsu, Kyle and Huang, Jing and Icard, Thomas and Jain, Saahil and Jurafsky, Dan and Kalluri, Pratyusha and Karamcheti, Siddharth and Keeling, Geoff and Khani, Fereshte and Khattab, Omar and Koh, Pang Wei and Krass, Mark and Krishna, Ranjay and Kuditipudi, Rohith and Kumar, Ananya and Ladhak, Faisal and Lee, Mina and Lee, Tony and Leskovec, Jure and Levent, Isabelle and Li, Xiang Lisa and Li, Xuechen and Ma, Tengyu and Malik, Ali and Manning, Christopher D. and Mirchandani, Suvir and Mitchell, Eric and Munyikwa, Zanele and Nair, Suraj and Narayan, Avanika and Narayanan, Deepak and Newman, Ben and Nie, Allen and Niebles, Juan Carlos and Nilforoshan, Hamed and Nyarko, Julian and Ogut, Giray and Orr, Laurel and Papadimitriou, Isabel and Park, Joon Sung and Piech, Chris and Portelance, Eva and Potts, Christopher and Raghunathan, Aditi and Reich, Rob and Ren, Hongyu and Rong, Frieda and Roohani, Yusuf and Ruiz, Camilo and Ryan, Jack and Ré, Christopher and Sadigh, Dorsa and Sagawa, Shiori and Santhanam, Keshav and Shih, Andy and Srinivasan, Krishnan and Tamkin, Alex and Taori, Rohan and Thomas, Armin W. and Tramèr, Florian and Wang, Rose E. and Wang, William and Wu, Bohan and Wu, Jiajun and Wu, Yuhuai and Xie, Sang Michael and Yasunaga, Michihiro and You, Jiaxuan and Zaharia, Matei and Zhang, Michael and Zhang, Tianyi and Zhang, Xikun and Zhang, Yuhui and Zheng, Lucia and Zhou, Kaitlyn and Liang, Percy},
+  journal       = {Stanford Center for Research on Foundation Models},
+  title         = {On the opportunities and risks of foundation models},
+  year          = {2022},
+  month         = jul,
+  abstract      = {AI is undergoing a paradigm shift with the rise of models (e.g., BERT, DALL-E, GPT-3) that are trained on broad data at scale and are adaptable to a wide range of downstream tasks. We call these models foundation models to underscore their critically central yet incomplete character. This report provides a thorough account of the opportunities and risks of foundation models, ranging from their capabilities (e.g., language, vision, robotics, reasoning, human interaction) and technical principles(e.g., model architectures, training procedures, data, systems, security, evaluation, theory) to their applications (e.g., law, healthcare, education) and societal impact (e.g., inequity, misuse, economic and environmental impact, legal and ethical considerations). Though foundation models are based on standard deep learning and transfer learning, their scale results in new emergent capabilities,and their effectiveness across so many tasks incentivizes homogenization. Homogenization provides powerful leverage but demands caution, as the defects of the foundation model are inherited by all the adapted models downstream. Despite the impending widespread deployment of foundation models, we currently lack a clear understanding of how they work, when they fail, and what they are even capable of due to their emergent properties. To tackle these questions, we believe much of the critical research on foundation models will require deep interdisciplinary collaboration commensurate with their fundamentally sociotechnical nature.},
+  archiveprefix = {arxiv},
+  copyright     = {Creative Commons Attribution 4.0 International},
+  doi           = {10.48550/arxiv.2108.07258},
+  eprint        = {2108.07258},
+  keywords      = {Machine Learning (cs.LG), Artificial Intelligence (cs.AI), Computers and Society (cs.CY), FOS: Computer and information sciences, FOS: Computer and information sciences},
+  publisher     = {arXiv},
+}
+
+@Article{Union2024,
+  author  = {Union, European},
+  journal = {Official Journal of the European Union},
+  title   = {Artificial intelligence act},
+  year    = {2024},
+  volume  = {L 217},
+  url     = {https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32024R1689},
+}
+
+@Article{DoshiVelez2017,
+  author        = {Doshi-Velez, Finale and Kim, Been},
+  title         = {Towards a rigorous science of interpretable machine learning},
+  year          = {2017},
+  month         = mar,
+  abstract      = {As machine learning systems become ubiquitous, there has been a surge of interest in interpretable machine learning: systems that provide explanation for their outputs. These explanations are often used to qualitatively assess other criteria such as safety or non-discrimination. However, despite the interest in interpretability, there is very little consensus on what interpretable machine learning is and how it should be measured. In this position paper, we first define interpretability and describe when interpretability is needed (and when it is not). Next, we suggest a taxonomy for rigorous evaluation and expose open questions towards a more rigorous science of interpretable machine learning.},
+  archiveprefix = {arxiv},
+  doi           = {10.48550/arxiv.1702.08608},
+  eprint        = {1702.08608},
+}
+
+@InProceedings{Mitchell2019,
+  author    = {Mitchell, Margaret and Wu, Simone and Zaldivar, Andrew and Barnes, Parker and Vasserman, Lucy and Hutchinson, Ben and Spitzer, Elena and Raji, Inioluwa Deborah and Gebru, Timnit},
+  booktitle = {Proceedings of the Conference on Fairness, Accountability, and Transparency},
+  title     = {Model cards for model reporting},
+  year      = {2019},
+  month     = jan,
+  pages     = {220--229},
+  publisher = {ACM},
+  abstract  = {Trained machine learning models are increasingly used to perform high-impact tasks in areas such as law enforcement, medicine, education, and employment. In order to clarify the intended use cases of machine learning models and minimize their usage in contexts for which they are not well suited, we recommend that released models be accompanied by documentation detailing their performance characteristics. In this paper, we propose a framework that we call model cards, to encourage such transparent model reporting. Model cards are short documents accompanying trained machine learning models that provide benchmarked evaluation in a variety of conditions, such as across different cultural, demographic, or phenotypic groups (e.g., race, geographic location, sex, Fitzpatrick skin type) and intersectional groups (e.g., age and race, or sex and Fitzpatrick skin type) that are relevant to the intended application domains. Model cards also disclose the context in which models are intended to be used, details of the performance evaluation procedures, and other relevant information. While we focus primarily on human-centered machine learning models in the application fields of computer vision and natural language processing, this framework can be used to document any trained machine learning model. To solidify the concept, we provide cards for two supervised models: One trained to detect smiling faces in images, and one trained to detect toxic comments in text. We propose model cards as a step towards the responsible democratization of machine learning and related AI technology, increasing transparency into how well AI technology works. We hope this work encourages those releasing trained machine learning models to accompany model releases with similar detailed evaluation numbers and other relevant documentation.},
+  city      = {New York, NY, USA},
+  doi       = {10.1145/3287560.3287596},
+  isbn      = {9781450361255},
+  keywords  = {Datasheets,Disaggregated evaluation,Documentation,Ethical considerations,Fairness evaluation,ML model evaluation,Model cards},
+}
+
+@Article{Shinn2023,
+  author        = {Shinn, Noah and Cassano, Federico and Berman, Edward and Gopinath, Ashwin and Narasimhan, Karthik and Yao, Shunyu},
+  journal       = {37th International Conference on Neural Information Processing Systems},
+  title         = {Reflexion: language agents with verbal reinforcement learning},
+  year          = {2023},
+  month         = oct,
+  abstract      = {Large language models (LLMs) have been increasingly used to interact with external environments (e.g., games, compilers, APIs) as goal-driven agents. However, it remains challenging for these language agents to quickly and efficiently learn from trial-and-error as traditional reinforcement learning methods require extensive training samples and expensive model fine-tuning. We propose Reflexion, a novel framework to reinforce language agents not by updating weights, but instead through linguistic feedback. Concretely, Reflexion agents verbally reflect on task feedback signals, then maintain their own reflective text in an episodic memory buffer to induce better decision-making in subsequent trials. Reflexion is flexible enough to incorporate various types (scalar values or free-form language) and sources (external or internally simulated) of feedback signals, and obtains significant improvements over a baseline agent across diverse tasks (sequential decision-making, coding, language reasoning). For example, Reflexion achieves a 91% pass@1 accuracy on the HumanEval coding benchmark, surpassing the previous state-of-the-art GPT-4 that achieves 80%. We also conduct ablation and analysis studies using different feedback signals, feedback incorporation methods, and agent types, and provide insights into how they affect performance.},
+  archiveprefix = {arxiv},
+  city          = {Red Hook, NY, USA},
+  doi           = {10.5555/3666122.3666499},
+  eprint        = {2303.11366},
+  publisher     = {Inc., Curran Associates},
+}
+
+@InProceedings{Anderson2017,
+  author     = {Anderson, Blake and McGrew, David},
+  booktitle  = {Proceedings of the 23rd ACM SIGKDD International Conference on Knowledge Discovery and Data Mining},
+  title      = {Machine learning for encrypted malware traffic classification},
+  year       = {2017},
+  month      = aug,
+  pages      = {1723--1732},
+  publisher  = {ACM},
+  series     = {KDD ’17},
+  volume     = {Part F129685},
+  abstract   = {The application of machine learning for the detection of malicious network traffic has been well researched over the past several decades; it is particularly appealing when the traffic is encrypted because traditional pattern-matching approaches cannot be used. Unfortunately, the promise of machine learning has been slow to materialize in the network security domain. In this paper, we highlight two primary reasons why this is the case: inaccurate ground truth and a highly non-stationary data distribution. To demonstrate and understand the effect that these pitfalls have on popular machine learning algorithms, we design and carry out experiments that show how six common algorithms perform when confronted with real network data. With our experimental results, we identify the situations in which certain classes of algorithms underperform on the task of encrypted malware traffic classification. We offer concrete recommendations for practitioners given the real-world constraints outlined. From an algorithmic perspective, we find that the random forest ensemble method outperformed competing methods. More importantly, feature engineering was decisive; we found that iterating on the initial feature set, and including features suggested by domain experts, had a much greater impact on the performance of the classification system. For example, linear regression using the more expressive feature set easily outperformed the random forest method using a standard network traffic representation on all criteria considered. Our analysis is based on millions of TLS encrypted sessions collected over 12 months from a commercial malware sandbox and two geographically distinct, large enterprise networks.},
+  city       = {New York, NY, USA},
+  collection = {KDD ’17},
+  doi        = {10.1145/3097983.3098163},
+  isbn       = {9781450348874},
+  keywords   = {Machine learning,Malware detection,Network security,TLS},
+}
+
+@Article{Ring2019,
+  author    = {Ring, Markus and Wunderlich, Sarah and Scheuring, Deniz and Landes, Dieter and Hotho, Andreas},
+  journal   = {Computers \& Security},
+  title     = {A survey of network-based intrusion detection data sets},
+  year      = {2019},
+  issn      = {0167-4048},
+  month     = sep,
+  pages     = {147--167},
+  volume    = {86},
+  abstract  = {Labeled data sets are necessary to train and evaluate anomaly-based network intrusion detection systems. This work provides a focused literature survey of data sets for network-based intrusion detection and describes the underlying packet- and flow-based network data in detail. The paper identifies 15 different properties to assess the suitability of individual data sets for specific evaluation scenarios. These properties cover a wide range of criteria and are grouped into five categories such as data volume or recording environment for offering a structured search. Based on these properties, a comprehensive overview of existing data sets is given. This overview also highlights the peculiarities of each data set. Furthermore, this work briefly touches upon other sources for network-based data such as traffic generators and data repositories. Finally, we discuss our observations and provide some recommendations for the use and the creation of network-based data sets.},
+  doi       = {10.1016/j.cose.2019.06.005},
+  keywords  = {Data mining,Data sets,Evaluation,IDS,Intrusion detection,NIDS},
+  publisher = {Technology, Elsevier Advanced},
+  url       = {https://www.sciencedirect.com/science/article/abs/pii/S016740481930118X},
+}
+
+@TechReport{Tabassi2023,
+  author = {Tabassi, Elham},
+  title  = {Artificial intelligence risk management framework (ai rmf 1.0)},
+  year   = {2023},
+  month  = jan,
+  doi    = {10.6028/NIST.AI.100-1},
+  school = {National Institute of Standards and Technology},
+  url    = {http://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf},
+}
+
+@Misc{,
+  author = {HuggingFace},
+  title  = {Open-llm-leaderboard (open llm leaderboard)},
+  url    = {https://huggingface.co/open-llm-leaderboard},
+}
+
+@Article{Touvron2023,
+  author        = {Touvron, Hugo and Martin, Louis and Stone, Kevin and Albert, Peter and Almahairi, Amjad and Babaei, Yasmine and Bashlykov, Nikolay and Batra, Soumya and Bhargava, Prajjwal and Bhosale, Shruti and Bikel, Dan and Blecher, Lukas and Ferrer, Cristian Canton and Chen, Moya and Cucurull, Guillem and Esiobu, David and Fernandes, Jude and Fu, Jeremy and Fu, Wenyin and Fuller, Brian and Gao, Cynthia and Goswami, Vedanuj and Goyal, Naman and Hartshorn, Anthony and Hosseini, Saghar and Hou, Rui and Inan, Hakan and Kardas, Marcin and Kerkez, Viktor and Khabsa, Madian and Kloumann, Isabel and Korenev, Artem and Koura, Punit Singh and Lachaux, Marie-Anne and Lavril, Thibaut and Lee, Jenya and Liskovich, Diana and Lu, Yinghai and Mao, Yuning and Martinet, Xavier and Mihaylov, Todor and Mishra, Pushkar and Molybog, Igor and Nie, Yixin and Poulton, Andrew and Reizenstein, Jeremy and Rungta, Rashi and Saladi, Kalyan and Schelten, Alan and Silva, Ruan and Smith, Eric Michael and Subramanian, Ranjan and Tan, Xiaoqing Ellen and Tang, Binh and Taylor, Ross and Williams, Adina and Kuan, Jian Xiang and Xu, Puxin and Yan, Zheng and Zarov, Iliyan and Zhang, Yuchen and Fan, Angela and Kambadur, Melanie and Narang, Sharan and Rodriguez, Aurelien and Stojnic, Robert and Edunov, Sergey and Scialom, Thomas},
+  title         = {Llama 2: open foundation and fine-tuned chat models},
+  year          = {2023},
+  month         = jul,
+  abstract      = {In this work, we develop and release Llama 2, a collection of pretrained and fine-tuned large language models (LLMs) ranging in scale from 7 billion to 70 billion parameters. Our fine-tuned LLMs, called Llama 2-Chat, are optimized for dialogue use cases. Our models outperform open-source chat models on most benchmarks we tested, and based on our human evaluations for helpfulness and safety, may be a suitable substitute for closed-source models. We provide a detailed description of our approach to fine-tuning and safety improvements of Llama 2-Chat in order to enable the community to build on our work and contribute to the responsible development of LLMs.},
+  archiveprefix = {arxiv},
+  doi           = {10.48550/arxiv.2307.09288},
+  eprint        = {2307.09288},
+}
+
+@Misc{,
+  author = {HuggingFace},
+  title  = {Open llm leaderboard - a hugging face space by open-llm-leaderboard},
+  url    = {https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard#/},
+}
+
+@Article{Bhardwaj2025,
+  author        = {Bhardwaj, Eshta and Alexander, Rohan and Becker, Christoph},
+  title         = {Limits to ai growth: the ecological and social consequences of scaling},
+  year          = {2025},
+  month         = jan,
+  volume        = {1},
+  abstract      = {The accelerating development and deployment of AI technologies depend on the continued ability to scale their infrastructure. This has implied increasing amounts of monetary investment and natural resources. Frontier AI applications have thus resulted in rising financial, environmental, and social costs. While the factors that AI scaling depends on reach its limits, the push for its accelerated advancement and entrenchment continues. In this paper, we provide a holistic review of AI scaling using four lenses (technical, economic, ecological, and social) and review the relationships between these lenses to explore the dynamics of AI growth. We do so by drawing on system dynamics concepts including archetypes such as "limits to growth" to model the dynamic complexity of AI scaling and synthesize several perspectives. Our work maps out the entangled relationships between the technical, economic, ecological and social perspectives and the apparent limits to growth. The analysis explains how industry's responses to external limits enables continued (but temporary) scaling and how this benefits Big Tech while externalizing social and environmental damages. To avoid an "overshoot and collapse" trajectory, we advocate for realigning priorities and norms around scaling to prioritize sustainable and mindful advancements.},
+  archiveprefix = {arxiv},
+  copyright     = {Creative Commons Attribution Non Commercial Share Alike 4.0 International},
+  doi           = {10.48550/ARXIV.2501.17980},
+  eprint        = {2501.17980},
+  keywords      = {AI scaling,ecological damages,economies of scale,limits to growth,system dynamics},
+  publisher     = {arXiv},
+}
+
+@Article{Yao2023,
+  author        = {Yao, Shunyu and Zhao, Jeffrey and Yu, Dian and Du, Nan and Shafran, Izhak and Narasimhan, Karthik and Cao, Yuan},
+  journal       = {11th International Conference on Learning Representations, ICLR 2023},
+  title         = {React: synergizing reasoning and acting in language models},
+  year          = {2023},
+  month         = mar,
+  abstract      = {While large language models (LLMs) have demonstrated impressive capabilities across tasks in language understanding and interactive decision making, their abilities for reasoning (e.g. chain-of-thought prompting) and acting (e.g. action plan generation) have primarily been studied as separate topics. In this paper, we explore the use of LLMs to generate both reasoning traces and task-specific actions in an interleaved manner, allowing for greater synergy between the two: reasoning traces help the model induce, track, and update action plans as well as handle exceptions, while actions allow it to interface with external sources, such as knowledge bases or environments, to gather additional information. We apply our approach, named ReAct, to a diverse set of language and decision making tasks and demonstrate its effectiveness over state-of-the-art baselines, as well as improved human interpretability and trustworthiness over methods without reasoning or acting components. Concretely, on question answering (HotpotQA) and fact verification (Fever), ReAct overcomes issues of hallucination and error propagation prevalent in chain-of-thought reasoning by interacting with a simple Wikipedia API, and generates human-like task-solving trajectories that are more interpretable than baselines without reasoning traces. On two interactive decision making benchmarks (ALFWorld and WebShop), ReAct outperforms imitation and reinforcement learning methods by an absolute success rate of 34% and 10% respectively, while being prompted with only one or two in-context examples. Project site with code: https://react-lm.github.io},
+  archiveprefix = {arxiv},
+  doi           = {10.48550/arxiv.2210.03629},
+  eprint        = {2210.03629},
+  publisher     = {International Conference on Learning Representations, I. C. L. R.},
+}
+
+@Article{Park2023,
+  author        = {Park, Joon Sung and O'Brien, Joseph C. and Cai, Carrie J. and Morris, Meredith Ringel and Liang, Percy and Bernstein, Michael S.},
+  journal       = {UIST 2023 - Proceedings of the 36th Annual ACM Symposium on User Interface Software and Technology},
+  title         = {Generative agents: interactive simulacra of human behavior},
+  year          = {2023},
+  month         = aug,
+  volume        = {1},
+  abstract      = {Believable proxies of human behavior can empower interactive applications ranging from immersive environments to rehearsal spaces for interpersonal communication to prototyping tools. In this paper, we introduce generative agents--computational software agents that simulate believable human behavior. Generative agents wake up, cook breakfast, and head to work; artists paint, while authors write; they form opinions, notice each other, and initiate conversations; they remember and reflect on days past as they plan the next day. To enable generative agents, we describe an architecture that extends a large language model to store a complete record of the agent's experiences using natural language, synthesize those memories over time into higher-level reflections, and retrieve them dynamically to plan behavior. We instantiate generative agents to populate an interactive sandbox environment inspired by The Sims, where end users can interact with a small town of twenty five agents using natural language. In an evaluation, these generative agents produce believable individual and emergent social behaviors: for example, starting with only a single user-specified notion that one agent wants to throw a Valentine's Day party, the agents autonomously spread invitations to the party over the next two days, make new acquaintances, ask each other out on dates to the party, and coordinate to show up for the party together at the right time. We demonstrate through ablation that the components of our agent architecture--observation, planning, and reflection--each contribute critically to the believability of agent behavior. By fusing large language models with computational, interactive agents, this work introduces architectural and interaction patterns for enabling believable simulations of human behavior.},
+  archiveprefix = {arxiv},
+  doi           = {10.48550/arxiv.2304.03442},
+  eprint        = {2304.03442},
+  keywords      = {Human-AI interaction,agents,generative AI,large language models},
+  publisher     = {Association for Computing Machinery, Inc},
+}
+
+@Misc{Research2026,
+  author = {Research, Apple Machine Learning},
+  title  = {Overview - apple machine learning research},
+  year   = {2026},
+  url    = {https://machinelearning.apple.com/},
+}
+
+@Article{Mittal2019,
+  author    = {Mittal, Sparsh},
+  journal   = {Concurrency and Computation: Practice and Experience},
+  title     = {A survey of techniques for dynamic branch prediction},
+  year      = {2019},
+  issn      = {1532-0634},
+  month     = jan,
+  pages     = {e4666},
+  volume    = {31},
+  abstract  = {Branch predictor (BP) is an essential component in modern processors since high BP accuracy can improve performance and reduce energy by decreasing the number of instructions executed on wrong-path. However, reducing the latency and storage overhead of BP while maintaining high accuracy presents significant challenges. In this paper, we present a survey of dynamic branch prediction techniques. We classify the works based on key features to underscore their differences and similarities. We believe this paper will spark further research in this area and will be useful for computer architects, processor designers, and researchers.},
+  doi       = {10.1002/cpe.4666},
+  issue     = {1},
+  keywords  = {dynamic branch predictor,hybrid BP,neural BP,perceptron predictorside BP,pipelining,predictor accuracy,review,side BP,speculative execution,two-level BP},
+  publisher = {Wiley, John and Ltd, Sons},
+  url       = {/doi/pdf/10.1002/cpe.4666 https://onlinelibrary.wiley.com/doi/abs/10.1002/cpe.4666 https://onlinelibrary.wiley.com/doi/10.1002/cpe.4666},
+}
+
+@Article{Han2015,
+  author        = {Han, Song and Mao, Huizi and Dally, William J.},
+  journal       = {4th International Conference on Learning Representations, ICLR 2016 - Conference Track Proceedings},
+  title         = {Deep compression: compressing deep neural networks with pruning, trained quantization and huffman coding},
+  year          = {2015},
+  month         = oct,
+  abstract      = {Neural networks are both computationally intensive and memory intensive, making them difficult to deploy on embedded systems with limited hardware resources. To address this limitation, we introduce "deep compression", a three stage pipeline: pruning, trained quantization and Huffman coding, that work together to reduce the storage requirement of neural networks by 35x to 49x without affecting their accuracy. Our method first prunes the network by learning only the important connections. Next, we quantize the weights to enforce weight sharing, finally, we apply Huffman coding. After the first two steps we retrain the network to fine tune the remaining connections and the quantized centroids. Pruning, reduces the number of connections by 9x to 13x; Quantization then reduces the number of bits that represent each connection from 32 to 5. On the ImageNet dataset, our method reduced the storage required by AlexNet by 35x, from 240MB to 6.9MB, without loss of accuracy. Our method reduced the size of VGG-16 by 49x from 552MB to 11.3MB, again with no loss of accuracy. This allows fitting the model into on-chip SRAM cache rather than off-chip DRAM memory. Our compression method also facilitates the use of complex neural networks in mobile applications where application size and download bandwidth are constrained. Benchmarked on CPU, GPU and mobile GPU, compressed network has 3x to 4x layerwise speedup and 3x to 7x better energy efficiency.},
+  archiveprefix = {arxiv},
+  doi           = {10.48550/arxiv.1510.00149},
+  eprint        = {1510.00149},
+  publisher     = {International Conference on Learning Representations, I. C. L. R.},
+}
+
+@Article{Gong2014,
+  author        = {Gong, Yunchao and Liu, Liu and Yang, Ming and Bourdev, Lubomir},
+  title         = {Compressing deep convolutional networks using vector quantization},
+  year          = {2014},
+  month         = dec,
+  abstract      = {Deep convolutional neural networks (CNN) has become the most promising method for object recognition, repeatedly demonstrating record breaking results for image classification and object detection in recent years. However, a very deep CNN generally involves many layers with millions of parameters, making the storage of the network model to be extremely large. This prohibits the usage of deep CNNs on resource limited hardware, especially cell phones or other embedded devices. In this paper, we tackle this model storage issue by investigating information theoretical vector quantization methods for compressing the parameters of CNNs. In particular, we have found in terms of compressing the most storage demanding dense connected layers, vector quantization methods have a clear gain over existing matrix factorization methods. Simply applying k-means clustering to the weights or conducting product quantization can lead to a very good balance between model size and recognition accuracy. For the 1000-category classification task in the ImageNet challenge, we are able to achieve 16-24 times compression of the network with only 1% loss of classification accuracy using the state-of-the-art CNN.},
+  archiveprefix = {arxiv},
+  doi           = {10.48550/arxiv.1412.6115},
+  eprint        = {1412.6115},
+}
+
+@Article{Lane2016,
+  author    = {Lane, Nicholas D. and Bhattacharya, Sourav and Georgiev, Petko and Forlivesi, Claudio and Jiao, Lei and Qendro, Lorena and Kawsar, Fahim},
+  journal   = {2016 15th ACM/IEEE International Conference on Information Processing in Sensor Networks, IPSN 2016 - Proceedings},
+  title     = {Deepx: a software accelerator for low-power deep learning inference on mobile devices},
+  year      = {2016},
+  month     = apr,
+  abstract  = {Breakthroughs from the field of deep learning are radically changing how sensor data are interpreted to extract the high-level information needed by mobile apps. It is critical that the gains in inference accuracy that deep models afford become embedded in future generations of mobile apps. In this work, we present the design and implementation of DeepX, a software accelerator for deep learning execution. DeepX signif- icantly lowers the device resources (viz. memory, computation, energy) required by deep learning that currently act as a severe bottleneck to mobile adoption. The foundation of DeepX is a pair of resource control algorithms, designed for the inference stage of deep learning, that: (1) decompose monolithic deep model network architectures into unit- blocks of various types, that are then more efficiently executed by heterogeneous local device processors (e.g., GPUs, CPUs); and (2), perform principled resource scaling that adjusts the architecture of deep models to shape the overhead each unit-blocks introduces. Experiments show, DeepX can allow even large-scale deep learning models to execute efficently on modern mobile processors and significantly outperform existing solutions, such as cloud-based offloading.},
+  doi       = {10.1109/IPSN.2016.7460664},
+  isbn      = {9781509008025},
+  publisher = {of Electrical, Institute and Inc., Electronics Engineers},
+}
+
+@Article{Deng2013,
+  author    = {Deng, Li and Yu, Dong},
+  journal   = {Foundations and Trends in Signal Processing},
+  title     = {Deep learning: methods and applications},
+  year      = {2013},
+  issn      = {1932-8346},
+  month     = jun,
+  number    = {3},
+  pages     = {197--387},
+  volume    = {7},
+  abstract  = {This monograph provides an overview of general deep learning methodology and its applications to a variety of signal and information processing tasks. The application areas are chosen with the following three criteria in mind: (1) expertise or knowledge of the authors; (2) the application areas that have already been transformed by the successful use of deep learning technology, such as speech recognition and computer vision; and (3) the application areas that have the potential to be impacted significantly by deep learning and that have been experiencing research growth, including natural language and text processing, information retrieval, and multimodal information processing empowered by multi-task deep learning.},
+  doi       = {10.1561/2000000039},
+  issue     = {3-4},
+  keywords  = {Artificial intelligence,Autoencoders,Computer vision,Deep learning,Deep neural networks,Deep stacking networks,Hybrid deep networks,Language models,Machine learning,Multi-modal processing,Multi-task learning,Natural language processing,Neural networks,Object recognition,Supervised learning,Unsupervised learning},
+  publisher = {Publishing, Emerald},
+  url       = {https://www.scirp.org/reference/referencespapers?referenceid=2208759},
+}
+
+@Article{McAfee2018,
+  author    = {McAfee, Andrew},
+  journal   = {IESE Insight},
+  title     = {Harnessing the Crowd in the Age of the Machine: The New Business Playbook},
+  year      = {2018},
+  issn      = {2013-3901},
+  month     = jun,
+  number    = {37},
+  pages     = {54--60},
+  doi       = {10.15581/002.ent-3672},
+  publisher = {Universidad de Navarra},
+}
+
+@Article{Ring2019a,
+  author   = {Markus Ring and Sarah Wunderlich and Deniz Scheuring and Dieter Landes and Andreas Hotho},
+  journal  = {Computers & Security},
+  title    = {A survey of network-based intrusion detection data sets},
+  year     = {2019},
+  issn     = {0167-4048},
+  pages    = {147-167},
+  volume   = {86},
+  abstract = {Labeled data sets are necessary to train and evaluate anomaly-based network intrusion detection systems. This work provides a focused literature survey of data sets for network-based intrusion detection and describes the underlying packet- and flow-based network data in detail. The paper identifies 15 different properties to assess the suitability of individual data sets for specific evaluation scenarios. These properties cover a wide range of criteria and are grouped into five categories such as data volume or recording environment for offering a structured search. Based on these properties, a comprehensive overview of existing data sets is given. This overview also highlights the peculiarities of each data set. Furthermore, this work briefly touches upon other sources for network-based data such as traffic generators and data repositories. Finally, we discuss our observations and provide some recommendations for the use and the creation of network-based data sets.},
+  doi      = {https://doi.org/10.1016/j.cose.2019.06.005},
+  keywords = {Intrusion detection, IDS, NIDS, Data sets, Evaluation, Data mining},
+  url      = {https://www.sciencedirect.com/science/article/pii/S016740481930118X},
+}
+
+@InProceedings{Goodfellow2014,
+  author    = {Goodfellow, Ian J. and Pouget-Abadie, Jean and Mirza, Mehdi and Xu, Bing and Warde-Farley, David and Ozair, Sherjil and Courville, Aaron and Bengio, Yoshua},
+  booktitle = {Advances in Neural Information Processing Systems},
+  title     = {Generative Adversarial Nets},
+  year      = {2014},
+  editor    = {Z. Ghahramani and M. Welling and C. Cortes and N. Lawrence and K.Q. Weinberger},
+  publisher = {Curran Associates, Inc.},
+  volume    = {27},
+  url       = {https://proceedings.neurips.cc/paper_files/paper/2014/file/f033ed80deb0234979a61f95710dbe25-Paper.pdf},
+}
+
+@InProceedings{Boehme2010,
+  author    = {Rainer B{\"o}hme and Galina Schwartz},
+  booktitle = {Workshop on the Economics of Information Security},
+  title     = {Modeling Cyber-Insurance: Towards a Unifying Framework},
+  year      = {2010},
+  url       = {https://api.semanticscholar.org/CorpusID:14172008},
+}
+
+@Article{patterson2021carbonemissionslargeneural,
+  author        = {David Patterson and Joseph Gonzalez and Quoc Le and Chen Liang and Lluis-Miquel Munguia and Daniel Rothchild and David So and Maud Texier and Jeff Dean},
+  title         = {Carbon Emissions and Large Neural Network Training},
+  year          = {2021},
+  month         = apr,
+  archiveprefix = {arXiv},
+  doi           = {https://doi.org/10.48550/arXiv.2104.10350},
+  eprint        = {2104.10350},
+  primaryclass  = {cs.LG},
+  url           = {https://arxiv.org/abs/2104.10350},
+}
+
+@techReport{Strom2020,
+   abstract = {MITRE ATT&CK is a globally-accessible knowledge base of adversary tactics and techniques
+based on real-world observations. The ATT&CK knowledge base is used as a foundation for the
+development of specific threat models and methodologies in the private sector, in government,
+and in the cybersecurity product and service community. ATT&CK provides a common
+taxonomy for both offense and defense, and has become a useful conceptual tool across many
+cyber security disciplines to convey threat intelligence, perform testing through red teaming or
+adversary emulation, and improve network and system defenses against intrusions. The process
+MITRE used to create ATT&CK, and the philosophy that has developed for curating new
+content, are critical aspects of the work and are useful for other efforts that strive to create
+similar adversary models and information repositories.},
+   author = {Blake E Strom and Andy Applebaum and Doug P Miller and Kathryn C Nickels and Adam G Pennington and Cody B Thomas},
+   isbn = {19-01075-28},
+   month = {3},
+   title = {MITRE ATT\&CKÒ: Design and Philosophy},
+   year = {2020}
+}
+
+@Book{Brundage2018a,
+  author    = {M Brundage and S Avin and J Clark},
+  publisher = {Future of Humanity Institute},
+  title     = {The Malicious Use of Artificial Intelligence: Forecasting, Prevention, and Mitigation},
+  year      = {2018},
+}
+
+@Book{Standards2023,
+  author    = {National Institute of Standards and Technology},
+  publisher = {National Institute of Standards and Technology (NIST)},
+  title     = {Artificial Intelligence Risk Management Framework (NIST AI 100-1)},
+  year      = {2023},
+  journal   = {Artificial Intelligence Risk Management Framework (NIST AI 100-1)},
+}
+
+@Misc{llmleaderboard,
+  author = {open-llm-leaderboard},
+  title  = {Open LLM Leaderboard - a Hugging Face Space by},
+  url    = {https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard#/ https://huggingface.co/open-llm-leaderboard},
+}
+
+@article{Paszke2019,
+   abstract = {Deep learning frameworks have often focused on either usability or speed, but not both. PyTorch is a machine learning library that shows that these two goals are in fact compatible: it provides an imperative and Pythonic programming style that supports code as a model, makes debugging easy and is consistent with other popular scientific computing libraries, while remaining efficient and supporting hardware accelerators such as GPUs. In this paper, we detail the principles that drove the implementation of PyTorch and how they are reflected in its architecture. We emphasize that every aspect of PyTorch is a regular Python program under the full control of its user. We also explain how the careful and pragmatic implementation of the key components of its runtime enables them to work together to achieve compelling performance. We demonstrate the efficiency of individual subsystems, as well as the overall speed of PyTorch on several common benchmarks.},
+   author = {Adam Paszke and Sam Gross and Francisco Massa and Adam Lerer and James Bradbury and Gregory Chanan and Trevor Killeen and Zeming Lin and Natalia Gimelshein and Luca Antiga and Alban Desmaison and Andreas Köpf and Edward Yang and Zach DeVito and Martin Raison and Alykhan Tejani and Sasank Chilamkurthy and Benoit Steiner and Lu Fang and Junjie Bai and Soumith Chintala},
+   doi = {10.48550/arXiv.1912.01703},
+   journal = {Advances in Neural Information Processing Systems},
+   month = {12},
+   publisher = {Neural information processing systems foundation},
+   title = {PyTorch: An Imperative Style, High-Performance Deep Learning Library},
+   volume = {32},
+   url = {http://arxiv.org/abs/1912.01703},
+   year = {2019}
+}
+
+@article{Hinton2015,
+   abstract = {A very simple way to improve the performance of almost any machine learning algorithm is to train many different models on the same data and then to average their predictions. Unfortunately, making predictions using a whole ensemble of models is cumbersome and may be too computationally expensive to allow deployment to a large number of users, especially if the individual models are large neural nets. Caruana and his collaborators have shown that it is possible to compress the knowledge in an ensemble into a single model which is much easier to deploy and we develop this approach further using a different compression technique. We achieve some surprising results on MNIST and we show that we can significantly improve the acoustic model of a heavily used commercial system by distilling the knowledge in an ensemble of models into a single model. We also introduce a new type of ensemble composed of one or more full models and many specialist models which learn to distinguish fine-grained classes that the full models confuse. Unlike a mixture of experts, these specialist models can be trained rapidly and in parallel.},
+   author = {Geoffrey Hinton and Oriol Vinyals and Jeff Dean},
+   keywords = {()},
+   month = {3},
+   title = {Distilling the Knowledge in a Neural Network},
+   url = {http://arxiv.org/abs/1503.02531},
+   year = {2015}
+}
+
+@misc{NVIDIA2026,
+   author = {NVIDIA},
+   journal = {NVIDIA® CUDA® Toolkit},
+   title = {CUDA Toolkit Documentation 13.1 Update 1},
+   url = {https://docs.nvidia.com/cuda/},
+   year = {2026}
+}
+
+@misc{AWS2026,
+   author = {AWS},
+   journal = {AWS Documentation},
+   title = {PyTorch - AWS Deep Learning AMIs},
+   url = {https://docs.aws.amazon.com/dlami/latest/devguide/tutorial-pytorch.html},
+   year = {2026}
+}
+
+@misc{PyTorch2026,
+   author = {PyTorch},
+   title = {PyTorch/XLA documentation — PyTorch/XLA master documentation},
+   url = {https://docs.pytorch.org/xla/release/r2.8/index.html},
+   year = {2026}
+}
+
+@inproceedings{Jouppi2017,
+   abstract = {Many architects believe that major improvements in cost-energy-performance must now come from domain-specific hardware. This paper evaluates a custom ASIC---called a Tensor Processing Unit (TPU)---deployed in datacenters since 2015 that accelerates the inference phase of neural networks (NN). The heart of the TPU is a 65,536 8-bit MAC matrix multiply unit that offers a peak throughput of 92 TeraOps/second (TOPS) and a large (28 MiB) software-managed on-chip memory. The TPU's deterministic execution model is a better match to the 99th-percentile response-time requirement of our NN applications than are the time-varying optimizations of CPUs and GPUs (caches, out-of-order execution, multithreading, multiprocessing, prefetching, ...) that help average throughput more than guaranteed latency. The lack of such features helps explain why, despite having myriad MACs and a big memory, the TPU is relatively small and low power. We compare the TPU to a server-class Intel Haswell CPU and an Nvidia K80 GPU, which are contemporaries deployed in the same datacenters. Our workload, written in the high-level TensorFlow framework, uses production NN applications (MLPs, CNNs, and LSTMs) that represent 95% of our datacenters' NN inference demand. Despite low utilization for some applications, the TPU is on average about 15X - 30X faster than its contemporary GPU or CPU, with TOPS/Watt about 30X - 80X higher. Moreover, using the GPU's GDDR5 memory in the TPU would triple achieved TOPS and raise TOPS/Watt to nearly 70X the GPU and 200X the CPU.},
+   author = {Norman P. Jouppi and Cliff Young and Nishant Patil and David Patterson and Gaurav Agrawal and Raminder Bajwa and Sarah Bates and Suresh Bhatia and Nan Boden and Al Borchers and Rick Boyle and Pierre-luc Cantin and Clifford Chao and Chris Clark and Jeremy Coriell and Mike Daley and Matt Dau and Jeffrey Dean and Ben Gelb and Tara Vazir Ghaemmaghami and Rajendra Gottipati and William Gulland and Robert Hagmann and C. Richard Ho and Doug Hogberg and John Hu and Robert Hundt and Dan Hurt and Julian Ibarz and Aaron Jaffey and Alek Jaworski and Alexander Kaplan and Harshit Khaitan and Daniel Killebrew and Andy Koch and Naveen Kumar and Steve Lacy and James Laudon and James Law and Diemthu Le and Chris Leary and Zhuyuan Liu and Kyle Lucke and Alan Lundin and Gordon MacKean and Adriana Maggiore and Maire Mahony and Kieran Miller and Rahul Nagarajan and Ravi Narayanaswami and Ray Ni and Kathy Nix and Thomas Norrie and Mark Omernick and Narayana Penukonda and Andy Phelps and Jonathan Ross and Matt Ross and Amir Salek and Emad Samadiani and Chris Severn and Gregory Sizikov and Matthew Snelham and Jed Souter and Dan Steinberg and Andy Swing and Mercedes Tan and Gregory Thorson and Bo Tian and Horia Toma and Erick Tuttle and Vijay Vasudevan and Richard Walter and Walter Wang and Eric Wilcox and Doe Hyun Yoon},
+   city = {New York, NY, USA},
+   doi = {10.1145/3079856.3080246},
+   isbn = {9781450348928},
+   issn = {10636897},
+   booktitle = {Proceedings of the 44th Annual International Symposium on Computer Architecture},
+   keywords = {Accelerator,CNN,DNN,Deep learning,Domain-specific architecture,GPU,LSTM,MLP,Neural network,RNN,TPU,TensorFlow},
+   month = {6},
+   pages = {1-12},
+   publisher = {ACM},
+   title = {In-Datacenter Performance Analysis of a Tensor Processing Unit},
+   volume = {Part F128643},
+   url = {https://dl.acm.org/doi/10.1145/3079856.3080246},
+   year = {2017}
+}
+
+@misc{OpenXLA2026,
+   author = {OpenXLA},
+   journal = {OpenXLA Project},
+   title = {XLA: Optimizing Compiler for Machine Learning},
+   url = {https://openxla.org/xla/tf2xla},
+   year = {2026}
+}
+
+@misc{Zaman2019,
+   author = {Malia Zaman},
+   journal = {IEEE Standards},
+   month = {7},
+   title = {IEEE SA - IEEE 754-2019},
+   url = {https://standards.ieee.org/ieee/754/6210/},
+   year = {2019}
+}
+
+@article{IEEE2019,
+   author = {IEEE},
+   city = {Piscataway, NJ, USA},
+   doi = {10.1109/IEEESTD.2019.8766229},
+   isbn = {978-1-5044-5924-2},
+   month = {6},
+   publisher = {IEEE},
+   title = {IEEE Standard for Floating-Point Arithmetic},
+   url = {https://ieeexplore.ieee.org/document/8766229},
+   year = {2019}
+}
+
+@article{Amershi2019,
+   abstract = {Advances in artifcial intelligence (AI) frame opportunities and challenges for user interface design. Principles for human-AI interaction have been discussed in the human-computer interaction community for over two decades, but more study and innovation are needed in light of advances in AI and the growing uses of AI technologies in human-facing applications. We propose 18 generally applicable design guidelines for human-AI interaction. These guidelines are validated through multiple rounds of evaluation including a user study with 49 design practitioners who tested the guidelines against 20 popular AI-infused products. The results verify the relevance of the guidelines over a spectrum of interaction scenarios and reveal gaps in our knowledge, highlighting opportunities for further research. Based on the evaluations, we believe the set of design guidelines can serve as a resource to practitioners working on the design of applications and features that harness AI technologies, and to researchers interested in the further development of guidelines for human-AI interaction design.},
+   author = {Saleema Amershi and Dan Weld and Mihaela Vorvoreanu and Adam Fourney and Besmira Nushi and Penny Collisson and Jina Suh and Shamsi Iqbal and Paul N. Bennett and Kori Inkpen and Jaime Teevan and Ruth Kikin-Gil and Eric Horvitz},
+   doi = {10.1145/3290605.3300233},
+   isbn = {9781450359702},
+   journal = {Conference on Human Factors in Computing Systems - Proceedings},
+   keywords = {AI-infused systems,Design guidelines,Human-AI interaction},
+   month = {5},
+   publisher = {Association for Computing Machinery},
+   title = {Guidelines for human-AI interaction},
+   year = {2019}
+}
+
+@article{Zaharia2016,
+   abstract = {This open source computing framework unifies streaming, batch, and interactive big data workloads to unlock new applications.},
+   author = {Matei Zaharia and Reynold S. Xin and Patrick Wendell and Tathagata Das and Michael Armbrust and Ankur Dave and Xiangrui Meng and Josh Rosen and Shivaram Venkataraman and Michael J. Franklin and Ali Ghodsi and Joseph Gonzalez and Scott Shenker and Ion Stoica},
+   doi = {10.1145/2934664},
+   issn = {15577317},
+   issue = {11},
+   journal = {Communications of the ACM},
+   month = {11},
+   pages = {56-65},
+   publisher = {Association for Computing Machinery},
+   title = {Apache spark: A unified engine for big data processing},
+   volume = {59},
+   url = {/doi/pdf/10.1145/2934664?download=true},
+   year = {2016}
+}
+
+@Article{OpenAI2024,
+  author        = {OpenAI and Josh Achiam and Steven Adler and Sandhini Agarwal and Lama Ahmad and Ilge Akkaya and Florencia Leoni Aleman and Diogo Almeida and Janko Altenschmidt and Sam Altman and Shyamal Anadkat and Red Avila and Igor Babuschkin and Suchir Balaji and Valerie Balcom and Paul Baltescu and Haiming Bao and Mohammad Bavarian and Jeff Belgum and Irwan Bello and Jake Berdine and Gabriel Bernadett-Shapiro and Christopher Berner and Lenny Bogdonoff and Oleg Boiko and Madelaine Boyd and Anna-Luisa Brakman and Greg Brockman and Tim Brooks and Miles Brundage and Kevin Button and Trevor Cai and Rosie Campbell and Andrew Cann and Brittany Carey and Chelsea Carlson and Rory Carmichael and Brooke Chan and Che Chang and Fotis Chantzis and Derek Chen and Sully Chen and Ruby Chen and Jason Chen and Mark Chen and Ben Chess and Chester Cho and Casey Chu and Hyung Won Chung and Dave Cummings and Jeremiah Currier and Yunxing Dai and Cory Decareaux and Thomas Degry and Noah Deutsch and Damien Deville and Arka Dhar and David Dohan and Steve Dowling and Sheila Dunning and Adrien Ecoffet and Atty Eleti and Tyna Eloundou and David Farhi and Liam Fedus and Niko Felix and Simón Posada Fishman and Juston Forte and Isabella Fulford and Leo Gao and Elie Georges and Christian Gibson and Vik Goel and Tarun Gogineni and Gabriel Goh and Rapha Gontijo-Lopes and Jonathan Gordon and Morgan Grafstein and Scott Gray and Ryan Greene and Joshua Gross and Shixiang Shane Gu and Yufei Guo and Chris Hallacy and Jesse Han and Jeff Harris and Yuchen He and Mike Heaton and Johannes Heidecke and Chris Hesse and Alan Hickey and Wade Hickey and Peter Hoeschele and Brandon Houghton and Kenny Hsu and Shengli Hu and Xin Hu and Joost Huizinga and Shantanu Jain and Shawn Jain and Joanne Jang and Angela Jiang and Roger Jiang and Haozhun Jin and Denny Jin and Shino Jomoto and Billie Jonn and Heewoo Jun and Tomer Kaftan and Łukasz Kaiser and Ali Kamali and Ingmar Kanitscheider and Nitish Shirish Keskar and Tabarak Khan and Logan Kilpatrick and Jong Wook Kim and Christina Kim and Yongjik Kim and Jan Hendrik Kirchner and Jamie Kiros and Matt Knight and Daniel Kokotajlo and Łukasz Kondraciuk and Andrew Kondrich and Aris Konstantinidis and Kyle Kosic and Gretchen Krueger and Vishal Kuo and Michael Lampe and Ikai Lan and Teddy Lee and Jan Leike and Jade Leung and Daniel Levy and Chak Ming Li and Rachel Lim and Molly Lin and Stephanie Lin and Mateusz Litwin and Theresa Lopez and Ryan Lowe and Patricia Lue and Anna Makanju and Kim Malfacini and Sam Manning and Todor Markov and Yaniv Markovski and Bianca Martin and Katie Mayer and Andrew Mayne and Bob McGrew and Scott Mayer McKinney and Christine McLeavey and Paul McMillan and Jake McNeil and David Medina and Aalok Mehta and Jacob Menick and Luke Metz and Andrey Mishchenko and Pamela Mishkin and Vinnie Monaco and Evan Morikawa and Daniel Mossing and Tong Mu and Mira Murati and Oleg Murk and David Mély and Ashvin Nair and Reiichiro Nakano and Rajeev Nayak and Arvind Neelakantan and Richard Ngo and Hyeonwoo Noh and Long Ouyang and Cullen O'Keefe and Jakub Pachocki and Alex Paino and Joe Palermo and Ashley Pantuliano and Giambattista Parascandolo and Joel Parish and Emy Parparita and Alex Passos and Mikhail Pavlov and Andrew Peng and Adam Perelman and Filipe de Avila Belbute Peres and Michael Petrov and Henrique Ponde de Oliveira Pinto and Michael and Pokorny and Michelle Pokrass and Vitchyr H. Pong and Tolly Powell and Alethea Power and Boris Power and Elizabeth Proehl and Raul Puri and Alec Radford and Jack Rae and Aditya Ramesh and Cameron Raymond and Francis Real and Kendra Rimbach and Carl Ross and Bob Rotsted and Henri Roussez and Nick Ryder and Mario Saltarelli and Ted Sanders and Shibani Santurkar and Girish Sastry and Heather Schmidt and David Schnurr and John Schulman and Daniel Selsam and Kyla Sheppard and Toki Sherbakov and Jessica Shieh and Sarah Shoker and Pranav Shyam and Szymon Sidor and Eric Sigler and Maddie Simens and Jordan Sitkin and Katarina Slama and Ian Sohl and Benjamin Sokolowsky and Yang Song and Natalie Staudacher and Felipe Petroski Such and Natalie Summers and Ilya Sutskever and Jie Tang and Nikolas Tezak and Madeleine B. Thompson and Phil Tillet and Amin Tootoonchian and Elizabeth Tseng and Preston Tuggle and Nick Turley and Jerry Tworek and Juan Felipe Cerón Uribe and Andrea Vallone and Arun Vijayvergiya and Chelsea Voss and Carroll Wainwright and Justin Jay Wang and Alvin Wang and Ben Wang and Jonathan Ward and Jason Wei and CJ Weinmann and Akila Welihinda and Peter Welinder and Jiayi Weng and Lilian Weng and Matt Wiethoff and Dave Willner and Clemens Winter and Samuel Wolrich and Hannah Wong and Lauren Workman and Sherwin Wu and Jeff Wu and Michael Wu and Kai Xiao and Tao Xu and Sarah Yoo and Kevin Yu and Qiming Yuan and Wojciech Zaremba and Rowan Zellers and Chong Zhang and Marvin Zhang and Shengjia Zhao and Tianhao Zheng and Juntang Zhuang and William Zhuk and Barret Zoph},
+  journal       = {SPE Annual Technical Conference and Exhibition},
+  title         = {Gpt-4 technical report},
+  year          = {2024},
+  month         = mar,
+  note          = {ArXiv preprint},
+  abstract      = {We report the development of GPT-4, a large-scale, multimodal model which can accept image and text inputs and produce text outputs. While less capable than humans in many real-world scenarios, GPT-4 exhibits human-level performance on various professional and academic benchmarks, including passing a simulated bar exam with a score around the top 10% of test takers. GPT-4 is a Transformer-based model pre-trained to predict the next token in a document. The post-training alignment process results in improved performance on measures of factuality and adherence to desired behavior. A core component of this project was developing infrastructure and optimization methods that behave predictably across a wide range of scales. This allowed us to accurately predict some aspects of GPT-4's performance based on models trained with no more than 1/1,000th the compute of GPT-4.},
+  archiveprefix = {arxiv},
+  doi           = {10.2118/228028-ms},
+  eprint        = {2303.08774},
+  publisher     = {SPE},
+  url           = {http://arxiv.org/abs/2303.08774},
+}
+
+@Book{Wooldridge2009,
+  author    = {Wooldridge, Michael J..},
+  publisher = {John Wiley \& Sons},
+  title     = {An introduction to multiagent systems},
+  year      = {2009},
+  edition   = {second},
+  isbn      = {9780470519462},
+  month     = may,
+  abstract  = {2nd ed. This book will introduce students to intelligent agents, explain what these agents are, how they are constructed and how they can be made to co-operate effectively with one another in large-scale systems. Intelligent Agents -- Deductive Reasoning Agents -- Practical Reasoning Agents -- Reactive and Hybrid Agents -- Understanding Each Other -- Communicating -- Working Together -- Methodologies -- Applications -- Multiagent Interactions -- Making Group Decisions -- Forming Coalitions -- Allocating Scarce Resources -- Bargaining -- Arguing -- Logical Foundations.},
+  pages     = {461},
+  url       = {https://uranos.ch/research/references/Wooldridge_2001/TLTK.pdf https://www.wiley.com/en-be/An+Introduction+to+MultiAgent+Systems%2C+2nd+Edition-p-9780470519462 https://www.amazon.com/Introduction-MultiAgent-Systems-Michael-Wooldridge/dp/047149691X},
+}
+
+@Book{Russell2022,
+  author    = {Russell, S. and Norvig, P.},
+  publisher = {Pearson Education Limited},
+  title     = {Artificial intelligence: a modern approach},
+  year      = {2022},
+  edition   = {fourth},
+  city      = {Hoboken, NJ},
+}
+
+@Article{Srivastava2014,
+  author   = {Srivastava, Nitish and Hinton, Geoffrey and Krizhevsky, Alex and Salakhutdinov, Ruslan},
+  journal  = {Journal of Machine Learning Research},
+  title    = {Dropout: a simple way to prevent neural networks from overfitting},
+  year     = {2014},
+  month    = jan,
+  pages    = {1929--1958},
+  volume   = {15},
+  abstract = {Deep neural nets with a large number of parameters are very powerful machine learning systems. However, overfitting is a serious problem in such networks. Large networks are also slow to use, making it difficult to deal with overfitting by combining the predictions of many different large neural nets at test time. Dropout is a technique for addressing this problem. The key idea is to randomly drop units (along with their connections) from the neural network during training. This prevents units from co-adapting too much. During training, dropout samples from an exponential number of different "thinned" networks. At test time, it is easy to approximate the effect of averaging the predictions of all these thinned networks by simply using a single unthinned network that has smaller weights. This significantly reduces overfitting and gives major improvements over other regularization methods. We show that dropout improves the performance of neural networks on supervised learning tasks in vision, speech recognition, document classification and computational biology, obtaining state-of-the-art results on many benchmark data sets.},
+  issue    = {56},
+  keywords = {deep learning,model combination,neural networks,regularization},
+  url      = {http://jmlr.org/papers/v15/srivastava14a.html},
+}
+
+@Article{Sze2017,
+  author        = {Sze, Vivienne and Chen, Yu-Hsin and Yang, Tien-Ju and Emer, Joel},
+  journal       = {Proceedings of the IEEE},
+  title         = {Efficient processing of deep neural networks: a tutorial and survey},
+  year          = {2017},
+  month         = aug,
+  pages         = {2295--2329},
+  volume        = {105},
+  abstract      = {Deep neural networks (DNNs) are currently widely used for many artificial intelligence (AI) applications including computer vision, speech recognition, and robotics. While DNNs deliver state-of-the-art accuracy on many AI tasks, it comes at the cost of high computational complexity. Accordingly, techniques that enable efficient processing of DNNs to improve energy efficiency and throughput without sacrificing application accuracy or increasing hardware cost are critical to the wide deployment of DNNs in AI systems. This article aims to provide a comprehensive tutorial and survey about the recent advances towards the goal of enabling efficient processing of DNNs. Specifically, it will provide an overview of DNNs, discuss various hardware platforms and architectures that support DNNs, and highlight key trends in reducing the computation cost of DNNs either solely via hardware design changes or via joint hardware design and DNN algorithm changes. It will also summarize various development resources that enable researchers and practitioners to quickly get started in this field, and highlight important benchmarking metrics and design considerations that should be used for evaluating the rapidly growing number of DNN hardware designs, optionally including algorithmic co-designs, being proposed in academia and industry. The reader will take away the following concepts from this article: understand the key design considerations for DNNs; be able to evaluate different DNN hardware implementations with benchmarks and comparison metrics; understand the trade-offs between various hardware architectures and platforms; be able to evaluate the utility of various DNN design techniques for efficient processing; and understand recent implementation trends and opportunities.},
+  archiveprefix = {arxiv},
+  doi           = {10.48550/arxiv.1703.09039},
+  eprint        = {1703.09039},
+  issue         = {12},
+  keywords      = {ASIC,VLSI,computer architecture,convolutional neural networks,dataflow processing,deep learning,deep neural networks,energy-efficient accelerators,low power,machine learning,spatial architectures},
+  publisher     = {Institute of Electrical and Electronics Engineers Inc.},
+  url           = {http://arxiv.org/abs/1703.09039},
+}
+
+@Misc{OECD2026,
+  author  = {OECD},
+  title   = {Ai principles overview - oecd.ai},
+  year    = {2026},
+  journal = {OECD's artificial intelligence newsletter},
+  url     = {https://oecd.ai/en/ai-principles},
+}
+
+@Article{Lin2024,
+  author        = {Lin, Ji and Tang, Jiaming and Tang, Haotian and Yang, Shang and Chen, Wei-Ming and Wang, Wei-Chen and Xiao, Guangxuan and Dang, Xingyu and Gan, Chuang and Han, Song},
+  journal       = {arXiv:2306.00978},
+  title         = {AWQ: activation-aware weight quantization for llm compression and acceleration},
+  year          = {2024},
+  month         = jul,
+  pages         = {14},
+  abstract      = {Large language models (LLMs) have transformed numerous AI applications. On-device LLM is becoming increasingly important: running LLMs locally on edge devices can reduce the cloud computing cost and protect users' privacy. However, the astronomical model size and the limited hardware resource pose significant deployment challenges. We propose Activation-aware Weight Quantization (AWQ), a hardware-friendly approach for LLM low-bit weight-only quantization. AWQ finds that not all weights in an LLM are equally important. Protecting only 1% salient weights can greatly reduce quantization error. To identify salient weight channels, we should refer to the activation distribution, not weights. To avoid the hardware-inefficient mix-precision quantization, we mathematically derive that scaling up the salient channels can reduce the quantization error. AWQ employs an equivalent transformation to scale the salient weight channels to protect them. The scale is determined by collecting the activation statistics offline. AWQ does not rely on any backpropagation or reconstruction, so it generalizes to different domains and modalities without overfitting the calibration set. AWQ outperforms existing work on various language modeling and domain-specific benchmarks (coding and math). Thanks to better generalization, it achieves excellent quantization performance for instruction-tuned LMs and, for the first time, multi-modal LMs. Alongside AWQ, we implement TinyChat, an efficient and flexible inference framework tailored for 4-bit on-device LLM/VLMs. With kernel fusion and platform-aware weight packing, TinyChat offers more than 3x speedup over the Huggingface FP16 implementation on both desktop and mobile GPUs. It also democratizes the deployment of the 70B Llama-2 model on mobile GPUs.},
+  archiveprefix = {arxiv},
+  doi           = {10.48550/arxiv.2306.00978},
+  eprint        = {2306.00978},
+  url           = {http://arxiv.org/abs/2306.00978},
+}
+
+@Comment{jabref-meta: databaseType:bibtex;}
