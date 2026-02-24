@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<b:Sources xmlns:b="http://schemas.openxmlformats.org/officeDocument/2006/bibliography" xmlns="http://schemas.openxmlformats.org/officeDocument/2006/bibliography" SelectedStyle="">
+    <b:Source>
+        <b:BIBTEX_Copyright>arXiv.org perpetual, non-exclusive license</b:BIBTEX_Copyright>
+        <b:BIBTEX_Entry>article</b:BIBTEX_Entry>
+        <b:Comments>arXif:10.48550</b:Comments>
+        <b:SourceType>JournalArticle</b:SourceType>
+        <b:Title>Attention Is All You Need</b:Title>
+        <b:Publisher>Curran Associates Inc.</b:Publisher>
+        <b:BIBTEX_KeyWords>Computation and Language (cs.CL), Machine Learning (cs.LG), FOS: Computer and information sciences, FOS: Computer and information sciences</b:BIBTEX_KeyWords>
+        <b:URL>http://arxiv.org/abs/1706.03762</b:URL>
+        <b:Year>2017</b:Year>
+        <b:Volume>30</b:Volume>
+        <b:BIBTEX_Abstract>The dominant sequence transduction models are based on complex recurrent or convolutional neural networks in an encoder-decoder configuration. The best performing models also connect the encoder and decoder through an attention mechanism. We propose a new simple network architecture, the Transformer, based solely on attention mechanisms, dispensing with recurrence and convolutions entirely. Experiments on two machine translation tasks show these models to be superior in quality while being more parallelizable and requiring significantly less time to train. Our model achieves 28.4 BLEU on the WMT 2014 English-to-German translation task, improving over the existing best results, including ensembles by over 2 BLEU. On the WMT 2014 English-to-French translation task, our model establishes a new single-model state-of-the-art BLEU score of 41.8 after training for 3.5 days on eight GPUs, a small fraction of the training costs of the best models from the literature. We show that the Transformer generalizes well to other tasks by applying it successfully to English constituency parsing both with large and limited training data.</b:BIBTEX_Abstract>
+        <b:Tag>Vaswani2017</b:Tag>
+        <b:DOI>10.48550/ARXIV.1706.03762</b:DOI>
+        <b:Author>
+            <b:Author>
+                <b:NameList>
+                    <b:Person>
+                        <b:Last>Vaswani</b:Last>
+                        <b:First>Ashish</b:First>
+                    </b:Person>
+                    <b:Person>
+                        <b:Last>Shazeer</b:Last>
+                        <b:First>Noam</b:First>
+                    </b:Person>
+                    <b:Person>
+                        <b:Last>Parmar</b:Last>
+                        <b:First>Niki</b:First>
+                    </b:Person>
+                    <b:Person>
+                        <b:Last>Uszkoreit</b:Last>
+                        <b:First>Jakob</b:First>
+                    </b:Person>
+                    <b:Person>
+                        <b:Last>Jones</b:Last>
+                        <b:First>Llion</b:First>
+                    </b:Person>
+                    <b:Person>
+                        <b:Last>Gomez</b:Last>
+                        <b:Middle>N.</b:Middle>
+                        <b:First>Aidan</b:First>
+                    </b:Person>
+                    <b:Person>
+                        <b:Last>Kaiser</b:Last>
+                        <b:First>Lukasz</b:First>
+                    </b:Person>
+                    <b:Person>
+                        <b:Last>Polosukhin</b:Last>
+                        <b:First>Illia</b:First>
+                    </b:Person>
+                </b:NameList>
+            </b:Author>
+        </b:Author>
+        <b:Pages>6000-6010</b:Pages>
+        <b:Month>August</b:Month>
+        <b:JournalName>Advances in Neural Information Processing Systems (NIPS</b:JournalName>
+    </b:Source>
+</b:Sources>
