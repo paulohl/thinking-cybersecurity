@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<b:Sources xmlns:b="http://schemas.openxmlformats.org/officeDocument/2006/bibliography" xmlns="http://schemas.openxmlformats.org/officeDocument/2006/bibliography" SelectedStyle="">
+    <b:Source>
+        <b:Year>1997</b:Year>
+        <b:BIBTEX_Entry>book</b:BIBTEX_Entry>
+        <b:Comments>Description based on publisher supplied metadata and other sources.</b:Comments>
+        <b:SourceType>Book</b:SourceType>
+        <b:Title>Models of bounded rationality</b:Title>
+        <b:Tag>Simon1997a</b:Tag>
+        <b:Publisher>The MIT Press</b:Publisher>
+        <b:Author>
+            <b:Author>
+                <b:NameList>
+                    <b:Person>
+                        <b:Last>Simon</b:Last>
+                        <b:Middle>Alexander</b:Middle>
+                        <b:First>Herbert</b:First>
+                    </b:Person>
+                </b:NameList>
+            </b:Author>
+        </b:Author>
+        <b:StandardNumber> ISBN: 9780262283649</b:StandardNumber>
+        <b:City>Cambridge</b:City>
+        <b:StateProvince>Massachusetts</b:StateProvince>
+        <b:CountryRegion/>
+    </b:Source>
+    <b:Source>
+        <b:Year>1999</b:Year>
+        <b:BIBTEX_Entry>book</b:BIBTEX_Entry>
+        <b:SourceType>Book</b:SourceType>
+        <b:Title>Swarm Intelligence: From Natural to Artificial Systems</b:Title>
+        <b:BIBTEX_Abstract>Social insects–ants, bees, termites, and wasps–can be viewed as powerful problem-solving systems with sophisticated collective intelligence. Composed of simple interacting agents, this intelligence lies in the networks of interactions among individuals and between individuals and the environment. A fascinating subject, social insects are also a powerful metaphor for artificial intelligence, and the problems they solve–finding food, dividing labor among nestmates, building nests, responding to external challenges–have important counterparts in engineering and computer science. This book provides a detailed look at models of social insect behavior and how to apply these models in the design of complex systems. The book shows how these models replace an emphasis on control, preprogramming, and centralization with designs featuring autonomy, emergence, and distributed functioning. These designs are proving immensely flexible and robust, able to adapt quickly to changing environments and to continue functioning even when individual elements fail. In particular, these designs are an exciting approach to the tremendous growth of complexity in software and information. Swarm Intelligence draws on up-to-date research from biology, neuroscience, artificial intelligence, robotics, operations research, and computer graphics, and each chapter is organized around a particular biological example, which is then used to develop an algorithm, a multiagent system, or a group of robots. The book will be an invaluable resource for a broad range of disciplines.</b:BIBTEX_Abstract>
+        <b:Publisher>Oxford University Press</b:Publisher>
+        <b:Tag>Bonabeau1999a</b:Tag>
+        <b:URL>https://doi.org/10.1093/oso/9780195131581.001.0001</b:URL>
+        <b:DOI>10.1093/oso/9780195131581.001.0001</b:DOI>
+        <b:Author>
+            <b:Author>
+                <b:NameList>
+                    <b:Person>
+                        <b:Last>Bonabeau</b:Last>
+                        <b:First>Eric</b:First>
+                    </b:Person>
+                    <b:Person>
+                        <b:Last>Dorigo</b:Last>
+                        <b:First>Marco</b:First>
+                    </b:Person>
+                    <b:Person>
+                        <b:Last>Theraulaz</b:Last>
+                        <b:First>Guy</b:First>
+                    </b:Person>
+                </b:NameList>
+            </b:Author>
+        </b:Author>
+        <b:Month>October</b:Month>
+        <b:StandardNumber> ISBN: 9780195131581</b:StandardNumber>
+    </b:Source>
+    <b:Source>
+        <b:LCID>1033</b:LCID>
+        <b:Year>2023</b:Year>
+        <b:BIBTEX_Entry>electronic</b:BIBTEX_Entry>
+        <b:SourceType>ElectronicSource</b:SourceType>
+        <b:Title>Amazon SageMaker Documentation</b:Title>
+        <b:BIBTEX_HowPublished>\url{https://docs.aws.amazon.com/sagemaker/}</b:BIBTEX_HowPublished>
+        <b:Tag>aws2023sagemaker</b:Tag>
+        <b:URL>https://docs.aws.amazon.com/sagemaker/</b:URL>
+        <b:Author>
+            <b:Author>
+                <b:Corporate>AWS</b:Corporate>
+            </b:Author>
+        </b:Author>
+    </b:Source>
+    <b:Source>
+        <b:Year>1988</b:Year>
+        <b:Volume>5</b:Volume>
+        <b:BIBTEX_Entry>article</b:BIBTEX_Entry>
+        <b:SourceType>JournalArticle</b:SourceType>
+        <b:Title>The society of mind</b:Title>
+        <b:Tag>Stryker1988a</b:Tag>
+        <b:URL>http://aurellem.org/society-of-mind/index.html</b:URL>
+        <b:DOI>10.1515/9781400848393-056</b:DOI>
+        <b:Author>
+            <b:Author>
+                <b:NameList>
+                    <b:Person>
+                        <b:Last>Minsky</b:Last>
+                        <b:Middle>Lee</b:Middle>
+                        <b:First>Marvin</b:First>
+                    </b:Person>
+                </b:NameList>
+            </b:Author>
+        </b:Author>
+        <b:Pages>266-266</b:Pages>
+        <b:JournalName>Systems Research</b:JournalName>
+        <b:Number>3</b:Number>
+    </b:Source>
+    <b:Source>
+        <b:Year>2019</b:Year>
+        <b:Volume>1</b:Volume>
+        <b:BIBTEX_Entry>article</b:BIBTEX_Entry>
+        <b:SourceType>JournalArticle</b:SourceType>
+        <b:Title>The global landscape of AI ethics guidelines</b:Title>
+        <b:Tag>Jobin2019a</b:Tag>
+        <b:Publisher>Springer Science and Business Media LLC</b:Publisher>
+        <b:DOI>10.1038/s42256-019-0088-2</b:DOI>
+        <b:Author>
+            <b:Author>
+                <b:NameList>
+                    <b:Person>
+                        <b:Last>Jobin</b:Last>
+                        <b:First>Anna</b:First>
+                    </b:Person>
+                    <b:Person>
+                        <b:Last>Ienca</b:Last>
+                        <b:First>Marcello</b:First>
+                    </b:Person>
+                    <b:Person>
+                        <b:Last>Vayena</b:Last>
+                        <b:First>Effy</b:First>
+                    </b:Person>
+                </b:NameList>
+            </b:Author>
+        </b:Author>
+        <b:Pages>389–399</b:Pages>
+        <b:Month>September</b:Month>
+        <b:JournalName>Nature Machine Intelligence</b:JournalName>
+        <b:Number>9</b:Number>
+        <b:StandardNumber> ISSN: 2522-5839</b:StandardNumber>
+    </b:Source>
+    <b:Source>
+        <b:Year>1959</b:Year>
+        <b:Volume>12</b:Volume>
+        <b:BIBTEX_Entry>article</b:BIBTEX_Entry>
+        <b:SourceType>JournalArticle</b:SourceType>
+        <b:Title>The Logic of Scientific Discovery</b:Title>
+        <b:Tag>Popper1959</b:Tag>
+        <b:Publisher>American Institute of Physics</b:Publisher>
+        <b:DOI>10.1063/1.3060577</b:DOI>
+        <b:Author>
+            <b:Author>
+                <b:NameList>
+                    <b:Person>
+                        <b:Last>Popper</b:Last>
+                        <b:Middle>R.</b:Middle>
+                        <b:First>Karl</b:First>
+                    </b:Person>
+                    <b:Person>
+                        <b:Last>Weiss</b:Last>
+                        <b:First>George</b:First>
+                    </b:Person>
+                </b:NameList>
+            </b:Author>
+        </b:Author>
+        <b:Pages>53–54</b:Pages>
+        <b:Month>November</b:Month>
+        <b:JournalName>Physics Today</b:JournalName>
+        <b:Number>11</b:Number>
+        <b:StandardNumber> ISSN: 0031-9228</b:StandardNumber>
+    </b:Source>
+    <b:Source>
+        <b:Year>2018</b:Year>
+        <b:BIBTEX_Entry>electronic</b:BIBTEX_Entry>
+        <b:SourceType>ElectronicSource</b:SourceType>
+        <b:Title>Experiment tracking with Weights and Biases</b:Title>
+        <b:Tag>biewald2020experiment</b:Tag>
+        <b:URL>https://wandb.ai/wandb_fc/articles/reports/Machine-Learning-Experiment-Tracking–Vmlldzo1NDI1Mjcy</b:URL>
+        <b:Author>
+            <b:Author>
+                <b:NameList>
+                    <b:Person>
+                        <b:Last>Biewald</b:Last>
+                        <b:First>Lukas</b:First>
+                    </b:Person>
+                </b:NameList>
+            </b:Author>
+        </b:Author>
+        <b:Month>September</b:Month>
+        <b:JournalName>Software available from wandb.com</b:JournalName>
+    </b:Source>
+    <b:Source>
+        <b:Year>2012</b:Year>
+        <b:BIBTEX_Entry>book</b:BIBTEX_Entry>
+        <b:Comments>Literaturverz. S. [425] - 451</b:Comments>
+        <b:SourceType>Book</b:SourceType>
+        <b:Title>An introduction to multiagent systems</b:Title>
+        <b:Tag>Wooldridge2012a</b:Tag>
+        <b:Publisher>Wiley</b:Publisher>
+        <b:Edition>2. ed., repr.</b:Edition>
+        <b:Author>
+            <b:Author>
+                <b:NameList>
+                    <b:Person>
+                        <b:Last>Wooldridge</b:Last>
+                        <b:Middle>J.</b:Middle>
+                        <b:First>Michael</b:First>
+                    </b:Person>
+                </b:NameList>
+            </b:Author>
+        </b:Author>
+        <b:StandardNumber> ISBN: 9780470519462</b:StandardNumber>
+        <b:City>Chichester</b:City>
+    </b:Source>
+    <b:Source>
+        <b:BIBTEX_Copyright>arXiv.org perpetual, non-exclusive license</b:BIBTEX_Copyright>
+        <b:Year>2024</b:Year>
+        <b:BIBTEX_Entry>article</b:BIBTEX_Entry>
+        <b:SourceType>JournalArticle</b:SourceType>
+        <b:Title>Stealing Part of a Production Language Model</b:Title>
+        <b:BIBTEX_Abstract>We introduce the first model-stealing attack that extracts precise, nontrivial information from black-box production language models like OpenAI's ChatGPT or Google's PaLM-2. Specifically, our attack recovers the embedding projection layer (up to symmetries) of a transformer model, given typical API access. For under $20 USD, our attack extracts the entire projection matrix of OpenAI's Ada and Babbage language models. We thereby confirm, for the first time, that these black-box models have a hidden dimension of 1024 and 2048, respectively. We also recover the exact hidden dimension size of the gpt-3.5-turbo model, and estimate it would cost under 2,000 in queries to recover the entire projection matrix. We conclude with potential defenses and mitigations, and discuss the implications of possible future work that could extend our attack.</b:BIBTEX_Abstract>
+        <b:Tag>Carlini2024a</b:Tag>
+        <b:Publisher>arXiv</b:Publisher>
+        <b:BIBTEX_KeyWords>Cryptography and Security (cs.CR), FOS: Computer and information sciences</b:BIBTEX_KeyWords>
+        <b:DOI>10.48550/ARXIV.2403.06634</b:DOI>
+        <b:Author>
+            <b:Author>
+                <b:NameList>
+                    <b:Person>
+                        <b:Last>Carlini</b:Last>
+                        <b:First>Nicholas</b:First>
+                    </b:Person>
+                    <b:Person>
+                        <b:Last>Paleka</b:Last>
+                        <b:First>Daniel</b:First>
+                    </b:Person>
+                    <b:Person>
+                        <b:Last>Dvijotham</b:Last>
+                        <b:Middle>Dj</b:Middle>
+                        <b:First>Krishnamurthy</b:First>
+                    </b:Person>
+                    <b:Person>
+                        <b:Last>Steinke</b:Last>
+                        <b:First>Thomas</b:First>
+                    </b:Person>
+                    <b:Person>
+                        <b:Last>Hayase</b:Last>
+                        <b:First>Jonathan</b:First>
+                    </b:Person>
+                    <b:Person>
+                        <b:Last>Cooper</b:Last>
+                        <b:Middle>Feder</b:Middle>
+                        <b:First>A.</b:First>
+                    </b:Person>
+                    <b:Person>
+                        <b:Last>Lee</b:Last>
+                        <b:First>Katherine</b:First>
+                    </b:Person>
+                    <b:Person>
+                        <b:Last>Jagielski</b:Last>
+                        <b:First>Matthew</b:First>
+                    </b:Person>
+                    <b:Person>
+                        <b:Last>Nasr</b:Last>
+                        <b:First>Milad</b:First>
+                    </b:Person>
+                    <b:Person>
+                        <b:Last>Conmy</b:Last>
+                        <b:First>Arthur</b:First>
+                    </b:Person>
+                    <b:Person>
+                        <b:Last>Yona</b:Last>
+                        <b:First>Itay</b:First>
+                    </b:Person>
+                    <b:Person>
+                        <b:Last>Wallace</b:Last>
+                        <b:First>Eric</b:First>
+                    </b:Person>
+                    <b:Person>
+                        <b:Last>Rolnick</b:Last>
+                        <b:First>David</b:First>
+                    </b:Person>
+                    <b:Person>
+                        <b:Last>Tramèr</b:Last>
+                        <b:First>Florian</b:First>
+                    </b:Person>
+                </b:NameList>
+            </b:Author>
+        </b:Author>
+        <b:Month>March</b:Month>
+    </b:Source>
+</b:Sources>
