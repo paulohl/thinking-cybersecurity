@@ -1,5 +1,6 @@
 ### thinking-cybersecurity
-# Thinking Cybersecurity: AI Automation through Diffused Intelligence
+# Thinking Cybersecurity 
+## AI Automation through Diffused Intelligence
 
 
 <img src="/chapter/cambridge_scholars_publishing.jpg" width="200"/>       © 2026 Cambridge Scholars Publishing
