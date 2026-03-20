@@ -1,0 +1,149 @@
+<?xml version="1.0"?>
+<b:Sources SelectedStyle="" xmlns:b="http://schemas.openxmlformats.org/officeDocument/2006/bibliography" xmlns="http://schemas.openxmlformats.org/officeDocument/2006/bibliography"><b:Source><b:Tag>Ink25</b:Tag><b:SourceType>DocumentFromInternetSite</b:SourceType><b:Guid>{CB2B3397-09E0-44CE-94C9-066971E20B10}</b:Guid><b:Title>Context Engineering: The Real Reason AI Agents Fail in Production</b:Title><b:Year>2025</b:Year><b:Author><b:Author><b:Corporate>Inkeep Team</b:Corporate></b:Author></b:Author><b:InternetSiteTitle>Inkeep. AI</b:InternetSiteTitle><b:Month>22</b:Month><b:Day>7</b:Day><b:YearAccessed>2026</b:YearAccessed><b:MonthAccessed>3</b:MonthAccessed><b:DayAccessed>11</b:DayAccessed><b:URL>https://inkeep.com/blog/context-engineering-why-agents-fail</b:URL><b:RefOrder>13</b:RefOrder></b:Source><b:Source><b:BIBTEX_Entry>techreport</b:BIBTEX_Entry><b:SourceType>Report</b:SourceType><b:Title>Comprehensive Review of Cloud-Driven Machine Learning: A Comparative Analysis of AWS, Azure, and Google Cloud</b:Title><b:Tag>Evansa</b:Tag><b:BIBTEX_Abstract>Machine learning (ML) is transforming industries by automating tasks and generating insights from large datasets. Cloud computing platforms like Amazon Web Services (AWS), Microsoft Azure, and Google Cloud Platform (GCP) provide essential resources that enhance the development and deployment of ML models. This paper provides a comprehensive comparative analysis of these cloud platforms, highlighting their ML services, scalability, cost structures, and integration capabilities. Through case studies and performance benchmarks, we explore how these platforms facilitate different stages of the ML pipeline, addressing the strengths and limitations of each. The study serves as a guide for practitioners and researchers looking to leverage cloud platforms for ML applications [6], [7].</b:BIBTEX_Abstract><b:BIBTEX_KeyWords>AI Services,AWS,Azure,Distributed Computing,Google Cloud,Index Terms-Cloud Computing,Machine Learning</b:BIBTEX_KeyWords><b:URL>https://www.techrxiv.org/users/875493/articles/1255263/master/file/data/p1/p1.pdf</b:URL><b:Author><b:Author><b:NameList><b:Person><b:Last>Evans</b:Last><b:First>K.</b:First></b:Person><b:Person><b:Last>Stewart</b:Last><b:First>E.</b:First></b:Person><b:Person><b:Last>Foster</b:Last><b:First>G.</b:First></b:Person></b:NameList></b:Author></b:Author><b:ThesisType>Tech. rep.</b:ThesisType><b:Guid>{3ECCB120-2F93-4547-9D7B-C1B1779454AD}</b:Guid><b:Year>2025</b:Year><b:RefOrder>15</b:RefOrder></b:Source><b:Source>
+		<b:Department>Medium</b:Department>
+		<b:Year>2025</b:Year>
+		<b:BIBTEX_Entry>techreport</b:BIBTEX_Entry>
+		<b:SourceType>Report</b:SourceType>
+		<b:Title>Cloud AI Platforms: AWS vs. GCP vs. Azure for Machine-Learning Workloads</b:Title>
+		<b:Tag>Sem2025a</b:Tag>
+		<b:URL>https://medium.com/@virtualik/cloud-ai-platforms-aws-vs-gcp-vs-azure-for-machine-learning-workloads</b:URL>
+		<b:Author>
+			<b:Author>
+				<b:NameList><b:Person><b:Last>Sem</b:Last><b:First>V.</b:First></b:Person></b:NameList>
+			</b:Author>
+		</b:Author>
+		<b:Month>November</b:Month>
+		<b:ThesisType>Tech. rep.</b:ThesisType>
+		<b:Guid>{C69EF103-CC65-402D-82BC-AC905E363278}</b:Guid><b:RefOrder>16</b:RefOrder></b:Source><b:Source>
+		<b:Year>2024</b:Year>
+		<b:BIBTEX_Entry>misc</b:BIBTEX_Entry>
+		<b:SourceType>Misc</b:SourceType>
+		<b:Title>Graviton3 Benchmarks for AI Workloads</b:Title>
+		<b:Tag>aws2024_graviton</b:Tag>
+		<b:BIBTEX_HowPublished>\url{https://aws.amazon.com/ec2/graviton}</b:BIBTEX_HowPublished>
+		<b:Author>
+			<b:Author>
+				<b:Corporate>Amazon Web Services</b:Corporate>
+			</b:Author>
+		</b:Author>
+		<b:PublicationTitle>Graviton3 Benchmarks for AI Workloads</b:PublicationTitle>
+		<b:RefOrder>18</b:RefOrder></b:Source><b:Source><b:Tag>Mal24</b:Tag><b:SourceType>JournalArticle</b:SourceType><b:Guid>{2BA55612-0FE4-44C0-9F07-7458396FAF05}</b:Guid><b:Title>Fine-Tuning Language Models with Just Forward Passes}</b:Title><b:Year>2024</b:Year><b:Author><b:Author><b:NameList><b:Person><b:Last>Malladi</b:Last><b:First>S.</b:First></b:Person><b:Person><b:Last>Gao</b:Last><b:First>T.</b:First></b:Person><b:Person><b:Last>Nichani</b:Last><b:First>E.</b:First></b:Person><b:Person><b:Last>Damian</b:Last><b:First>A.</b:First></b:Person><b:Person><b:Last>Lee</b:Last><b:First>J.</b:First><b:Middle>D.</b:Middle></b:Person><b:Person><b:Last>Chen</b:Last><b:First>D.</b:First></b:Person><b:Person><b:Last>Arora</b:Last><b:First>S.</b:First></b:Person></b:NameList></b:Author></b:Author><b:URL>https://arxiv.org/abs/2305.17333</b:URL><b:DOI>https://doi.org/10.48550/arXiv.2305.17333</b:DOI><b:RefOrder>17</b:RefOrder></b:Source><b:Source>
+		<b:Year>2023</b:Year>
+		<b:BIBTEX_Copyright>Creative Commons Attribution 4.0 International</b:BIBTEX_Copyright>
+		<b:BIBTEX_Entry>article</b:BIBTEX_Entry>
+		<b:SourceType>JournalArticle</b:SourceType>
+		<b:Title>Tree of Thoughts: Deliberate Problem Solving with Large Language Models</b:Title>
+		<b:Publisher>arXiv</b:Publisher>
+		<b:BIBTEX_Abstract>Language models are increasingly being deployed for general problem solving across a wide range of tasks, but are still confined to token-level, left-to-right decision-making processes during inference. This means they can fall short in tasks that require exploration, strategic lookahead, or where initial decisions play a pivotal role. To surmount these challenges, we introduce a new framework for language model inference, Tree of Thoughts (ToT), which generalizes over the popular Chain of Thought approach to prompting language models, and enables exploration over coherent units of text (thoughts) that serve as intermediate steps toward problem solving. ToT allows LMs to perform deliberate decision making by considering multiple different reasoning paths and self-evaluating choices to decide the next course of action, as well as looking ahead or backtracking when necessary to make global choices. Our experiments show that ToT significantly enhances language models' problem-solving abilities on three novel tasks requiring non-trivial planning or search: Game of 24, Creative Writing, and Mini Crosswords. For instance, in Game of 24, while GPT-4 with chain-of-thought prompting only solved 4% of tasks, our method achieved a success rate of 74%. Code repo with all prompts: https://github.com/princeton-nlp/tree-of-thought-llm.</b:BIBTEX_Abstract>
+		<b:Tag>Yao2023a</b:Tag>
+		<b:BIBTEX_KeyWords>Computation and Language (cs.CL), Artificial Intelligence (cs.AI), Machine Learning (cs.LG), FOS: Computer and information sciences, FOS: Computer and information sciences</b:BIBTEX_KeyWords>
+		<b:URL>https://www.semanticscholar.org/paper/2f3822eb380b5e753a6d579f31dfc3ec4c4a0820</b:URL>
+		<b:DOI>10.48550/arXiv.2305.10601</b:DOI>
+		<b:Author>
+			<b:Author>
+				<b:NameList><b:Person><b:Last>Yao</b:Last><b:First>S.</b:First></b:Person><b:Person><b:Last>Yu</b:Last><b:First>D.</b:First></b:Person><b:Person><b:Last>Zhao</b:Last><b:First>J.</b:First></b:Person><b:Person><b:Last>Shafran</b:Last><b:First>I.</b:First></b:Person><b:Person><b:Last>Griffiths</b:Last><b:First>T.</b:First><b:Middle>L.</b:Middle></b:Person><b:Person><b:Last>Cao</b:Last><b:First>Y.</b:First></b:Person><b:Person><b:Last>Narasimhan</b:Last><b:First>K.</b:First></b:Person></b:NameList>
+			</b:Author>
+		</b:Author>
+		<b:JournalName>arXiv preprint arXiv:2305.10601</b:JournalName>
+		<b:Guid>{EDD7B6B6-1667-4C89-A4D2-764102DD3F08}</b:Guid><b:RefOrder>8</b:RefOrder></b:Source><b:Source>
+		<b:Year>2023</b:Year>
+		<b:BIBTEX_Series>NIPS '23</b:BIBTEX_Series>
+		<b:BIBTEX_Entry>inproceedings</b:BIBTEX_Entry>
+		<b:SourceType>ConferenceProceedings</b:SourceType>
+		<b:Title>Reflexion: language agents with verbal reinforcement learning</b:Title>
+		<b:Publisher>Curran Associates Inc.</b:Publisher>
+		<b:BIBTEX_Abstract>Large language models (LLMs) have been increasingly used to interact with external environments (e.g., games, compilers, APIs) as goal-driven agents. However, it remains challenging for these language agents to quickly and efficiently learn from trial-and-error as traditional reinforcement learning methods require extensive training samples and expensive model fine-tuning. We propose Reflexion, a novel framework to reinforce language agents not by updating weights, but instead through linguistic feedback. Concretely, Reflexion agents verbally reflect on task feedback signals, then maintain their own reflective text in an episodic memory buffer to induce better decision-making in subsequent trials. Reflexion is flexible enough to incorporate various types (scalar values or free-form language) and sources (external or internally simulated) of feedback signals, and obtains significant improvements over a baseline agent across diverse tasks (sequential decision-making, coding, language reasoning). For example, Reflexion achieves a 91% pass@1 accuracy on the HumanEval coding benchmark, surpassing the previous state-of-the-art GPT-4 that achieves 80%. We also conduct ablation and analysis studies using different feedback signals, feedback incorporation methods, and agent types, and provide insights into how they affect performance. We release all code, demos, and datasets at https://github.com/noahshinn024/reflexion.</b:BIBTEX_Abstract>
+		<b:Tag>10555536661223666499</b:Tag>
+		<b:BookTitle>Proceedings of the 37th International Conference on Neural Information Processing Systems</b:BookTitle>
+		<b:URL>https://dl.acm.org/doi/10.5555/3666122.3666499</b:URL>
+		<b:DOI>10.5555/3666122.3666499</b:DOI>
+		<b:Author>
+			<b:Author>
+				<b:NameList><b:Person><b:Last>Shinn</b:Last><b:First>N.</b:First></b:Person><b:Person><b:Last>Cassano</b:Last><b:First>F.</b:First></b:Person><b:Person><b:Last>Gopinath</b:Last><b:First>A.</b:First></b:Person><b:Person><b:Last>Narasimhan</b:Last><b:First>K.</b:First></b:Person><b:Person><b:Last>Yao</b:Last><b:First>S.</b:First></b:Person></b:NameList>
+			</b:Author>
+		</b:Author>
+		<b:ConferenceName>Proceedings of the 37th International Conference on Neural Information Processing Systems</b:ConferenceName>
+		<b:City>Red Hook, NY, USA</b:City>
+		<b:Guid>{8F185F71-642C-4440-AEB3-2B2CA6FC1726}</b:Guid><b:RefOrder>7</b:RefOrder></b:Source><b:Source><b:Tag>Mor23</b:Tag><b:SourceType>JournalArticle</b:SourceType><b:Guid>{189E570B-C11D-485D-B94E-DEAAB56E3DF0}</b:Guid><b:Title>Improving Factuality and Reasoning in Language Models through Multiagent Debate</b:Title><b:Year>2023</b:Year><b:URL>https://arxiv.org/abs/2305.14325</b:URL><b:Author><b:Author><b:NameList><b:Person><b:Last>Du</b:Last><b:First>Y.</b:First></b:Person><b:Person><b:Last>Shuang</b:Last><b:First>L.</b:First></b:Person><b:Person><b:Last>Torralba</b:Last><b:First>A.</b:First></b:Person><b:Person><b:Last>Tenenbaum</b:Last><b:First>J.</b:First><b:Middle>B.</b:Middle></b:Person><b:Person><b:Last>Mordatch</b:Last><b:First>I.</b:First></b:Person></b:NameList></b:Author></b:Author><b:JournalName>arXiv</b:JournalName><b:DOI>https://doi.org/10.48550/arXiv.2305.14325</b:DOI><b:RefOrder>6</b:RefOrder></b:Source><b:Source><b:Tag>Par23</b:Tag><b:SourceType>JournalArticle</b:SourceType><b:Guid>{9B43D67E-8324-4B05-A8AF-05B33500A755}</b:Guid><b:Title>Generative Agents: Interactive Simulacra of Human Behavior</b:Title><b:Year>2023</b:Year><b:Month>8</b:Month><b:Day>7</b:Day><b:URL>http://arxiv.org/abs/2304.03442</b:URL><b:Author><b:Author><b:NameList><b:Person><b:Last>Park</b:Last><b:First>J.</b:First></b:Person><b:Person><b:Last>O'Brien</b:Last><b:First>J.</b:First></b:Person><b:Person><b:Last>Cai</b:Last><b:First>C.</b:First></b:Person><b:Person><b:Last>Morris</b:Last><b:First>M.</b:First></b:Person><b:Person><b:Last>Liang</b:Last><b:First>P.</b:First></b:Person><b:Person><b:Last>Bernstein</b:Last><b:First>M.</b:First></b:Person></b:NameList></b:Author></b:Author><b:JournalName>36th Annual ACM Symposium on User Interface Software and Technology</b:JournalName><b:Volume>1</b:Volume><b:RefOrder>14</b:RefOrder></b:Source><b:Source>
+		<b:Year>2023</b:Year>
+		<b:BIBTEX_Series>UIST ’23</b:BIBTEX_Series>
+		<b:BIBTEX_Entry>inproceedings</b:BIBTEX_Entry>
+		<b:SourceType>ConferenceProceedings</b:SourceType>
+		<b:Title>Generative Agents: Interactive Simulacra of Human Behavior</b:Title>
+		<b:Publisher>ACM</b:Publisher>
+		<b:Tag>park2023_generative_agents</b:Tag>
+		<b:BookTitle>Proceedings of the 36th Annual ACM Symposium on User Interface Software and Technology</b:BookTitle>
+		<b:DOI>10.1145/3586183.3606763</b:DOI>
+		<b:Author>
+			<b:Author>
+				<b:NameList><b:Person><b:Last>Park</b:Last><b:First>J.</b:First><b:Middle>S.</b:Middle></b:Person><b:Person><b:Last>O’Brien</b:Last><b:First>J.</b:First></b:Person><b:Person><b:Last>Cai</b:Last><b:First>C.</b:First><b:Middle>J.</b:Middle></b:Person><b:Person><b:Last>Morris</b:Last><b:First>M.</b:First><b:Middle>R.</b:Middle></b:Person><b:Person><b:Last>Liang</b:Last><b:First>P.</b:First></b:Person><b:Person><b:Last>Bernstein</b:Last><b:First>M.</b:First><b:Middle>S.</b:Middle></b:Person></b:NameList>
+			</b:Author>
+		</b:Author>
+		<b:Pages>1-22</b:Pages>
+		<b:Month>October</b:Month>
+		<b:ConferenceName>Proceedings of the 36th Annual ACM Symposium on User Interface Software and Technology</b:ConferenceName>
+		<b:Guid>{9CFF4FD4-A6AB-4DA8-84C4-6F0FED3A1B40}</b:Guid><b:RefOrder>4</b:RefOrder></b:Source><b:Source><b:Tag>Yan23</b:Tag><b:SourceType>JournalArticle</b:SourceType><b:Guid>{17F10F1F-AD9C-4848-A925-B604DA76F155}</b:Guid><b:Author><b:Author><b:NameList><b:Person><b:Last>Yang</b:Last><b:First>X.</b:First></b:Person><b:Person><b:Last>Wang</b:Last><b:First>X.</b:First></b:Person></b:NameList></b:Author></b:Author><b:Title>Diffusion Model as Representation Learner</b:Title><b:JournalName>arXiv Pre-print</b:JournalName><b:Year>2023</b:Year><b:Publisher>arXiv</b:Publisher><b:Volume>2308.10916</b:Volume><b:URL>https://arxiv.org/abs/2308.10916</b:URL><b:DOI>10.48550/arXiv.2308.10916</b:DOI><b:RefOrder>1</b:RefOrder></b:Source><b:Source>
+		<b:Year>2023</b:Year>
+		<b:BIBTEX_Entry>article</b:BIBTEX_Entry>
+		<b:SourceType>JournalArticle</b:SourceType>
+		<b:Title>CrossCloud: Standardizing ML Deployment across Cloud Providers</b:Title>
+		<b:Tag>liang2023_crosscloud</b:Tag>
+		<b:Author>
+			<b:Author>
+				<b:NameList><b:Person><b:Last>Liang</b:Last><b:First>J.</b:First></b:Person></b:NameList>
+			</b:Author>
+		</b:Author>
+		<b:JournalName>arXiv preprint</b:JournalName>
+		<b:Guid>{FE5176ED-A2A8-483F-AAD9-7C73FB08B96D}</b:Guid><b:RefOrder>20</b:RefOrder></b:Source><b:Source>
+		<b:Year>2023</b:Year>
+		<b:BIBTEX_Entry>techreport</b:BIBTEX_Entry>
+		<b:SourceType>Report</b:SourceType>
+		<b:Title>Cloud TPU v5p Performance and Comparison</b:Title>
+		<b:Tag>google2023_tpuv5</b:Tag>
+		<b:BIBTEX_HowPublished>\url{https://cloud.google.com/tpu/docs}</b:BIBTEX_HowPublished>
+		<b:URL>https://docs.cloud.google.com/tpu/docs/performance-guide</b:URL>
+		<b:Author>
+			<b:Author>
+				<b:Corporate>Google Cloud</b:Corporate></b:Author>
+		</b:Author>
+		<b:Month>February</b:Month>
+		<b:JournalName>Google Cloud</b:JournalName>
+		<b:ThesisType>Tech. rep.</b:ThesisType>
+		<b:Guid>{56736E29-FEAD-4956-BBA1-5CA1A9F088FC}</b:Guid><b:RefOrder>19</b:RefOrder></b:Source><b:Source>
+		<b:Year>2023</b:Year>
+		<b:BIBTEX_Copyright>arXiv.org perpetual, non-exclusive license</b:BIBTEX_Copyright>
+		<b:Volume>2023</b:Volume>
+		<b:BIBTEX_Entry>article</b:BIBTEX_Entry>
+		<b:SourceType>JournalArticle</b:SourceType>
+		<b:Title>Augmented Language Models: a Survey</b:Title>
+		<b:Publisher>arXiv</b:Publisher>
+		<b:BIBTEX_Abstract>This survey reviews works in which language models (LMs) are augmented with reasoning skills and the ability to use tools. The former is defined as decomposing a potentially complex task into simpler subtasks while the latter consists in calling external modules such as a code interpreter. LMs can leverage these augmentations separately or in combination via heuristics, or learn to do so from demonstrations. While adhering to a standard missing tokens prediction objective, such augmented LMs can use various, possibly non-parametric external modules to expand their context processing ability, thus departing from the pure language modeling paradigm. We therefore refer to them as Augmented Language Models (ALMs). The missing token objective allows ALMs to learn to reason, use tools, and even act, while still performing standard natural language tasks and even outperforming most regular LMs on several benchmarks. In this work, after reviewing current advance in ALMs, we conclude that this new research direction has the potential to address common limitations of traditional LMs such as interpretability, consistency, and scalability issues.</b:BIBTEX_Abstract>
+		<b:Tag>Mialon2023a</b:Tag>
+		<b:BIBTEX_KeyWords>Computation and Language (cs.CL), FOS: Computer and information sciences, FOS: Computer and information sciences</b:BIBTEX_KeyWords>
+		<b:URL>http://arxiv.org/abs/2302.07842</b:URL>
+		<b:DOI>10.48550/ARXIV.2302.07842</b:DOI>
+		<b:Author>
+			<b:Author>
+				<b:NameList><b:Person><b:Last>Mialon</b:Last><b:First>G.</b:First></b:Person><b:Person><b:Last>Dessì</b:Last><b:First>R.</b:First></b:Person><b:Person><b:Last>Lomeli</b:Last><b:First>M.</b:First></b:Person><b:Person><b:Last>Nalmpantis</b:Last><b:First>C.</b:First></b:Person><b:Person><b:Last>Pasunuru</b:Last><b:First>R.</b:First></b:Person><b:Person><b:Last>Raileanu</b:Last><b:First>R.</b:First></b:Person><b:Person><b:Last>Rozière</b:Last><b:First>Baptiste</b:First></b:Person><b:Person><b:Last>S.</b:Last><b:First>Timo</b:First></b:Person><b:Person><b:Last>Dwivedi-Yu</b:Last><b:First>J.</b:First></b:Person><b:Person><b:Last>Celikyilmaz</b:Last><b:First>A.</b:First></b:Person><b:Person><b:Last>Grave</b:Last><b:First>E.</b:First></b:Person><b:Person><b:Last>LeCun</b:Last><b:First>Y.</b:First></b:Person><b:Person><b:Last>Scialom</b:Last><b:First>T.</b:First></b:Person></b:NameList>
+			</b:Author>
+		</b:Author>
+		<b:Month>February</b:Month>
+		<b:JournalName>Transactions on Machine Learning Research</b:JournalName>
+		<b:Guid>{0AA12A16-6D29-47F2-BFC6-F21BD48F72C3}</b:Guid><b:RefOrder>5</b:RefOrder></b:Source><b:Source>
+		<b:Year>2022</b:Year>
+		<b:BIBTEX_Copyright>arXiv.org perpetual, non-exclusive license</b:BIBTEX_Copyright>
+		<b:BIBTEX_Entry>misc</b:BIBTEX_Entry>
+		<b:SourceType>Misc</b:SourceType>
+		<b:Title>Search-based Methods for Multi-Cloud Configuration</b:Title>
+		<b:Publisher>arXiv</b:Publisher>
+		<b:Tag>łazuka20</b:Tag>
+		<b:BIBTEX_KeyWords>Distributed, Parallel, and Cluster Computing (cs.DC), Machine Learning (cs.LG), FOS: Computer and information sciences, FOS: Computer and information sciences</b:BIBTEX_KeyWords>
+		<b:URL>https://arxiv.org/abs/2204.09437</b:URL>
+		<b:DOI>10.48550/ARXIV.2204.09437</b:DOI>
+		<b:Author>
+			<b:Author>
+				<b:NameList><b:Person><b:Last>Łazuka</b:Last><b:First>M.</b:First></b:Person><b:Person><b:Last>Parnell</b:Last><b:First>T.</b:First></b:Person><b:Person><b:Last>Anghel</b:Last><b:First>A.</b:First></b:Person><b:Person><b:Last>Pozidis</b:Last><b:First>H.</b:First></b:Person></b:NameList>
+			</b:Author>
+		</b:Author>
+		<b:PublicationTitle>Search-based Methods for Multi-Cloud Configuration</b:PublicationTitle>
+		<b:Guid>{CEEE9360-FDAA-4816-934E-33670AE230C3}</b:Guid><b:RefOrder>9</b:RefOrder></b:Source><b:Source><b:Tag>Rus22</b:Tag><b:SourceType>Book</b:SourceType><b:Guid>{E27B06AE-3851-41E8-A8C8-4C8EA9592CF7}</b:Guid><b:Title>Artificial Intelligence: A Modern Approach</b:Title><b:Year>2022</b:Year><b:Author><b:Author><b:NameList><b:Person><b:Last>Russell</b:Last><b:First>S.</b:First></b:Person><b:Person><b:Last>Norvig</b:Last><b:First>P.</b:First></b:Person></b:NameList></b:Author></b:Author><b:Publisher>Pearson</b:Publisher><b:Edition>Fourth</b:Edition><b:RefOrder>2</b:RefOrder></b:Source><b:Source><b:Tag>XuW18</b:Tag><b:SourceType>ConferenceProceedings</b:SourceType><b:Guid>{4211A2C0-D7B5-45BE-9E74-81A4BFB370C1}</b:Guid><b:Title>DeepLog: Anomaly Detection and Diagnosis from System Logs through Deep Learning</b:Title><b:Year>2018</b:Year><b:Pages>1285-1298</b:Pages><b:Author><b:Author><b:NameList><b:Person><b:Last>Xu</b:Last><b:First>W.</b:First></b:Person><b:Person><b:Last>Du</b:Last><b:First>X.</b:First></b:Person><b:Person><b:Last>Li</b:Last><b:First>Z.</b:First></b:Person></b:NameList></b:Author></b:Author><b:ConferenceName>2018 ACM Conference on Computer and Communications Security</b:ConferenceName><b:RefOrder>10</b:RefOrder></b:Source><b:Source><b:Tag>Pea09</b:Tag><b:SourceType>Book</b:SourceType><b:Guid>{D5514016-6708-49B6-85B9-D6AE5B7E65BC}</b:Guid><b:Author><b:Author><b:NameList><b:Person><b:Last>Pearl</b:Last><b:First>J.</b:First></b:Person></b:NameList></b:Author></b:Author><b:Title>Causality : models, reasoning, and inference</b:Title><b:Year>2009</b:Year><b:Publisher>Cambridge University Press</b:Publisher><b:RefOrder>12</b:RefOrder></b:Source><b:Source><b:Tag>Mil04</b:Tag><b:SourceType>JournalArticle</b:SourceType><b:Guid>{F37F8543-1D7D-4162-AA9B-5502D2B2335A}</b:Guid><b:Title>Capability Myths Demolished</b:Title><b:Year>2004</b:Year><b:Author><b:Author><b:NameList><b:Person><b:Last>Miller</b:Last><b:First>M.</b:First></b:Person><b:Person><b:Last>Yee</b:Last><b:First>K.</b:First></b:Person><b:Person><b:Last>Shapiro</b:Last><b:First>J.</b:First></b:Person></b:NameList></b:Author></b:Author><b:RefOrder>11</b:RefOrder></b:Source><b:Source><b:Tag>Sal75</b:Tag><b:SourceType>ConferenceProceedings</b:SourceType><b:Guid>{495049C9-C993-48C3-81C7-3B9DA22A4A3C}</b:Guid><b:Year>1975</b:Year><b:Pages>1278-1308</b:Pages><b:Author><b:Author><b:NameList><b:Person><b:Last>Saltzer</b:Last><b:First>J.</b:First></b:Person><b:Person><b:Last>Schroeder</b:Last><b:First>M,</b:First></b:Person></b:NameList></b:Author></b:Author><b:ConferenceName>Proceedings of the IEEE</b:ConferenceName><b:Volume>69</b:Volume><b:URL>http://ieeexplore.ieee.org/document/1451869/</b:URL><b:DOI>10.1109/PROC.1975.9939</b:DOI><b:RefOrder>3</b:RefOrder></b:Source></b:Sources>
