@@ -1,0 +1,538 @@
+<?xml version="1.0"?>
+<b:Sources SelectedStyle="" xmlns:b="http://schemas.openxmlformats.org/officeDocument/2006/bibliography" xmlns="http://schemas.openxmlformats.org/officeDocument/2006/bibliography"><b:Source>
+		<b:Year>2024</b:Year>
+		<b:BIBTEX_Entry>electronic</b:BIBTEX_Entry>
+		<b:SourceType>ElectronicSource</b:SourceType>
+		<b:Title>Implementing kubernetes pod security standards</b:Title>
+		<b:BIBTEX_HowPublished>DEV Community</b:BIBTEX_HowPublished>
+		<b:Tag>Levan2024</b:Tag>
+		<b:BIBTEX_KeyWords>programming,cybersecurity,kubernetes</b:BIBTEX_KeyWords>
+		<b:URL>https://dev.to/thenjdevopsguy/implementing-kubernetes-pod-security-standards-4aco</b:URL>
+		<b:Author>
+			<b:Author>
+				<b:NameList>
+					<b:Person>
+						<b:Last>Levan</b:Last>
+						<b:First>Michael</b:First>
+					</b:Person>
+				</b:NameList>
+			</b:Author>
+		</b:Author>
+		<b:Month>July</b:Month>
+		<b:RefOrder>15</b:RefOrder></b:Source><b:Source>
+		<b:Year>2024</b:Year>
+		<b:BIBTEX_Entry>misc</b:BIBTEX_Entry>
+		<b:SourceType>Misc</b:SourceType>
+		<b:Title>Aws well-architected framework</b:Title>
+		<b:BIBTEX_Abstract>The AWS Well-Architected Framework helps you understand the pros and cons of decisions you make while building systems on AWS. Using the Framework helps you learn architectural best practices for designing and operating secure, reliable, efficient, cost-effective, and sustainable workloads in the AWS Cloud. It provides a way for you to consistently measure your architectures against best practices and identify areas for improvement. The process for reviewing an architecture is a constructive conversation about architectural decisions, and is not an audit mechanism. We believe that having well-architected systems greatly increases the likelihood of business success.
+
+AWS Solutions Architects have years of experience architecting solutions across a wide variety of business verticals and use cases. We have helped design and review thousands of customers’ architectures on AWS. From this experience, we have identified best practices and core strategies for architecting systems in the cloud.
+
+The AWS Well-Architected Framework documents a set of foundational questions that help you to understand if a specific architecture aligns well with cloud best practices. The framework provides a consistent approach to evaluating systems against the qualities you expect from modern cloud-based systems, and the remediation that would be required to achieve those qualities. As AWS continues to evolve, and we continue to learn more from working with our customers, we will continue to refine the definition of well-architected.
+
+This framework is intended for those in technology roles, such as chief technology officers (CTOs), architects, developers, and operations team members. It describes AWS best practices and strategies to use when designing and operating a cloud workload, and provides links to further implementation details and architectural patterns. For more information, see the AWS Well-Architected homepage.
+
+AWS also provides a service for reviewing your workloads at no charge. The AWS Well-Architected Tool (AWS WA Tool) is a service in the cloud that provides a consistent process for you to review and measure your architecture using the AWS Well-Architected Framework. The AWS WA Tool provides recommendations for making your workloads more reliable, secure, efficient, and cost-effective.
+
+To help you apply best practices, we have created AWS Well-Architected Labs, which provides you with a repository of code and documentation to give you hands-on experience implementing best practices. We also have teamed up with select AWS Partner Network (APN) Partners, who are members of the AWS Well-Architected Partner program. These AWS Partners have deep AWS knowledge, and can help you review and improve your workloads.</b:BIBTEX_Abstract>
+		<b:Tag>AWS2024</b:Tag>
+		<b:URL>https://docs.aws.amazon.com/wellarchitected/latest/framework/welcome.html</b:URL>
+		<b:Author>
+			<b:Author>
+				<b:NameList>
+					<b:Person>
+						<b:Last>AWS</b:Last>
+					</b:Person>
+				</b:NameList>
+			</b:Author>
+		</b:Author>
+		<b:Month>November</b:Month>
+		<b:JournalName>AWS Documentation</b:JournalName>
+		<b:PublicationTitle>Aws well-architected framework</b:PublicationTitle>
+		<b:RefOrder>12</b:RefOrder></b:Source><b:Source><b:Tag>Sky23</b:Tag><b:SourceType>Report</b:SourceType><b:Guid>{450610C8-758E-4D3D-B86A-D121CF093A7F}</b:Guid><b:Author><b:Author><b:Corporate>Skyflow Inc.</b:Corporate></b:Author></b:Author><b:Title>Data Privacy and Compliance for LLMs</b:Title><b:Year>2023</b:Year><b:Publisher>Skyflow, Inc.</b:Publisher><b:RefOrder>18</b:RefOrder></b:Source><b:Source><b:Tag>Mic23</b:Tag><b:SourceType>Report</b:SourceType><b:Guid>{B5E95271-0096-4BAA-94E3-F3E1AB6D05E1}</b:Guid><b:Author><b:Author><b:Corporate>Microsoft</b:Corporate></b:Author></b:Author><b:Title>Azure Well-Architected Framework</b:Title><b:Year>2023</b:Year><b:YearAccessed>2026</b:YearAccessed><b:MonthAccessed>3</b:MonthAccessed><b:DayAccessed>9</b:DayAccessed><b:URL>https://learn.microsoft.com/en-us/azure/architecture/</b:URL><b:RefOrder>13</b:RefOrder></b:Source><b:Source><b:SourceType>Book</b:SourceType><b:Title>Artificial Intelligence Risk Management Framework (NIST AI 100-1)</b:Title><b:Year>2023</b:Year><b:Publisher>National Institute of Standards and Technology (NIST)</b:Publisher><b:JournalName>Artificial Intelligence Risk Management Framework (NIST AI 100-1)</b:JournalName><b:Author><b:Author><b:NameList><b:Person><b:Last>NIST</b:Last></b:Person></b:NameList></b:Author></b:Author><b:Tag>artificia</b:Tag><b:Guid>{05957891-CDDE-49C4-98F1-73BA152AF0F4}</b:Guid><b:RefOrder>11</b:RefOrder></b:Source><b:Source>
+		<b:Year>2021</b:Year>
+		<b:BIBTEX_Entry>inproceedings</b:BIBTEX_Entry>
+		<b:Comments>Literaturangaben</b:Comments>
+		<b:SourceType>ConferenceProceedings</b:SourceType>
+		<b:Title>Extracting training data from large language models</b:Title>
+		<b:Tag>Carlini2021</b:Tag>
+		<b:Publisher>Association, U. S. E. N. I. X.</b:Publisher>
+		<b:BookTitle>30th USENIX Security Symposium (USENIX Security 21)</b:BookTitle>
+		<b:URL>https://researchr.org/publication/CarliniTWJHLRBS21</b:URL>
+		<b:Author>
+			<b:Author>
+				<b:NameList>
+					<b:Person>
+						<b:Last>Carlini</b:Last>
+						<b:First>Nicholas</b:First>
+					</b:Person>
+					<b:Person>
+						<b:Last>Tramèr</b:Last>
+						<b:First>Florian</b:First>
+					</b:Person>
+					<b:Person>
+						<b:Last>Wallace</b:Last>
+						<b:First>Eric</b:First>
+					</b:Person>
+					<b:Person>
+						<b:Last>Jagielski</b:Last>
+						<b:First>Matthew</b:First>
+					</b:Person>
+					<b:Person>
+						<b:Last>Herbert-Voss</b:Last>
+						<b:First>Ariel</b:First>
+					</b:Person>
+					<b:Person>
+						<b:Last>Lee</b:Last>
+						<b:First>Katherine</b:First>
+					</b:Person>
+					<b:Person>
+						<b:Last>Roberts</b:Last>
+						<b:First>Adam</b:First>
+					</b:Person>
+					<b:Person>
+						<b:Last>Brown</b:Last>
+						<b:First>Tom</b:First>
+					</b:Person>
+					<b:Person>
+						<b:Last>Song</b:Last>
+						<b:First>Dawn</b:First>
+					</b:Person>
+					<b:Person>
+						<b:Last>Erlingsson</b:Last>
+						<b:First>Úlfar</b:First>
+					</b:Person>
+					<b:Person>
+						<b:Last>Oprea</b:Last>
+						<b:First>Alina</b:First>
+					</b:Person>
+					<b:Person>
+						<b:Last>Raffel</b:Last>
+						<b:First>Colin</b:First>
+					</b:Person>
+				</b:NameList>
+			</b:Author>
+		</b:Author>
+		<b:Pages>2633–2650</b:Pages>
+		<b:Month>August</b:Month>
+		<b:StandardNumber> ISBN: 9781939133243</b:StandardNumber>
+		<b:ConferenceName>30th USENIX Security Symposium (USENIX Security 21)</b:ConferenceName>
+		<b:City>[Berkeley, CA]</b:City>
+		<b:RefOrder>16</b:RefOrder></b:Source><b:Source>
+		<b:Year>2020</b:Year>
+		<b:BIBTEX_Entry>book</b:BIBTEX_Entry>
+		<b:SourceType>Book</b:SourceType>
+		<b:Title>Nist sp 800-53 rev. 5 . Security and privacy controls for information systems and organizations</b:Title>
+		<b:BIBTEX_Abstract>This publication provides a catalog of security and privacy controls for information systems and organizations to protect organizational operations and assets, individuals, other organizations, and the Nation from a diverse set of threats and risks, including hostile attacks, human errors, natural disasters, structural failures, foreign intelligence entities, and privacy risks. The controls are flexible and customizable and implemented as part of an organization-wide process to manage risk. The controls address diverse requirements derived from mission and business needs, laws, executive orders, directives, regulations, policies, standards, and guidelines. Finally, the consolidated control catalog addresses security and privacy from a functionality perspective (i.e., the strength of functions and mechanisms provided by the controls) and from an assurance perspective (i.e., the measure of confidence in the security or privacy capability provided by the controls). Addressing functionality and assurance helps to ensure that information technology products and the systems that rely on those products are sufficiently trustworthy.</b:BIBTEX_Abstract>
+		<b:Tag>Force2020</b:Tag>
+		<b:Publisher>National Institute and Technology of Standards (National Institute and Technology) </b:Publisher>
+		<b:BIBTEX_KeyWords>FISMA,Privacy Act,Risk Management Framework,assurance,availability,computer security,confidentiality,control,cybersecurity,information security,information system,integrity,personally identifiable information,privacy controls,privacy functions,privacy requirements,security controls,security functions,security requirements,system,system security</b:BIBTEX_KeyWords>
+		<b:URL>https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final</b:URL>
+		<b:DOI>10.6028/NIST.SP.800-53r5</b:DOI>
+		<b:Author>
+			<b:Author>
+				<b:Corporate>NIST Joint Task Force</b:Corporate></b:Author>
+		</b:Author>
+		<b:Month>September</b:Month>
+		<b:JournalName>National Institute of Standards and Technology</b:JournalName>
+		<b:Guid>{A792D8DA-81E6-426D-93B0-0CE8412F7C2B}</b:Guid><b:RefOrder>7</b:RefOrder></b:Source><b:Source>
+		<b:BIBTEX_Copyright>Creative Commons Attribution 4.0 International</b:BIBTEX_Copyright>
+		<b:Year>2019</b:Year>
+		<b:BIBTEX_Entry>article</b:BIBTEX_Entry>
+		<b:SourceType>JournalArticle</b:SourceType>
+		<b:Title>Reward tampering problems and solutions in reinforcement learning: a causal influence diagram perspective</b:Title>
+		<b:BIBTEX_Abstract>Can humans get arbitrarily capable reinforcement learning (RL) agents to do their bidding? Or will sufficiently capable RL agents always find ways to bypass their intended objectives by shortcutting their reward signal? This question impacts how far RL can be scaled, and whether alternative paradigms must be developed in order to build safe artificial general intelligence. In this paper, we study when an RL agent has an instrumental goal to tamper with its reward process, and describe design principles that prevent instrumental goals for two different types of reward tampering (reward function tampering and RF-input tampering). Combined, the design principles can prevent both types of reward tampering from being instrumental goals. The analysis benefits from causal influence diagrams to provide intuitive yet precise formalizations.</b:BIBTEX_Abstract>
+		<b:Tag>Everitt2019</b:Tag>
+		<b:Publisher>arXiv</b:Publisher>
+		<b:BIBTEX_KeyWords>Artificial Intelligence (cs.AI), Machine Learning (cs.LG), FOS: Computer and information sciences</b:BIBTEX_KeyWords>
+		<b:DOI>10.48550/ARXIV.1908.04734</b:DOI>
+		<b:Author>
+			<b:Author>
+				<b:NameList>
+					<b:Person>
+						<b:Last>Everitt</b:Last>
+						<b:First>Tom</b:First>
+					</b:Person>
+					<b:Person>
+						<b:Last>Hutter</b:Last>
+						<b:First>Marcus</b:First>
+					</b:Person>
+					<b:Person>
+						<b:Last>Kumar</b:Last>
+						<b:First>Ramana</b:First>
+					</b:Person>
+					<b:Person>
+						<b:Last>Krakovna</b:Last>
+						<b:First>Victoria</b:First>
+					</b:Person>
+				</b:NameList>
+			</b:Author>
+		</b:Author>
+		<b:Month>August</b:Month>
+		<b:RefOrder>21</b:RefOrder></b:Source><b:Source>
+		<b:BIBTEX_Copyright>arXiv.org perpetual, non-exclusive license</b:BIBTEX_Copyright>
+		<b:Year>2017</b:Year>
+		<b:BIBTEX_Entry>article</b:BIBTEX_Entry>
+		<b:SourceType>JournalArticle</b:SourceType>
+		<b:Title>Towards a rigorous science of interpretable machine learning</b:Title>
+		<b:BIBTEX_Abstract>As machine learning systems become ubiquitous, there has been a surge of interest in interpretable machine learning: systems that provide explanation for their outputs. These explanations are often used to qualitatively assess other criteria such as safety or non-discrimination. However, despite the interest in interpretability, there is very little consensus on what interpretable machine learning is and how it should be measured. In this position paper, we first define interpretability and describe when interpretability is needed (and when it is not). Next, we suggest a taxonomy for rigorous evaluation and expose open questions towards a more rigorous science of interpretable machine learning.</b:BIBTEX_Abstract>
+		<b:Tag>DoshiVelez2017</b:Tag>
+		<b:Publisher>arXiv</b:Publisher>
+		<b:BIBTEX_KeyWords>Machine Learning (stat.ML), Artificial Intelligence (cs.AI), Machine Learning (cs.LG), FOS: Computer and information sciences</b:BIBTEX_KeyWords>
+		<b:DOI>10.48550/ARXIV.1702.08608</b:DOI>
+		<b:Author>
+			<b:Author>
+				<b:NameList>
+					<b:Person>
+						<b:Last>Doshi-Velez</b:Last>
+						<b:First>Finale</b:First>
+					</b:Person>
+					<b:Person>
+						<b:Last>Kim</b:Last>
+						<b:First>Been</b:First>
+					</b:Person>
+				</b:NameList>
+			</b:Author>
+		</b:Author>
+		<b:Month>February</b:Month>
+		<b:JournalName>arXiv: Machine Learning</b:JournalName>
+		<b:RefOrder>19</b:RefOrder></b:Source><b:Source>
+		<b:Year>2017</b:Year>
+		<b:BIBTEX_Entry>article</b:BIBTEX_Entry>
+		<b:SourceType>JournalArticle</b:SourceType>
+		<b:Title>Membership inference attacks against machine learning models</b:Title>
+		<b:BIBTEX_Abstract>We quantitatively investigate how machine learning models leak information about the individual data records on which they were trained. We focus on the basic membership inference attack: given a data record and black-box access to a model, determine if the record was in the model's training dataset. To perform membership inference against a target model, we make adversarial use of machine learning and train our own inference model to recognize differences in the target model's predictions on the inputs that it trained on versus the inputs that it did not train on. We empirically evaluate our inference techniques on classification models trained by commercial 'machine learning as a service' providers such as Google and Amazon. Using realistic datasets and classification tasks, including a hospital discharge dataset whose membership is sensitive from the privacy perspective, we show that these models can be vulnerable to membership inference attacks. We then investigate the factors that influence this leakage and evaluate mitigation strategies.</b:BIBTEX_Abstract>
+		<b:Tag>Shokri2017</b:Tag>
+		<b:Publisher>of Electrical, Institute and Inc., Electronics Engineers</b:Publisher>
+		<b:DOI>10.1109/SP.2017.41</b:DOI>
+		<b:Author>
+			<b:Author>
+				<b:NameList>
+					<b:Person>
+						<b:Last>Shokri</b:Last>
+						<b:First>Reza</b:First>
+					</b:Person>
+					<b:Person>
+						<b:Last>Stronati</b:Last>
+						<b:First>Marco</b:First>
+					</b:Person>
+					<b:Person>
+						<b:Last>Song</b:Last>
+						<b:First>Congzheng</b:First>
+					</b:Person>
+					<b:Person>
+						<b:Last>Shmatikov</b:Last>
+						<b:First>Vitaly</b:First>
+					</b:Person>
+				</b:NameList>
+			</b:Author>
+		</b:Author>
+		<b:Pages>3–18</b:Pages>
+		<b:Month>March</b:Month>
+		<b:JournalName>Proceedings - IEEE Symposium on Security and Privacy</b:JournalName>
+		<b:StandardNumber> ISBN: 9781509055326 ISSN: 1081-6011</b:StandardNumber>
+		<b:RefOrder>17</b:RefOrder></b:Source><b:Source><b:BIBTEX_Entry>misc</b:BIBTEX_Entry><b:SourceType>Misc</b:SourceType><b:Title>Google cloud well-architected framework documentation</b:Title><b:BIBTEX_Abstract>The Well-Architected Framework provides recommendations to help architects, developers, administrators, and other cloud practitioners design and operate a cloud topology that's secure, efficient, resilient, high-performing, cost-effective, and sustainable.
+
+A cross-functional team of experts at Google validates the recommendations in the Well-Architected Framework. The team curates the Well-Architected Framework to reflect the expanding capabilities of Google Cloud, industry best practices, community knowledge, and feedback from you. For a summary of the significant changes to the Well-Architected Framework, see What's new.
+
+The Well-Architected Framework is relevant to applications built for the cloud and for workloads migrated from on-premises to Google Cloud, hybrid cloud deployments, and multi-cloud environments.</b:BIBTEX_Abstract><b:Tag>Cloud</b:Tag><b:URL>https://docs.cloud.google.com/architecture/framework/printable</b:URL><b:Author><b:Author><b:Corporate>Google SRE,</b:Corporate></b:Author></b:Author><b:JournalName>Cloud Architecture Center</b:JournalName><b:PublicationTitle>Google cloud well-architected framework documentation</b:PublicationTitle><b:Guid>{A08EF370-22ED-4D6B-BF1D-2677EAE5F7DD}</b:Guid><b:Year>2016</b:Year><b:RefOrder>9</b:RefOrder></b:Source><b:Source>
+		<b:Issue>5</b:Issue>
+		<b:Year>2016</b:Year>
+		<b:Volume>59</b:Volume>
+		<b:BIBTEX_Entry>article</b:BIBTEX_Entry>
+		<b:SourceType>JournalArticle</b:SourceType>
+		<b:Title>Borg, omega, and kubernetes</b:Title>
+		<b:BIBTEX_Abstract>Lessons learned from three container-management systems over a decade.</b:BIBTEX_Abstract>
+		<b:Tag>Burns2016</b:Tag>
+		<b:Publisher>for Computing Machinery (ACM), Association</b:Publisher>
+		<b:URL>http://queue.acm.org/detail.cfm?id=2898444</b:URL>
+		<b:DOI>10.1145/2890784</b:DOI>
+		<b:Author>
+			<b:Author>
+				<b:NameList>
+					<b:Person>
+						<b:Last>Burns</b:Last>
+						<b:First>Brendan</b:First>
+					</b:Person>
+					<b:Person>
+						<b:Last>Grant</b:Last>
+						<b:First>Brian</b:First>
+					</b:Person>
+					<b:Person>
+						<b:Last>Oppenheimer</b:Last>
+						<b:First>David</b:First>
+					</b:Person>
+					<b:Person>
+						<b:Last>Brewer</b:Last>
+						<b:First>Eric</b:First>
+					</b:Person>
+					<b:Person>
+						<b:Last>Wilkes</b:Last>
+						<b:First>John</b:First>
+					</b:Person>
+				</b:NameList>
+			</b:Author>
+		</b:Author>
+		<b:Pages>50–57</b:Pages>
+		<b:Month>April</b:Month>
+		<b:JournalName>Communications of the ACM</b:JournalName>
+		<b:Number>5</b:Number>
+		<b:StandardNumber> ISSN: 1557-7317</b:StandardNumber>
+		<b:RefOrder>4</b:RefOrder></b:Source><b:Source><b:Tag>Pah15</b:Tag><b:SourceType>JournalArticle</b:SourceType><b:Guid>{2C1CA6C3-F6A4-46E4-8BDF-748A50B25F11}</b:Guid><b:Title>Containerization and the PaaS Cloud}</b:Title><b:Year>2015</b:Year><b:Author><b:Author><b:NameList><b:Person><b:Last>Pahl</b:Last><b:First>Claus</b:First></b:Person></b:NameList></b:Author></b:Author><b:JournalName>IEEE Cloud Computing</b:JournalName><b:Pages>24-31</b:Pages><b:Volume>2</b:Volume><b:Issue>3</b:Issue><b:URL>https://ieeexplore.ieee.org/document/7158965</b:URL><b:DOI>10.1109/MCC.2015.51</b:DOI><b:RefOrder>6</b:RefOrder></b:Source><b:Source>
+		<b:Year>2014</b:Year>
+		<b:BIBTEX_Entry>article</b:BIBTEX_Entry>
+		<b:SourceType>JournalArticle</b:SourceType>
+		<b:Title>Docker: lightweight linux containers for consistent development and deployment</b:Title>
+		<b:Tag>Merkel2014</b:Tag>
+		<b:URL>https://api.semanticscholar.org/CorpusID:62479797</b:URL>
+		<b:Author>
+			<b:Author>
+				<b:NameList>
+					<b:Person>
+						<b:Last>Merkel</b:Last>
+						<b:First>Dirk</b:First>
+					</b:Person>
+				</b:NameList>
+			</b:Author>
+		</b:Author>
+		<b:Pages>2</b:Pages>
+		<b:JournalName>Linux Journal</b:JournalName>
+		<b:RefOrder>5</b:RefOrder></b:Source><b:Source>
+		<b:Year>2012</b:Year>
+		<b:BIBTEX_Series>Engineering systems</b:BIBTEX_Series>
+		<b:BIBTEX_Entry>article</b:BIBTEX_Entry>
+		<b:Comments>Literaturverzeichnis: Seiten [521]-529</b:Comments>
+		<b:SourceType>JournalArticle</b:SourceType>
+		<b:Title>Engineering a safer world: systems thinking applied to safety</b:Title>
+		<b:BIBTEX_Abstract>Predicting the binding mode of flexible polypeptides to proteins is an important task that falls outside the domain of applicability of most small molecule and protein−protein docking tools. Here, we test the small molecule flexible ligand docking program Glide on a set of 19 non-α-helical peptides and systematically improve pose prediction accuracy by enhancing Glide sampling for flexible polypeptides. In addition, scoring of the poses was improved by post-processing with physics-based implicit solvent MM- GBSA calculations. Using the best RMSD among the top 10 scoring poses as a metric, the success rate (RMSD ≤ 2.0 Å for the interface backbone atoms) increased from 21% with default Glide SP settings to 58% with the enhanced peptide sampling and scoring protocol in the case of redocking to the native protein structure. This approaches the accuracy of the recently developed Rosetta FlexPepDock method (63% success for these 19 peptides) while being over 100 times faster. Cross-docking was performed for a subset of cases where an unbound receptor structure was available, and in that case, 40% of peptides were docked successfully. We analyze the results and find that the optimized polypeptide protocol is most accurate for extended peptides of limited size and number of formal charges, defining a domain of applicability for this approach.</b:BIBTEX_Abstract>
+		<b:Tag>Leveson2012</b:Tag>
+		<b:Publisher>Press, The M. I. T.</b:Publisher>
+		<b:Edition>New paperback edition</b:Edition>
+		<b:URL>https://direct.mit.edu/books/oa-monograph/2908/Engineering-a-Safer-WorldSystems-Thinking-Applied</b:URL>
+		<b:DOI>10.7551/mitpress/8179.001.0001</b:DOI>
+		<b:Author>
+			<b:Author>
+				<b:NameList>
+					<b:Person>
+						<b:Last>Leveson</b:Last>
+						<b:Middle>G.</b:Middle>
+						<b:First>Nancy</b:First>
+					</b:Person>
+				</b:NameList>
+			</b:Author>
+		</b:Author>
+		<b:Month>January</b:Month>
+		<b:JournalName>Engineering a Safer World</b:JournalName>
+		<b:StandardNumber> ISBN: 9780262298247</b:StandardNumber>
+		<b:City>Cambridge</b:City>
+		<b:StateProvince>Massachusetts</b:StateProvince>
+		<b:RefOrder>10</b:RefOrder></b:Source><b:Source><b:BIBTEX_Entry>article</b:BIBTEX_Entry><b:SourceType>JournalArticle</b:SourceType><b:Title>Privacy by design (pbd): the 7 foundational principles</b:Title><b:BIBTEX_Abstract>With the shift from industrial manufacturing to knowledge creation and service delivery, the value of information and the need to manage it responsibly have grown dramatically. At the same time, rapid innovation, global competition and increasing system complexity present profound challenges for informational privacy. While we would like to enjoy the benefits of innovation − new conveniences and efficiencies − we must also preserve our freedom of choice and personal control over our data flows. Always a social norm, privacy has nonetheless evolved over the years, beyond being viewed solely as a legal compliance requirement, to also being recognized as a market imperative and critical enabler of trust and freedoms in our present-day information society. There is a growing understanding that innovation, creativity and competitiveness must be approached from a “design-thinking” perspective − namely, a way of viewing the world and overcoming constraints that is at once holistic, interdisciplinary, integrative, innovative, and inspiring. Privacy, too, must be approached from the same design-thinking perspective. Privacy must be incorporated into networked data systems and technologies, by default. Privacy must become integral to organizational priorities, project objectives, design processes, and planning operations. Privacy must be embedded into every standard, protocol and process that touches our lives. This document seeks to make this possible by striving to establish a universal framework for the strongest protection of privacy available in the modern era. The 7 Foundational Principles of Privacy by Design are presented below in Bold, followed by the FIPs principles that map onto each one.</b:BIBTEX_Abstract><b:Tag>Cavoukian</b:Tag><b:URL>https://iapp.org/media/pdf/resource_center/pbd_implement_7found_principles.pdf</b:URL><b:Author><b:Author><b:NameList><b:Person><b:Last>Cavoukian</b:Last><b:First>Ann</b:First></b:Person></b:NameList></b:Author></b:Author><b:Guid>{78776222-DECF-4FF4-A91C-8BDB14E4D69D}</b:Guid><b:JournalName>Creation of a Global Privacy Standard</b:JournalName><b:Year>2011</b:Year><b:RefOrder>20</b:RefOrder></b:Source><b:Source>
+		<b:Year>2010</b:Year>
+		<b:BIBTEX_Entry>misc</b:BIBTEX_Entry>
+		<b:SourceType>Misc</b:SourceType>
+		<b:Title>Dapper, a large-scale distributed systems tracing infrastructure</b:Title>
+		<b:Tag>Sigelman2010</b:Tag>
+		<b:URL>https://www.semanticscholar.org/paper/Dapper,-a-Large-Scale-Distributed-Systems-Tracing-Sigelman-Barroso/003d5a65de0ac72daaf105ded903cb3eb88585b3</b:URL>
+		<b:Author>
+			<b:Author>
+				<b:NameList>
+					<b:Person>
+						<b:Last>Sigelman</b:Last>
+						<b:Middle>H.</b:Middle>
+						<b:First>Benjamin</b:First>
+					</b:Person>
+					<b:Person>
+						<b:Last>Barroso</b:Last>
+						<b:Middle>Andre</b:Middle>
+						<b:First>Luiz</b:First>
+					</b:Person>
+					<b:Person>
+						<b:Last>Burrows</b:Last>
+						<b:First>Michael</b:First>
+					</b:Person>
+					<b:Person>
+						<b:Last>Stephenson</b:Last>
+						<b:First>Patrick</b:First>
+					</b:Person>
+					<b:Person>
+						<b:Last>Plakal</b:Last>
+						<b:First>Manoj</b:First>
+					</b:Person>
+					<b:Person>
+						<b:Last>Beaver</b:Last>
+						<b:First>Donald</b:First>
+					</b:Person>
+					<b:Person>
+						<b:Last>Shanbhag</b:Last>
+						<b:Middle>Kumar</b:Middle>
+						<b:First>Chandan</b:First>
+					</b:Person>
+					<b:Person>
+						<b:Last>Jaspan</b:Last>
+						<b:First>Saul</b:First>
+					</b:Person>
+					<b:Person>
+						<b:Last>Shanbhag</b:Last>
+						<b:Middle>Kumar</b:Middle>
+						<b:First>Chandan</b:First>
+					</b:Person>
+				</b:NameList>
+			</b:Author>
+		</b:Author>
+		<b:PublicationTitle>Dapper, a large-scale distributed systems tracing infrastructure</b:PublicationTitle>
+		<b:RefOrder>8</b:RefOrder></b:Source><b:Source>
+		<b:Issue>4</b:Issue>
+		<b:Year>2010</b:Year>
+		<b:Volume>53</b:Volume>
+		<b:BIBTEX_Entry>article</b:BIBTEX_Entry>
+		<b:SourceType>JournalArticle</b:SourceType>
+		<b:Title>A view of cloud computing</b:Title>
+		<b:BIBTEX_Abstract>Clearing the clouds away from the true potential and obstacles posed by this computing capability.</b:BIBTEX_Abstract>
+		<b:Tag>Armbrust2010</b:Tag>
+		<b:Publisher>for Computing Machinery (ACM), Association</b:Publisher>
+		<b:DOI>10.1145/1721654.1721672</b:DOI>
+		<b:Author>
+			<b:Author>
+				<b:NameList>
+					<b:Person>
+						<b:Last>Armbrust</b:Last>
+						<b:First>Michael</b:First>
+					</b:Person>
+					<b:Person>
+						<b:Last>Fox</b:Last>
+						<b:First>Armando</b:First>
+					</b:Person>
+					<b:Person>
+						<b:Last>Griffith</b:Last>
+						<b:First>Rean</b:First>
+					</b:Person>
+					<b:Person>
+						<b:Last>Joseph</b:Last>
+						<b:Middle>D.</b:Middle>
+						<b:First>Anthony</b:First>
+					</b:Person>
+					<b:Person>
+						<b:Last>Katz</b:Last>
+						<b:First>Randy</b:First>
+					</b:Person>
+					<b:Person>
+						<b:Last>Konwinski</b:Last>
+						<b:First>Andy</b:First>
+					</b:Person>
+					<b:Person>
+						<b:Last>Lee</b:Last>
+						<b:First>Gunho</b:First>
+					</b:Person>
+					<b:Person>
+						<b:Last>Patterson</b:Last>
+						<b:First>David</b:First>
+					</b:Person>
+					<b:Person>
+						<b:Last>Rabkin</b:Last>
+						<b:First>Ariel</b:First>
+					</b:Person>
+					<b:Person>
+						<b:Last>Stoica</b:Last>
+						<b:First>Ion</b:First>
+					</b:Person>
+					<b:Person>
+						<b:Last>Zaharia</b:Last>
+						<b:First>Matei</b:First>
+					</b:Person>
+				</b:NameList>
+			</b:Author>
+		</b:Author>
+		<b:Pages>50–58</b:Pages>
+		<b:Month>April</b:Month>
+		<b:JournalName>Communications of the ACM</b:JournalName>
+		<b:Number>4</b:Number>
+		<b:StandardNumber> ISSN: 1557-7317</b:StandardNumber>
+		<b:RefOrder>3</b:RefOrder></b:Source><b:Source>
+		<b:Issue>6</b:Issue>
+		<b:Year>2004</b:Year>
+		<b:Volume>37</b:Volume>
+		<b:BIBTEX_Entry>article</b:BIBTEX_Entry>
+		<b:SourceType>JournalArticle</b:SourceType>
+		<b:Title>Computer security in the real world</b:Title>
+		<b:Tag>Lampson2004</b:Tag>
+		<b:Publisher>of Electrical, Institute and (IEEE), Electronics Engineers</b:Publisher>
+		<b:URL>https://ieeexplore.ieee.org/document/1306384</b:URL>
+		<b:DOI>10.1109/mc.2004.17</b:DOI>
+		<b:Author>
+			<b:Author>
+				<b:NameList>
+					<b:Person>
+						<b:Last>Lampson</b:Last>
+						<b:Middle>W.</b:Middle>
+						<b:First>B.</b:First>
+					</b:Person>
+				</b:NameList>
+			</b:Author>
+		</b:Author>
+		<b:Pages>37–46</b:Pages>
+		<b:Month>June</b:Month>
+		<b:JournalName>Computer</b:JournalName>
+		<b:Number>6</b:Number>
+		<b:StandardNumber> ISSN: 0018-9162</b:StandardNumber>
+		<b:RefOrder>2</b:RefOrder></b:Source><b:Source>
+		<b:Year>2003</b:Year>
+		<b:BIBTEX_Entry>techreport</b:BIBTEX_Entry>
+		<b:SourceType>Report</b:SourceType>
+		<b:Title>Capability myths demolished</b:Title>
+		<b:BIBTEX_Abstract>We address three common misconceptions about capability-based systems: the Equivalence Myth (access control list systems and capability systems are formally equivalent), the Confinement Myth (capability systems cannot enforce confinement), and the Irrevocability Myth (capability-based access cannot be revoked). The Equivalence Myth obscures the benefits of capabilities as compared to access control lists, while the Confinement Myth and the Irrevocability Myth lead people to see problems with capabilities that do not actually exist. The prevalence of these myths is due to differing interpretations of the capability security model. To clear up the confusion, we examine three different models that have been used to describe capabilities, and define a set of seven security properties that capture the distinctions among them. Our analysis in terms of these properties shows that pure capability systems have significant advantages over access control list systems: capabilities provide much better support for least-privilege operation and for avoiding confused deputy problems.</b:BIBTEX_Abstract>
+		<b:Tag>Miller2003</b:Tag>
+		<b:URL>https://api.semanticscholar.org/CorpusID:9456299</b:URL>
+		<b:Author>
+			<b:Author>
+				<b:NameList>
+					<b:Person>
+						<b:Last>Miller</b:Last>
+						<b:Middle>S.</b:Middle>
+						<b:First>Mark</b:First>
+					</b:Person>
+					<b:Person>
+						<b:Last>Yee</b:Last>
+						<b:First>Ka-Ping</b:First>
+					</b:Person>
+					<b:Person>
+						<b:Last>Shapiro</b:Last>
+						<b:First>Jonathan</b:First>
+					</b:Person>
+				</b:NameList>
+			</b:Author>
+		</b:Author>
+		<b:ThesisType>Tech. rep.</b:ThesisType>
+		<b:RefOrder>14</b:RefOrder></b:Source><b:Source>
+		<b:Issue>9</b:Issue>
+		<b:Year>1975</b:Year>
+		<b:Volume>63</b:Volume>
+		<b:BIBTEX_Entry>article</b:BIBTEX_Entry>
+		<b:SourceType>JournalArticle</b:SourceType>
+		<b:Title>The protection of information in computer systems</b:Title>
+		<b:BIBTEX_Abstract>This tutorial paper explores the mechanics of protecting computer-stored information from unauthorized use or modification. It concentrates on those architectural structures-whether hardware or software-that are necessary to support information protection. The paper develops in three main sections. Section I describes desired functions, design principles, and examples of elementary protection and authentication mechanisms. Any reader familiar with computers should find the first section to be reasonably accessible. Section II requires some familiarity with descriptor-based computer architecture. It examines in depth the principles of modern protection architectures and the relation between capability systems and access control list systems, and ends with a brief analysis of protected subsystems and protected objects. The reader who is dismayed by either the prerequisites or the level of detail in the second section may wish to skip to Section III, which reviews the state of the art and current research projects and provides suggestions for further reading. © 1975, IEEE. All rights reserved.</b:BIBTEX_Abstract>
+		<b:Tag>Saltzer1975</b:Tag>
+		<b:Publisher>of Electrical, Institute and (IEEE), Electronics Engineers</b:Publisher>
+		<b:BIBTEX_KeyWords>Protection;Authorization;Permission;Access control;Terminology;Data security;Information security;Computer architecture;Modems</b:BIBTEX_KeyWords>
+		<b:URL>http://ieeexplore.ieee.org/document/1451869/</b:URL>
+		<b:DOI>10.1109/PROC.1975.9939</b:DOI>
+		<b:Author>
+			<b:Author>
+				<b:NameList>
+					<b:Person>
+						<b:Last>Saltzer</b:Last>
+						<b:Middle>H.</b:Middle>
+						<b:First>J.</b:First>
+					</b:Person>
+					<b:Person>
+						<b:Last>Schroeder</b:Last>
+						<b:Middle>D.</b:Middle>
+						<b:First>M.</b:First>
+					</b:Person>
+				</b:NameList>
+			</b:Author>
+		</b:Author>
+		<b:Pages>1278–1308</b:Pages>
+		<b:JournalName>Proceedings of the IEEE</b:JournalName>
+		<b:Number>9</b:Number>
+		<b:StandardNumber> ISSN: 0018-9219</b:StandardNumber>
+		<b:RefOrder>1</b:RefOrder></b:Source><b:Source><b:Tag>Eve18</b:Tag><b:SourceType>ConferenceProceedings</b:SourceType><b:Guid>{FEFCF53F-AFDF-482E-870A-1B171C155D32}</b:Guid><b:Author><b:Author><b:NameList><b:Person><b:Last>Everitt</b:Last><b:First>T.</b:First></b:Person><b:Person><b:Last>Lea</b:Last><b:First>G.</b:First></b:Person><b:Person><b:Last>Hutter</b:Last><b:First>M.</b:First></b:Person></b:NameList></b:Author></b:Author><b:Title>AGI Safety Literature Review</b:Title><b:Year>2018</b:Year><b:Pages>5441-5449</b:Pages><b:ConferenceName>Twenty-Seventh International Joint Conference on Artificial Intelligence</b:ConferenceName><b:URL>http://arxiv.org/abs/1805.01109</b:URL></b:Source></b:Sources>
