@@ -1,0 +1,303 @@
+<?xml version="1.0"?>
+<b:Sources SelectedStyle="" xmlns:b="http://schemas.openxmlformats.org/officeDocument/2006/bibliography" xmlns="http://schemas.openxmlformats.org/officeDocument/2006/bibliography"><b:Source>
+		<b:Year>2018</b:Year>
+		<b:Volume>16</b:Volume>
+		<b:BIBTEX_Entry>article</b:BIBTEX_Entry>
+		<b:SourceType>JournalArticle</b:SourceType>
+		<b:Title>What Can Political Philosophy Teach Us about Algorithmic Fairness?</b:Title>
+		<b:Publisher>Institute of Electrical and Electronics Engineers (IEEE)</b:Publisher>
+		<b:Tag>binns2018_fairness</b:Tag>
+		<b:BookTitle>Proceedings of the 2018 Conference on Fairness, Accountability and Transparency</b:BookTitle>
+		<b:DOI>10.1109/msp.2018.2701147</b:DOI>
+		<b:Author>
+			<b:Author>
+				<b:NameList>
+					<b:Person>
+						<b:Last>Binns</b:Last>
+						<b:First>Reuben</b:First>
+					</b:Person>
+				</b:NameList>
+			</b:Author>
+		</b:Author>
+		<b:Pages>73-80</b:Pages>
+		<b:Month>May</b:Month>
+		<b:JournalName>IEEE Security &amp;amp; Privacy</b:JournalName>
+		<b:Number>3</b:Number>
+		<b:StandardNumber> ISSN: 1558-4046</b:StandardNumber>
+		<b:ConferenceName>Proceedings of the 2018 Conference on Fairness, Accountability and Transparency</b:ConferenceName>
+		<b:RefOrder>6</b:RefOrder></b:Source><b:Source>
+		<b:Year>2017</b:Year>
+		<b:BIBTEX_Entry>article</b:BIBTEX_Entry>
+		<b:SourceType>JournalArticle</b:SourceType>
+		<b:Title>Towards a Rigorous Science of Interpretable Machine Learning</b:Title>
+		<b:Tag>doshi2017_interpretability</b:Tag>
+		<b:URL>https://arxiv.org/abs/1702.08608</b:URL>
+		<b:Author>
+			<b:Author>
+				<b:NameList>
+					<b:Person>
+						<b:Last>Doshi-Velez</b:Last>
+						<b:First>Finale</b:First>
+					</b:Person>
+					<b:Person>
+						<b:Last>Kim</b:Last>
+						<b:First>Been</b:First>
+					</b:Person>
+				</b:NameList>
+			</b:Author>
+		</b:Author>
+		<b:JournalName>arXiv preprint arXiv:1702.08608</b:JournalName>
+		<b:RefOrder>5</b:RefOrder></b:Source><b:Source>
+		<b:Year>2021</b:Year>
+		<b:Volume>73</b:Volume>
+		<b:BIBTEX_Entry>article</b:BIBTEX_Entry>
+		<b:SourceType>JournalArticle</b:SourceType>
+		<b:Title>The Ethical Algorithm: The Science of Socially Aware Algorithm Design</b:Title>
+		<b:Publisher>American Scientific Affiliation, Inc.</b:Publisher>
+		<b:BIBTEX_Abstract>THE ETHICAL ALGORITHM: The Science of Socially Aware Algorithm Design by Michael Kearns and Aaron Roth. New York: Oxford University Press, 2019. 232 pages. Hardcover; 24.95. ISBN: 9780190948207. *Can an algorithm be ethical? That question appears to be similar to asking if a hammer can be ethical. Isn't the ethics solely related to how the hammer is used? Using it to build a house seems ethical; using it to harm another person would be immoral. *That line of thinking would be appropriate if the algorithm were something as simple as a sorting routine. If we sort the list of names in a wedding guest book so that the thank-you cards can be sent more systematically, its use would be acceptable; sorting a list of email addresses by education level in order to target people with a scam would be immoral. *The algorithms under consideration in The Ethical Algorithm are of a different nature, and the ethical issues are more complex. These algorithms are of fairly recent origin. They arise as we try to make use of vast collections of data to make more-accurate decisions: for example, using income, credit history, current debt level, and education level to approve or disapprove a loan application. A second example would be the use of high school GPA, ACT or SAT scores, and extra-curricular activities to determine college admissions. *The algorithms under consideration use machine-learning techniques (a branch of artificial intelligence) to look at the success rates of past student admissions and instruct the machine-learning algorithm to determine a set of criteria that successfully distinguish (with minimal errors) between those past students who graduated and those who didn't. That set of criteria (called a "model") can then be used to predict the success of future applicants. *The ethical component is important because such machine-learning algorithms optimize with particular goals as targets. And there tend to be unintended consequences–such as higher rates of rejection of applicants of color who would actually have succeeded. The solution to this problem requires more than just adding social equity goals as part of what is to be optimized–although that is an important step. *The authors advocate the development of precise definitions of the social goals we seek, and then the development of algorithmic techniques that help produce those goals. One important example is the social goal of privacy. What follows leaves out many important ideas found in the book, but illustrates the key points. Kearns and Roth cite the release in the mid-1990s of a dataset containing medical records for all state employees of Massachusetts. The dataset was intended for the use of medical researchers. The governor assured the employees that identifying information had been removed–names, social security numbers, and addresses. Two weeks later, Latanya Sweeney, a PhD student at MIT, sent the governor his medical records from that dataset. It cost her 20 to legally purchase the voter rolls for the city of Cambridge, MA. She then correlated that with other publicly available information to eliminate every other person from the medical dataset other than the governor himself. *Achieving data privacy is not as simple as was originally thought. To make progress, a good definition of privacy is needed. One useful definition is the notion of differential privacy: "nothing about an individual should be learnable from a dataset that cannot be learned from the same dataset but with the individual's data removed" (p. 36). This needs to also prevent identification by merging multiple datasets (for example, the medical records from several hospitals from which we might be able to identify an individual by looking for intersections on a few key attributes such as age, gender, and illness). One way to achieve this goal is to add randomness to the data. This can be done in a manner in which the probability of determining an individual changes very little by adding or removing that person's data to/from the dataset. *A very clever technique for adding this random noise can be found in a randomized response, an idea introduced in the 1960s to get accurate information in polls about sensitive topics (such as, "have you cheated on your taxes?"). The respondent is told to flip a coin. If it is a head, answer truthfully. If it is a tail, flip a second time and answer "yes" if it is a head and "no" if it is a tail. Suppose the true proportion of people who cheat on their taxes is p. Some pretty simple math shows that with a sufficiently large sample size (larger than needed for surveys that are less sensitive), the measured proportion, m, of "yes" responses will be close to m = ¼ + ½ p. We can then approximate p as 2m - ½, and still give individuals reasonable deniability. If I answer "yes" and a hacker finds my record, there is still a 25% chance that my true answer is "no." My privacy has been effectively protected. So we can achieve reasonable privacy at the cost of needing a larger dataset. *This short book discusses privacy, fairness, multiplayer games (such as using apps to direct your morning commute), pitfalls in scientific research, accountability, the singularity (a future time where machines might become "smarter" than humans), and more. Sufficient detail is given so that the reader can understand the ideas and the fundamental aspects of the algorithms without requiring a degree in mathematics or computer science. *One of the fundamental issues driving the need for ethical algorithms is the unintended consequences that result from well-intended choices. This is not a new phenomenon–Lot made a choice based on the data he had available: "Lot looked about him, and saw that the plain of the Jordan was well watered everywhere like the garden of the Lord, like the land of Egypt ..." Genesis 13:10 (NRSV). But by choosing that apparently desirable location, Lot brought harm to his family. *I have often pondered the command of Jesus in Matthew 10:16 where he instructs us to "be wise as serpents and innocent as doves." Perhaps one way to apply this command is to be wise as we are devising algorithms to make sure that they do no harm. We should be willing to give up some efficiency in order to achieve more equitable results. *Reviewed by Eric Gossett, Department of Mathematics and Computer Science, Bethel University, St. Paul, MN 55112.</b:BIBTEX_Abstract>
+		<b:Tag>kearns2019_ethics</b:Tag>
+		<b:URL>https://www.semanticscholar.org/paper/156510dd3d38813784f8b9cb6b380be899eec83a</b:URL>
+		<b:DOI>10.56315/pscf3-21kearns</b:DOI>
+		<b:Author>
+			<b:Author>
+				<b:NameList>
+					<b:Person>
+						<b:Last>Kearns</b:Last>
+						<b:First>Michael</b:First>
+					</b:Person>
+					<b:Person>
+						<b:Last>Roth</b:Last>
+						<b:First>Aaron</b:First>
+					</b:Person>
+				</b:NameList>
+			</b:Author>
+		</b:Author>
+		<b:Pages>55-56</b:Pages>
+		<b:Month>March</b:Month>
+		<b:JournalName>Perspectives on Science and Christian Faith</b:JournalName>
+		<b:Number>1</b:Number>
+		<b:StandardNumber> ISSN: 0892-2675</b:StandardNumber>
+		<b:RefOrder>2</b:RefOrder></b:Source><b:Source>
+		<b:Year>2019</b:Year>
+		<b:BIBTEX_Series>FAT* ’19</b:BIBTEX_Series>
+		<b:BIBTEX_Entry>inproceedings</b:BIBTEX_Entry>
+		<b:SourceType>ConferenceProceedings</b:SourceType>
+		<b:Title>Model Cards for Model Reporting</b:Title>
+		<b:Publisher>ACM</b:Publisher>
+		<b:Tag>mitchell2019_modelcards</b:Tag>
+		<b:BookTitle>Proceedings of the Conference on Fairness, Accountability, and Transparency</b:BookTitle>
+		<b:DOI>10.1145/3287560.3287596</b:DOI>
+		<b:Author>
+			<b:Author>
+				<b:NameList>
+					<b:Person>
+						<b:Last>Mitchell</b:Last>
+						<b:First>Margaret</b:First>
+					</b:Person>
+					<b:Person>
+						<b:Last>Wu</b:Last>
+						<b:First>Simone</b:First>
+					</b:Person>
+					<b:Person>
+						<b:Last>Zaldivar</b:Last>
+						<b:First>Andrew</b:First>
+					</b:Person>
+					<b:Person>
+						<b:Last>Barnes</b:Last>
+						<b:First>Parker</b:First>
+					</b:Person>
+					<b:Person>
+						<b:Last>Vasserman</b:Last>
+						<b:First>Lucy</b:First>
+					</b:Person>
+					<b:Person>
+						<b:Last>Hutchinson</b:Last>
+						<b:First>Ben</b:First>
+					</b:Person>
+					<b:Person>
+						<b:Last>Spitzer</b:Last>
+						<b:First>Elena</b:First>
+					</b:Person>
+					<b:Person>
+						<b:Last>Raji</b:Last>
+						<b:Middle>Deborah</b:Middle>
+						<b:First>Inioluwa</b:First>
+					</b:Person>
+					<b:Person>
+						<b:Last>Gebru</b:Last>
+						<b:First>Timnit</b:First>
+					</b:Person>
+				</b:NameList>
+			</b:Author>
+		</b:Author>
+		<b:Pages>220-229</b:Pages>
+		<b:Month>January</b:Month>
+		<b:ConferenceName>Proceedings of the Conference on Fairness, Accountability, and Transparency</b:ConferenceName>
+		<b:RefOrder>3</b:RefOrder></b:Source><b:Source>
+		<b:Year>2019</b:Year>
+		<b:BIBTEX_Series>CHI ’19</b:BIBTEX_Series>
+		<b:BIBTEX_Entry>inproceedings</b:BIBTEX_Entry>
+		<b:SourceType>ConferenceProceedings</b:SourceType>
+		<b:Title>Improving Fairness in Machine Learning Systems: What Do Industry Practitioners Need?</b:Title>
+		<b:Publisher>ACM</b:Publisher>
+		<b:Tag>holstein2019_improving</b:Tag>
+		<b:BookTitle>Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems</b:BookTitle>
+		<b:DOI>10.1145/3290605.3300830</b:DOI>
+		<b:Author>
+			<b:Author>
+				<b:NameList>
+					<b:Person>
+						<b:Last>Holstein</b:Last>
+						<b:First>Kenneth</b:First>
+					</b:Person>
+					<b:Person>
+						<b:Last>Wortman Vaughan</b:Last>
+						<b:First>Jennifer</b:First>
+					</b:Person>
+					<b:Person>
+						<b:Last>Daumé</b:Last>
+						<b:First>Hal</b:First>
+					</b:Person>
+					<b:Person>
+						<b:Last>Dudik</b:Last>
+						<b:First>Miro</b:First>
+					</b:Person>
+					<b:Person>
+						<b:Last>Wallach</b:Last>
+						<b:First>Hanna</b:First>
+					</b:Person>
+				</b:NameList>
+			</b:Author>
+		</b:Author>
+		<b:Pages>1-16</b:Pages>
+		<b:Month>May</b:Month>
+		<b:JournalName>Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems</b:JournalName>
+		<b:ConferenceName>Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems</b:ConferenceName>
+		<b:RefOrder>1</b:RefOrder></b:Source><b:Source>
+		<b:Year>2021</b:Year>
+		<b:Volume>64</b:Volume>
+		<b:BIBTEX_Entry>article</b:BIBTEX_Entry>
+		<b:SourceType>JournalArticle</b:SourceType>
+		<b:Title>Datasheets for Datasets</b:Title>
+		<b:Publisher>Association for Computing Machinery (ACM)</b:Publisher>
+		<b:BIBTEX_Abstract>Documentation to facilitate communication between dataset creators and consumers.</b:BIBTEX_Abstract>
+		<b:Tag>gebru2018_datasheets</b:Tag>
+		<b:URL>https://www.semanticscholar.org/paper/0df347f5e3118fac7c351917e3a497899b071d1e</b:URL>
+		<b:DOI>10.1145/3458723</b:DOI>
+		<b:Author>
+			<b:Author>
+				<b:NameList>
+					<b:Person>
+						<b:Last>Gebru</b:Last>
+						<b:First>Timnit</b:First>
+					</b:Person>
+					<b:Person>
+						<b:Last>Morgenstern</b:Last>
+						<b:First>Jamie</b:First>
+					</b:Person>
+					<b:Person>
+						<b:Last>Vecchione</b:Last>
+						<b:First>Briana</b:First>
+					</b:Person>
+					<b:Person>
+						<b:Last>Vaughan</b:Last>
+						<b:Middle>Wortman</b:Middle>
+						<b:First>Jennifer</b:First>
+					</b:Person>
+					<b:Person>
+						<b:Last>Wallach</b:Last>
+						<b:First>Hanna</b:First>
+					</b:Person>
+					<b:Person>
+						<b:Last>Hal Daumé</b:Last>
+						<b:Middle>I. I.</b:Middle>
+						<b:First>I.</b:First>
+					</b:Person>
+					<b:Person>
+						<b:Last>Crawford</b:Last>
+						<b:First>Kate</b:First>
+					</b:Person>
+				</b:NameList>
+			</b:Author>
+		</b:Author>
+		<b:Pages>86–92</b:Pages>
+		<b:Month>November</b:Month>
+		<b:JournalName>Communications of the ACM</b:JournalName>
+		<b:Number>1</b:Number>
+		<b:StandardNumber> ISSN: 1557-7317</b:StandardNumber>
+		<b:RefOrder>4</b:RefOrder></b:Source><b:Source>
+		<b:Year>2016</b:Year>
+		<b:BIBTEX_Entry>article</b:BIBTEX_Entry>
+		<b:SourceType>JournalArticle</b:SourceType>
+		<b:Title>Concrete Problems in AI Safety</b:Title>
+		<b:Tag>amodei2016_concrete</b:Tag>
+		<b:BIBTEX_Abstract>Rapid progress in machine learning and artificial intelligence (AI) has brought increasing attention to the potential impacts of AI technologies on society. In this paper we discuss one such potential impact: the problem of accidents in machine learning systems, defined as unintended and harmful behavior that may emerge from poor design of real-world AI systems. We present a list of five practical research problems related to accident risk, categorized according to whether the problem originates from having the wrong objective function ("avoiding side effects" and "avoiding reward hacking"), an objective function that is too expensive to evaluate frequently ("scalable supervision"), or undesirable behavior during the learning process ("safe exploration" and "distributional shift"). We review previous work in these areas as well as suggesting research directions with a focus on relevance to cutting-edge AI systems. Finally, we consider the high-level question of how to think most productively about the safety of forward-looking applications of AI.</b:BIBTEX_Abstract>
+		<b:URL>https://arxiv.org/abs/1606.06565</b:URL>
+		<b:Author>
+			<b:Author>
+				<b:NameList>
+					<b:Person>
+						<b:Last>Amodei</b:Last>
+						<b:First>Dario</b:First>
+					</b:Person>
+					<b:Person>
+						<b:Last>Olah</b:Last>
+						<b:First>Chris</b:First>
+					</b:Person>
+					<b:Person>
+						<b:Last>Steinhardt</b:Last>
+						<b:First>J.</b:First>
+					</b:Person>
+					<b:Person>
+						<b:Last>Christiano</b:Last>
+						<b:First>P.</b:First>
+					</b:Person>
+					<b:Person>
+						<b:Last>Schulman</b:Last>
+						<b:First>John</b:First>
+					</b:Person>
+					<b:Person>
+						<b:Last>Mané</b:Last>
+						<b:First>Dandelion</b:First>
+					</b:Person>
+				</b:NameList>
+			</b:Author>
+		</b:Author>
+		<b:JournalName>arXiv preprint arXiv:1606.06565</b:JournalName>
+		<b:RefOrder>7</b:RefOrder></b:Source><b:Source>
+		<b:Year>2016</b:Year>
+		<b:BIBTEX_Series>KDD ’16</b:BIBTEX_Series>
+		<b:BIBTEX_Entry>inproceedings</b:BIBTEX_Entry>
+		<b:Comments>ISBN: 9781450342322</b:Comments>
+		<b:SourceType>ConferenceProceedings</b:SourceType>
+		<b:Title>“Why Should I Trust You?”: Explaining the Predictions of Any Classifier</b:Title>
+		<b:Publisher>ACM</b:Publisher>
+		<b:BIBTEX_Abstract>Despite widespread adoption, machine learning models remain mostly black boxes. Understanding the reasons behind predictions is, however, quite important in assessing trust, which is fundamental if one plans to take action based on a prediction, or when choosing whether to deploy a new model. Such understanding also provides insights into the model, which can be used to transform an untrustworthy model or prediction into a trustworthy one. In this work, we propose LIME, a novel explanation technique that explains the predictions of any classifier in an interpretable and faithful manner, by learning an interpretable model locally varound the prediction. We also propose a method to explain models by presenting representative individual predictions and their explanations in a non-redundant way, framing the task as a submodular optimization problem. We demonstrate the flexibility of these methods by explaining different models for text (e.g. random forests) and image classification (e.g. neural networks). We show the utility of explanations via novel experiments, both simulated and with human subjects, on various scenarios that require trust: deciding if one should trust a prediction, choosing between models, improving an untrustworthy classifier, and identifying why a classifier should not be trusted.</b:BIBTEX_Abstract>
+		<b:Tag>ribeiro2016_lime</b:Tag>
+		<b:BookTitle>Proceedings of the 22nd ACM SIGKDD International Conference on Knowledge Discovery and Data Mining</b:BookTitle>
+		<b:URL>https://dl.acm.org/doi/10.1145/2939672.2939778</b:URL>
+		<b:DOI>10.1145/2939672.2939778</b:DOI>
+		<b:Author>
+			<b:Author>
+				<b:NameList>
+					<b:Person>
+						<b:Last>Ribeiro</b:Last>
+						<b:Middle>Tulio</b:Middle>
+						<b:First>Marco</b:First>
+					</b:Person>
+					<b:Person>
+						<b:Last>Singh</b:Last>
+						<b:First>Sameer</b:First>
+					</b:Person>
+					<b:Person>
+						<b:Last>Guestrin</b:Last>
+						<b:First>Carlos</b:First>
+					</b:Person>
+				</b:NameList>
+			</b:Author>
+		</b:Author>
+		<b:Pages>1135-1144</b:Pages>
+		<b:Month>August</b:Month>
+		<b:JournalName>Proceedings of the 22nd ACM SIGKDD International Conference on Knowledge Discovery and Data Mining</b:JournalName>
+		<b:ConferenceName>Proceedings of the 22nd ACM SIGKDD International Conference on Knowledge Discovery and Data Mining</b:ConferenceName>
+		<b:RefOrder>8</b:RefOrder></b:Source></b:Sources>
