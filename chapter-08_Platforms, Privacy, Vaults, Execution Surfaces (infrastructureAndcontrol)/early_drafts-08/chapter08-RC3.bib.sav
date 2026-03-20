@@ -1,0 +1,159 @@
+@InProceedings{Authors,
+  title = {Pod security standards | kubernetes},
+  url   = {https://kubernetes.io/docs/concepts/security/pod-security-standards/},
+  year  = {2026},
+}
+
+@Misc{Levan2024,
+  author       = {Levan, Michael},
+  title        = {Implementing kubernetes pod security standards},
+  howpublished = {DEV Community},
+  url          = {https://dev.to/thenjdevopsguy/implementing-kubernetes-pod-security-standards-4aco},
+  keywords     = {programming,cybersecurity,kubernetes},
+  month        = jul,
+  year         = {2024},
+}
+
+@Misc{AWS2024,
+  author   = {AWS},
+  title    = {Aws well-architected framework},
+  url      = {https://docs.aws.amazon.com/wellarchitected/latest/framework/welcome.html},
+  abstract = {The AWS Well-Architected Framework helps you understand the pros and cons of decisions you make while building systems on AWS. Using the Framework helps you learn architectural best practices for designing and operating secure, reliable, efficient, cost-effective, and sustainable workloads in the AWS Cloud. It provides a way for you to consistently measure your architectures against best practices and identify areas for improvement. The process for reviewing an architecture is a constructive conversation about architectural decisions, and is not an audit mechanism. We believe that having well-architected systems greatly increases the likelihood of business success.
+
+AWS Solutions Architects have years of experience architecting solutions across a wide variety of business verticals and use cases. We have helped design and review thousands of customers’ architectures on AWS. From this experience, we have identified best practices and core strategies for architecting systems in the cloud.
+
+The AWS Well-Architected Framework documents a set of foundational questions that help you to understand if a specific architecture aligns well with cloud best practices. The framework provides a consistent approach to evaluating systems against the qualities you expect from modern cloud-based systems, and the remediation that would be required to achieve those qualities. As AWS continues to evolve, and we continue to learn more from working with our customers, we will continue to refine the definition of well-architected.
+
+This framework is intended for those in technology roles, such as chief technology officers (CTOs), architects, developers, and operations team members. It describes AWS best practices and strategies to use when designing and operating a cloud workload, and provides links to further implementation details and architectural patterns. For more information, see the AWS Well-Architected homepage.
+
+AWS also provides a service for reviewing your workloads at no charge. The AWS Well-Architected Tool (AWS WA Tool) is a service in the cloud that provides a consistent process for you to review and measure your architecture using the AWS Well-Architected Framework. The AWS WA Tool provides recommendations for making your workloads more reliable, secure, efficient, and cost-effective.
+
+To help you apply best practices, we have created AWS Well-Architected Labs, which provides you with a repository of code and documentation to give you hands-on experience implementing best practices. We also have teamed up with select AWS Partner Network (APN) Partners, who are members of the AWS Well-Architected Partner program. These AWS Partners have deep AWS knowledge, and can help you review and improve your workloads.},
+  journal  = {AWS Documentation},
+  month    = nov,
+  year     = {2024},
+}
+
+@TechReport{Sky23,
+  title     = {Data Privacy and Compliance for LLMs},
+  publisher = {Skyflow, Inc.},
+  year      = {2023},
+}
+
+@TechReport{Mic23,
+  title          = {Azure Well-Architected Framework},
+  url            = {https://learn.microsoft.com/en-us/azure/architecture/},
+  msbib-accessed = {2026-03-09},
+  year           = {2023},
+}
+
+@Book{artificia,
+  author    = {NIST},
+  title     = {Artificial Intelligence Risk Management Framework (NIST AI 100-1)},
+  publisher = {National Institute of Standards and Technology (NIST)},
+  journal   = {Artificial Intelligence Risk Management Framework (NIST AI 100-1)},
+  year      = {2023},
+}
+
+@InProceedings{Carlini2021,
+  author       = {Carlini, Nicholas and Tramèr, Florian and Wallace, Eric and Jagielski, Matthew and Herbert-Voss, Ariel and Lee, Katherine and Roberts, Adam and Brown, Tom and Song, Dawn and Erlingsson, Úlfar and Oprea, Alina and Raffel, Colin},
+  booktitle    = {30th USENIX Security Symposium (USENIX Security 21)},
+  title        = {Extracting training data from large language models},
+  location     = {[Berkeley, CA]},
+  note         = {Literaturangaben},
+  organization = {30th USENIX Security Symposium (USENIX Security 21)},
+  pages        = {2633–2650},
+  publisher    = {Association, U. S. E. N. I. X.},
+  url          = {https://researchr.org/publication/CarliniTWJHLRBS21},
+  month        = aug,
+  year         = {2021},
+}
+
+@Book{Force2020,
+  title     = {Nist sp 800-53 rev. 5 . Security and privacy controls for information systems and organizations},
+  doi       = {10.6028/NIST.SP.800-53r5},
+  publisher = {National Institute and Technology of Standards (National Institute and Technology)},
+  url       = {https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final},
+  abstract  = {This publication provides a catalog of security and privacy controls for information systems and organizations to protect organizational operations and assets, individuals, other organizations, and the Nation from a diverse set of threats and risks, including hostile attacks, human errors, natural disasters, structural failures, foreign intelligence entities, and privacy risks. The controls are flexible and customizable and implemented as part of an organization-wide process to manage risk. The controls address diverse requirements derived from mission and business needs, laws, executive orders, directives, regulations, policies, standards, and guidelines. Finally, the consolidated control catalog addresses security and privacy from a functionality perspective (i.e., the strength of functions and mechanisms provided by the controls) and from an assurance perspective (i.e., the measure of confidence in the security or privacy capability provided by the controls). Addressing functionality and assurance helps to ensure that information technology products and the systems that rely on those products are sufficiently trustworthy.},
+  journal   = {National Institute of Standards and Technology},
+  keywords  = {FISMA,Privacy Act,Risk Management Framework,assurance,availability,computer security,confidentiality,control,cybersecurity,information security,information system,integrity,personally identifiable information,privacy controls,privacy functions,privacy requirements,security controls,security functions,security requirements,system,system security},
+  month     = sep,
+  year      = {2020},
+}
+
+@Article{Everitt2019,
+  author    = {Everitt, Tom and Hutter, Marcus and Kumar, Ramana and Krakovna, Victoria},
+  title     = {Reward tampering problems and solutions in reinforcement learning: a causal influence diagram perspective},
+  doi       = {10.48550/ARXIV.1908.04734},
+  abstract  = {Can humans get arbitrarily capable reinforcement learning (RL) agents to do their bidding? Or will sufficiently capable RL agents always find ways to bypass their intended objectives by shortcutting their reward signal? This question impacts how far RL can be scaled, and whether alternative paradigms must be developed in order to build safe artificial general intelligence. In this paper, we study when an RL agent has an instrumental goal to tamper with its reward process, and describe design principles that prevent instrumental goals for two different types of reward tampering (reward function tampering and RF-input tampering). Combined, the design principles can prevent both types of reward tampering from being instrumental goals. The analysis benefits from causal influence diagrams to provide intuitive yet precise formalizations.},
+  copyright = {Creative Commons Attribution 4.0 International},
+  keywords  = {Artificial Intelligence (cs.AI), Machine Learning (cs.LG), FOS: Computer and information sciences},
+  month     = aug,
+  publisher = {arXiv},
+  year      = {2019},
+}
+
+@InProceedings{Eve18,
+  author       = {Everitt, T. and Lea, G. and Hutter, M.},
+  title        = {AGI Safety Literature Review},
+  organization = {Twenty-Seventh International Joint Conference on Artificial Intelligence},
+  pages        = {5441--5449},
+  url          = {http://arxiv.org/abs/1805.01109},
+  year         = {2018},
+}
+
+@Article{DoshiVelez2017,
+  author    = {Doshi-Velez, Finale and Kim, Been},
+  title     = {Towards a rigorous science of interpretable machine learning},
+  doi       = {10.48550/ARXIV.1702.08608},
+  abstract  = {As machine learning systems become ubiquitous, there has been a surge of interest in interpretable machine learning: systems that provide explanation for their outputs. These explanations are often used to qualitatively assess other criteria such as safety or non-discrimination. However, despite the interest in interpretability, there is very little consensus on what interpretable machine learning is and how it should be measured. In this position paper, we first define interpretability and describe when interpretability is needed (and when it is not). Next, we suggest a taxonomy for rigorous evaluation and expose open questions towards a more rigorous science of interpretable machine learning.},
+  copyright = {arXiv.org perpetual, non-exclusive license},
+  journal   = {arXiv: Machine Learning},
+  keywords  = {Machine Learning (stat.ML), Artificial Intelligence (cs.AI), Machine Learning (cs.LG), FOS: Computer and information sciences},
+  month     = feb,
+  publisher = {arXiv},
+  year      = {2017},
+}
+
+@Article{Shokri2017,
+  author    = {Shokri, Reza and Stronati, Marco and Song, Congzheng and Shmatikov, Vitaly},
+  title     = {Membership inference attacks against machine learning models},
+  doi       = {10.1109/SP.2017.41},
+  pages     = {3–18},
+  abstract  = {We quantitatively investigate how machine learning models leak information about the individual data records on which they were trained. We focus on the basic membership inference attack: given a data record and black-box access to a model, determine if the record was in the model's training dataset. To perform membership inference against a target model, we make adversarial use of machine learning and train our own inference model to recognize differences in the target model's predictions on the inputs that it trained on versus the inputs that it did not train on. We empirically evaluate our inference techniques on classification models trained by commercial 'machine learning as a service' providers such as Google and Amazon. Using realistic datasets and classification tasks, including a hospital discharge dataset whose membership is sensitive from the privacy perspective, we show that these models can be vulnerable to membership inference attacks. We then investigate the factors that influence this leakage and evaluate mitigation strategies.},
+  journal   = {Proceedings - IEEE Symposium on Security and Privacy},
+  month     = mar,
+  publisher = {of Electrical, Institute and Inc., Electronics Engineers},
+  year      = {2017},
+}
+
+@Misc{Cloud,
+  title    = {Google cloud well-architected framework documentation},
+  url      = {https://docs.cloud.google.com/architecture/framework/printable},
+  abstract = {The Well-Architected Framework provides recommendations to help architects, developers, administrators, and other cloud practitioners design and operate a cloud topology that's secure, efficient, resilient, high-performing, cost-effective, and sustainable.
+
+A cross-functional team of experts at Google validates the recommendations in the Well-Architected Framework. The team curates the Well-Architected Framework to reflect the expanding capabilities of Google Cloud, industry best practices, community knowledge, and feedback from you. For a summary of the significant changes to the Well-Architected Framework, see What's new.
+
+The Well-Architected Framework is relevant to applications built for the cloud and for workloads migrated from on-premises to Google Cloud, hybrid cloud deployments, and multi-cloud environments.},
+  journal  = {Cloud Architecture Center},
+  year     = {2016},
+}
+
+@Article{Burns2016,
+  author    = {Burns, Brendan and Grant, Brian and Oppenheimer, David and Brewer, Eric and Wilkes, John},
+  title     = {Borg, omega, and kubernetes},
+  doi       = {10.1145/2890784},
+  issue     = {5},
+  pages     = {50–57},
+  url       = {http://queue.acm.org/detail.cfm?id=2898444},
+  volume    = {59},
+  abstract  = {Lessons learned from three container-management systems over a decade.},
+  journal   = {Communications of the ACM},
+  month     = apr,
+  publisher = {for Computing Machinery (ACM), Association},
+  year      = {2016},
+}
+
+@Article{Pah15,
+  author  = {Pahl, Claus},
+  title   = 
