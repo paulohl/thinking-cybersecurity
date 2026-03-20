@@ -1,8 +1,9 @@
 ### thinking-cybersecurity
-# Thinking Cybersecurity: AI Automation through Diffused Intelligence
+# Thinking Cybersecurity 
+## AI Automation through Diffused Intelligence
 
 
-<img src="/chapter/cambridge_scholars_publishing.jpg" width="200"/>       © 2026 Cambridge Scholars Publishing
+<img src="/Cambridhe_logos/cambridge_scholars_publishing.jpg" width="200"/>       © 2026 Cambridge Scholars Publishing
 
 
 _Thinking Cybersecurity_: AI Automation through Diffused Intelligence explores the intersection of generative AI, cloud infrastructure, and cybersecurity architecture. Focused on real-world deployment of open-source frameworks such as Hugging Face Diffusers, the book offers a technical and conceptual foundation for building agentic and reproducible AI systems in secure environments. It addresses the current gap between proof-of-concept AI and production-grade, compliant deployments by introducing reproducible architectures, prompt engineering pipelines, and secure, zero-persistence agents.
