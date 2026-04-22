@@ -1,3 +1,19 @@
+<HEAD>
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Book",
+  "name": "Thinking Cybersecurity: AI Automation through Diffused Intelligence",
+  "author": {
+    "@type": "Person",
+    "name": "Paulo H. Leocadio",
+    "sameAs": "https://orcid.org/0000-0002-4992-4541"
+  },
+  "isbn": "YOUR-ISBN-HERE",
+  "url": "https://your-domain.com/thinking-cybersecurity"
+}
+</script>
+</HEAD>
 ### thinking-cybersecurity
 # Thinking Cybersecurity 
 ## AI Automation through Diffused Intelligence
@@ -10,6 +26,8 @@ _Thinking Cybersecurity_: AI Automation through Diffused Intelligence explores t
 
 
 Methodologically, the book draws from case studies, architecture patterns, cloud-native deployments, and multi-cloud analysis, including AWS, GCP, Oracle, and IBM Cloud. It bridges operational resilience and academic insight in cyber-AI integration and contributes to practice by offering reusable workflows, model governance techniques, and secure inference patterns. Limitations include rapid shifts in generative model APIs and evolving regulatory standards, which the book addresses through modular design strategies. Its impact lies in equipping AI engineers, researchers, and cybersecurity professionals to safely integrate generative models into mission-critical systems
+
+
 
 
 ### Part I – Foundations and Frameworks
