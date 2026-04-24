@@ -14,13 +14,13 @@ Methodologically, the book draws from case studies, architecture patterns, cloud
 # Thinking Cybersecurity: AI Automation through Diffused Intelligence
 
 ## Research Chapters
-| Chapter | Topic | DOI Reference |
-| :--- | :--- | :--- |
-| [Chapter 01](chapter-01/) | Pipeline Architecture | [10.22541/au.177307127.70400431](https://doi.org/10.22541/au.177307127.70400431/v1) |
-| [Chapter 02](chapter-02) | Architecting Cognitive Defense Systems: Multi-Agent Control, Entropy, and Generative | [10.22541/au.177307127.70400431](https://doi.org/10.22541/...) |
-| [Chapter 03](chapter-03/) | rchitecting Cognitive Defense Systems: Multi-Agent Control, Entropy, and Generative | [10.22541/au.177307127.70400432](https://doi.org/10.22541/...) |
-| [Chapter 04](chapter-04) | Transforming detection: prompt engineering for Cybersecurity | [10.22541/au.177307127.70400431](https://doi.org/10.22541/...) |
-| [Chapter 05](chapter-05/) | Triage, Forensics, And Feedback Loops | [10.22541/au.177307129.91287300](https://doi.org/10.22541/au.177307129.91287300/v1)) |
+| Chapter                   | Topic                                                          | DOI Reference      |
+| :------------------------ | :------------------------------------------------------------- | :----------------- |
+| [Chapter 01](chapter-01/) | The Rise of Agentic AI in Cybersecurity                                             |      [10.22541/au.177307127.70400431](https://doi.org/10.22541/au.177307127.70400431/v1)          |
+| [Chapter 02](chapter-02) | Architecting Cognitive Defense Systems: Multi-Agent Control, Entropy, and Generative |      [10.22541/au.177307127.75154947](https://doi.org/10.22541/au.177307127.75154947/v1)          |
+| [Chapter 03](chapter-03/) | Architectural foundations, cyber-defence equations, and mathematical models of cyber risk| [10.22541/au.177307128.80330137](https://doi.org/10.22541/au.177307128.80330137/v1)          |
+| [Chapter 04](chapter-04) | Transforming detection: prompt engineering for Cybersecurity                          |      [10.22541/au.177307128.87282639](https://doi.org/10.22541/au.177307128.87282639/v1)          |
+| [Chapter 05](chapter-05/) | Triage, Forensics, And Feedback Loops | [10.22541/au.177307129.91287300](https://doi.org/10.22541/au.177307129.91287300/v1) |
 | [Chapter 06](chapter-06) | The Rise of Agentic AI | [10.22541/au.177307127.70400431](https://doi.org/10.22541/...) |
 | [Chapter 01](chapter-07/) | Pipeline Architecture | [10.22541/au.177307127.70400432](https://doi.org/10.22541/...) |
 | [Chapter 02](chapter-08) | The Rise of Agentic AI | [10.22541/au.177307127.70400431](https://doi.org/10.22541/...) |
