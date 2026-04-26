@@ -1,18 +1,12 @@
 ---
-title: "Thinking Cybersecurity: Chapter 01"
-author: "Paulo H. Leocadio"
-date: 2026-04-22
-description: "A formal analysis of agentic AI frameworks in cybersecurity."
----
----
-title: "Chapter 01: Introduction to AWS Architecture"
+title: "Chapter 01: The Rise of Agentic AI in Cybersecurity"
 author: "Paulo H. Leocadio"
 chapter: 01
 date: 2025-10-28
-isbn: "978-93-6589-061-7"  # The root book identifier
-doi: "10.22541/au.173679843.32142784"     # The specific chapter identifier
-description: "Immersion on AWS architecture showing components and respective services."
-keywords: ["AWS", "Cloud", "SageMaker", "PyTorch"]
+isbn: "978-xx-xxxx-xxx-x"                          # The root book identifier
+doi: "10.22541/au.177307127.70400431"              # The specific chapter identifier
+description: "A formal analysis of agentic AI frameworks in cybersecurity."
+keywords: ["HuggingFace", "Cybersecurity", "Transformers", "LLM", "HFD"]
 ---
 
-# Introduction to AWS Architecture
+# The Rise of Agentic AI in Cybersecurity	
