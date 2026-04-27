@@ -44,6 +44,6 @@ Leocadio, P. H. (2026). *Thinking Cybersecurity: AI Automation through Diffused 
   author = {Leocadio, Paulo H.},
   title = {Thinking Cybersecurity: AI Automation through Diffused Intelligence},
   year = {2026},
-  url = {[https://github.com/paulohl/thinking-cybersecurity](https://github.com/paulohl/thinking-cybersecurity)}
+  url = {[https://github.com/paulohl/thinking-cybersecurity](https://github.com/paulohl/thinking-cybersecurity)},
   orcid = {0000-0002-4992-4541}
 }
