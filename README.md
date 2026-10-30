@@ -1,7 +1,7 @@
 ---
 title: "Thinking Cybersecurity: AI Automation through Diffused Intelligence"
 author: "Paulo H. Leocadio"
-date: 2026-04-22
+date: 2026-10-28
 isbn: "978-1036483272"
 description: "AI Automation through Diffused Intelligence explores the intersection of generative AI, cloud infrastructure, and cybersecurity architecture."
 ---
