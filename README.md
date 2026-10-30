@@ -9,7 +9,10 @@ description: "AI Automation through Diffused Intelligence explores the intersect
 # Thinking Cybersecurity 
 ## AI Automation through Diffused Intelligence
 
-<img src="/Cambridhe_logos/cambridge_scholars_publishing.jpg" width="200"/>       © 2026 Cambridge Scholars Publishing
+<img src="/Cambridhe_logos/cambridge_scholars_publishing.jpg" width="200"/>       © 2026 Cambridge Scholars Publishing     
+
+
+<img src="/Cambridhe_logos/Cambridhe_logos/9781036483272.jpg" width="200"/>       © 2026 Paulo H. Leocadio
 
 _Thinking Cybersecurity_: AI Automation through Diffused Intelligence explores the intersection of generative AI, cloud infrastructure, and cybersecurity architecture. Focused on real-world deployment of open-source frameworks such as Hugging Face Diffusers, the book offers a technical and conceptual foundation for building agentic and reproducible AI systems in secure environments.
 
